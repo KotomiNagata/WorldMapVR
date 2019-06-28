@@ -62,7 +62,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Animation_Sea.cs" />
+    <Compile Include="Assets\Scripts\AnimationByArray.cs" />
     <Compile Include="Assets\Scripts\WorldMove.cs" />
+    <None Include="Assets\Materials\Sea.shader" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>/Users/Kotomi/Desktop/WorldMapVR/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
