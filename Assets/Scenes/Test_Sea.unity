@@ -2131,6 +2131,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   array: []
   looping: 1
+  animType: 1
   AnimationWaitTime: 0.01
   activeIndex: 0
 --- !u!4 &291149171

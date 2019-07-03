@@ -4,10 +4,18 @@ using UnityEngine;
 
 public class AnimationByArray : MonoBehaviour
 {
+    // これでアニメーションのタイプを定義します
+    public enum AnimType{
+        ONCE,
+        LOOP
+    }
+
     public GameObject[] array; // これが配列
     public bool looping = true;
+    public AnimType animType = AnimType.ONCE; // 一回だけ動くのをデフォルトにします
     public float AnimationWaitTime = 0.01f;
     public int activeIndex = 0;
+    public GameObject cloneObj;
 
     // Start is called before the first frame update
     void Start()
@@ -27,7 +35,13 @@ public class AnimationByArray : MonoBehaviour
                 array[i].SetActive(false);
             }
         }
-        StartCoroutine("ChangeActive");
+        // アニメーションのタイプで切り替えます
+        if ( animType == AnimType.LOOP){
+            StartCoroutine("ChangeActive");
+        }else if ( animType == AnimType.ONCE){
+            StartCoroutine("ChangeActiveOnce");
+        }
+
     }
 
     // Update is called once per frame
@@ -47,6 +61,21 @@ public class AnimationByArray : MonoBehaviour
             }else{
                 activeIndex++;
             }
+            array[activeIndex].SetActive(true);
+        }
+    }
+
+    // 配列の数だけ切り替えて終了します
+    private IEnumerator ChangeActiveOnce()
+    {
+        // Activeの切り替え
+        // 最後から一つ前で終了させて最後を残す
+        for (int i = 0; i < array.Length -1 ; i ++ )
+        {
+            yield return new WaitForSeconds(AnimationWaitTime);
+            array[activeIndex].SetActive(false);
+
+            activeIndex++;
             array[activeIndex].SetActive(true);
         }
     }
