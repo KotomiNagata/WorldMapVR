@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Test_LotusAnimation.unity
+- path: Assets/Scenes/Test_GamePlay1.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
