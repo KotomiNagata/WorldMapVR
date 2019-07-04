@@ -17,6 +17,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Stem
+    second: {fileID: 2100000, guid: 9a72f9d733ea443e5b4157eb924736f2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: lambert1
     second: {fileID: 2100000, guid: f3c79a52c1c3c481bb99ea4bab3d2d24, type: 2}
   materials:
