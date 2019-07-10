@@ -1,9 +1,5 @@
 ﻿<Properties StartupConfiguration="{ED251DE7-2A67-49F8-BC75-B74FA62CDEAB}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/AnimationByArray.cs">
-    <Files>
-      <File FileName="Assets/Scripts/AnimationByArray.cs" Line="32" Column="1" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
