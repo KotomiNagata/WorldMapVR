@@ -8,7 +8,9 @@ public class Lotus : MonoBehaviour
     public float dis;       // 花とカメラの距離間
     public GameObject Hologram;
     public GameObject Sekaiisan;
-    bool one = true;       // Cloneを作る
+    public GameObject HoloPos;
+    public GameObject SekaPos;
+    public bool one = true;       // Cloneを作る
 
     void Start()
     {
@@ -26,8 +28,8 @@ public class Lotus : MonoBehaviour
         {
             if(one)
             {
-                Instantiate(Hologram);
-                Instantiate(Sekaiisan);
+                Instantiate(Hologram, HoloPos.transform.position, Quaternion.identity);
+                Instantiate(Sekaiisan, SekaPos.transform.position, Quaternion.identity);
                 one = false;
             }
         }

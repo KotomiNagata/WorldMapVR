@@ -1,5 +1,9 @@
 ﻿<Properties StartupConfiguration="{ED251DE7-2A67-49F8-BC75-B74FA62CDEAB}|">
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Lotus.cs">
+    <Files>
+      <File FileName="Assets/Scripts/Lotus.cs" Line="11" Column="11" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
