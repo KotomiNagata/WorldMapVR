@@ -71,10 +71,13 @@
     <Compile Include="Assets\Scripts\LotusBud.cs" />
     <Compile Include="Assets\Scripts\LotusFlower.cs" />
     <Compile Include="Assets\Scripts\LotusParticle.cs" />
+    <Compile Include="Assets\Scripts\Sea\Sea.cs" />
+    <Compile Include="Assets\Scripts\Sea\Sea_MakeSomeNoise.cs" />
     <Compile Include="Assets\Scripts\VisionSekaiisan.cs" />
     <Compile Include="Assets\Scripts\Wave.cs" />
     <Compile Include="Assets\Scripts\WorldMove.cs" />
     <None Include="Assets\Materials\Sea\Sea.shader" />
+    <None Include="Assets\Scripts\Sea\LightWave.shader" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>/Users/Kotomi/Desktop/WorldMapVR/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
