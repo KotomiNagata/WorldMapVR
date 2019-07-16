@@ -4,15 +4,24 @@ using UnityEngine;
 
 public class Animation_Oar : MonoBehaviour
 {
+    GameSetting gameSetting;
+
     public enum AnimType
     {
         LEFT,
         RIGHT
     }
     public AnimType animType;
-    float speed;      // 移動スピード
+    public GameObject OtherOar;
+    float speed;            // 移動スピード
     float target_rotateZ;   // 指定された角度
-    bool up = true;
+    bool up = true;         // 漕ぐ方向
+
+    void Start()
+    {
+        gameSetting = FindObjectOfType<GameSetting>();
+        speed = 0f;
+    }
 
     void Update()
     {
@@ -34,18 +43,41 @@ public class Animation_Oar : MonoBehaviour
         var now_rot = transform.rotation;
 
         // Angle → ２つの角度の間の数値
+        if (Quaternion.Angle(now_rot, target) < 20 && !up)
+        {
+            if (!gameSetting.advance
+                || !gameSetting.r_rotation)
+            {
+                speed = 0f;
+                if(!gameSetting.r_rotation)
+                {
+                    gameSetting.LeftOarStop = true;
+                }
+            }
+        }
         if (Quaternion.Angle(now_rot, target) < 45 && up)
         {
-            //transform.rotation = target; // 停止
             target_rotateZ = -25f;
             up = false;
             speed = 0.5f;
+            if (gameSetting.r_rotation)
+            {
+                gameSetting.LeftOarStop = false;
+            }
         }
         if (Quaternion.Angle(now_rot, target) < 20 && !up)
         {
-            target_rotateZ = 65f;
-            up = true;
-            speed = 1.5f;
+            if (gameSetting.advance && gameSetting.RightOarStop
+                || gameSetting.r_rotation)
+            {
+                target_rotateZ = 65f;
+                up = true;
+                speed = 1.5f;
+                if(gameSetting.r_rotation)
+                {
+                    gameSetting.LeftOarStop = false;
+                }
+            }
         }
 
         if (up)
@@ -66,18 +98,42 @@ public class Animation_Oar : MonoBehaviour
         var now_rot = transform.rotation;
 
         // Angle → ２つの角度の間の数値
+        if (Quaternion.Angle(now_rot, target) < 20 && !up)
+        {
+            if (!gameSetting.advance
+                || !gameSetting.l_rotation)
+            {
+                speed = 0f;
+                if (!gameSetting.l_rotation)
+                {
+                    gameSetting.RightOarStop = true;
+                }
+            }
+        }
         if (Quaternion.Angle(now_rot, target) < 45 && up)
         {
             //transform.rotation = target; // 停止
             target_rotateZ = -25f;
             up = false;
             speed = 0.5f;
+            if (gameSetting.l_rotation)
+            {
+                gameSetting.RightOarStop = false;
+            }
         }
         if (Quaternion.Angle(now_rot, target) < 20 && !up)
         {
-            target_rotateZ = 65f;
-            up = true;
-            speed = 1.5f;
+            if(gameSetting.advance && gameSetting.LeftOarStop
+               || gameSetting.l_rotation)
+            {
+                target_rotateZ = 65f;
+                up = true;
+                speed = 1.5f;
+                if (gameSetting.l_rotation)
+                {
+                    gameSetting.RightOarStop = false;
+                }
+            }
         }
 
         if (up)

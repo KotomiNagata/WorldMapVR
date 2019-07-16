@@ -4,35 +4,32 @@ using UnityEngine;
 
 public class WorldMove : MonoBehaviour
 {
-
+    GameSetting gameSetting;
     public int walkSpeed;
     public int rotationSpeed;
 
     void Start()
     {
-        
+        gameSetting = FindObjectOfType<GameSetting>();
     }
 
 
     void Update()
     {
-        // 上キー：前進
-        if(Input.GetKey(KeyCode.UpArrow))
+        // 前進
+        if(gameSetting.advance
+           && gameSetting.LeftOarStop
+           && gameSetting.RightOarStop)
         {
             transform.Rotate(new Vector3(walkSpeed, 0, 0) * Time.deltaTime, Space.World);
         }
-        // 下キー：後退
-        if (Input.GetKey(KeyCode.DownArrow))
-        {
-            transform.Rotate(new Vector3(-walkSpeed, 0, 0) * Time.deltaTime, Space.World);
-        }
-        // 右キー：反時計回り
-        if (Input.GetKey(KeyCode.RightArrow))
+        // 右回転
+        if (gameSetting.r_rotation)
         {
             transform.Rotate(new Vector3(0, -rotationSpeed, 0) * Time.deltaTime, Space.World);
         }
-        // 左キー：時計回り
-        if (Input.GetKey(KeyCode.LeftArrow))
+        // 左回転
+        if (gameSetting.l_rotation)
         {
             transform.Rotate(new Vector3(0, rotationSpeed, 0) * Time.deltaTime, Space.World);
         }

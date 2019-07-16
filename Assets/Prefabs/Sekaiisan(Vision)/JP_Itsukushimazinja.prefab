@@ -23,7 +23,7 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: 610830bf1343e4d47b29c4dff5a3fd7c,
         type: 3}
       propertyPath: m_Name
-      value: JP_Itsukushimazinja
+      value: JP_ItsukushiMazinja
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 610830bf1343e4d47b29c4dff5a3fd7c,
         type: 3}
@@ -83,17 +83,17 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 610830bf1343e4d47b29c4dff5a3fd7c,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 610830bf1343e4d47b29c4dff5a3fd7c,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 610830bf1343e4d47b29c4dff5a3fd7c,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8842221962663791681, guid: 610830bf1343e4d47b29c4dff5a3fd7c,
         type: 3}
