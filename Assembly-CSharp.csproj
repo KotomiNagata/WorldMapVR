@@ -65,12 +65,14 @@
     <Compile Include="Assets\Scripts\Animation_Oar.cs" />
     <Compile Include="Assets\Scripts\Animation_Sea.cs" />
     <Compile Include="Assets\Scripts\AnimationByArray.cs" />
+    <Compile Include="Assets\Scripts\FadeObj_PlanetOutSide.cs" />
     <Compile Include="Assets\Scripts\GameSetting.cs" />
     <Compile Include="Assets\Scripts\Hologram.cs" />
     <Compile Include="Assets\Scripts\LotusBloom.cs" />
     <Compile Include="Assets\Scripts\LotusBud.cs" />
     <Compile Include="Assets\Scripts\LotusFlower.cs" />
     <Compile Include="Assets\Scripts\LotusParticle.cs" />
+    <Compile Include="Assets\Scripts\PlanetDoor.cs" />
     <Compile Include="Assets\Scripts\Sea\Sea.cs" />
     <Compile Include="Assets\Scripts\Sea\Sea_MakeSomeNoise.cs" />
     <Compile Include="Assets\Scripts\VisionSekaiisan.cs" />

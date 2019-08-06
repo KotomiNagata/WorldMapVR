@@ -6,6 +6,7 @@ public class GameSetting : MonoBehaviour
 {
     // 操作などの命令はここに。
 
+    public bool decision = false;    // 次に進む時の"決定"ボタン
     public bool advance = false;     // 前進
     public bool retreat = false;     // 後退
     public bool r_rotation = false;  // 右回転
@@ -21,6 +22,16 @@ public class GameSetting : MonoBehaviour
 
     void Update()
     {
+        // 次に進む時の"決定"ボタン
+        if(Input.GetKeyDown(KeyCode.Return))
+        {
+            decision = true;
+        }
+        if (Input.GetKeyUp(KeyCode.Return))
+        {
+            decision = false;
+        }
+
         // 前進
         if (Input.GetKey(KeyCode.UpArrow))
         {
