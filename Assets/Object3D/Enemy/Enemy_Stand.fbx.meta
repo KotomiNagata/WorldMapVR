@@ -1,0 +1,276 @@
+fileFormatVersion: 2
+guid: 4dce803c16272419ba826e3232e00ea2
+ModelImporter:
+  serializedVersion: 25
+  internalIDToNameTable:
+  - first:
+      74: 1827226128182048838
+    second: Take 001
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Body
+    second: {fileID: 2100000, guid: 7edb4f8a761a7415b809bf0bb8ecf4ee, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      internalID: 1827226128182048838
+      firstFrame: 1
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: Enemy_Stand(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCylinder3
+      parentName: Enemy_Stand(Clone)
+      position: {x: -0, y: 0.04723984, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.2, y: 7, z: 0.2}
+    - name: transform9
+      parentName: pCylinder3
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pPlane2
+      parentName: Enemy_Stand(Clone)
+      position: {x: -0, y: 0.00271048, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 5, y: 1, z: 5}
+    - name: transform6
+      parentName: pPlane2
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pSphere6
+      parentName: Enemy_Stand(Clone)
+      position: {x: 0.011624844, y: 0.007824054, z: -0.0048445375}
+      rotation: {x: 0.58112633, y: 0.3574055, z: 0.40972427, w: 0.6055407}
+      scale: {x: 0.9, y: 0.9, z: 0.9}
+    - name: transform5
+      parentName: pSphere6
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pSphere7
+      parentName: Enemy_Stand(Clone)
+      position: {x: -0.010471329, y: 0.008803435, z: -0.0062508946}
+      rotation: {x: 0.4893486, y: 0.34449512, z: 0.47279257, w: 0.646783}
+      scale: {x: 0.6, y: 0.6, z: 0.6}
+    - name: transform4
+      parentName: pSphere7
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pSphere8
+      parentName: Enemy_Stand(Clone)
+      position: {x: -0.0072644954, y: 0.01001378, z: 0.008346621}
+      rotation: {x: 0.5410848, y: 0.7801634, z: 0.24337158, w: -0.1983497}
+      scale: {x: 0.8, y: 0.8, z: 0.8}
+    - name: transform3
+      parentName: pSphere8
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pSphere9
+      parentName: Enemy_Stand(Clone)
+      position: {x: 0.009175967, y: 0.009463872, z: 0.010251267}
+      rotation: {x: 0.6082083, y: 0.70102763, z: -0.36066976, w: -0.092521645}
+      scale: {x: 0.4, y: 0.4, z: 0.4}
+    - name: transform2
+      parentName: pSphere9
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pSphere10
+      parentName: Enemy_Stand(Clone)
+      position: {x: 0.0006418288, y: 0.009463872, z: -0.014741572}
+      rotation: {x: 0.7008724, y: 0.6880654, z: -0.09369039, w: 0.16299087}
+      scale: {x: 0.4, y: 0.4, z: 0.4}
+    - name: transform1
+      parentName: pSphere10
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pPlane3
+      parentName: Enemy_Stand(Clone)
+      position: {x: -0, y: 0.08760467, z: -0.03128832}
+      rotation: {x: -0.6791903, y: 0, z: -0, w: 0.73396224}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface1
+      parentName: pPlane3
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform8
+      parentName: polySurface1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform7
+      parentName: pPlane3
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCylinder4
+      parentName: Enemy_Stand(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: transform10
+      parentName: pCylinder4
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pCylinder5
+      parentName: Enemy_Stand(Clone)
+      position: {x: -0, y: 0.043698106, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.3, y: 5, z: 0.3}
+    - name: joint1
+      parentName: Enemy_Stand(Clone)
+      position: {x: -0, y: -0.0059615145, z: 0.0021225845}
+      rotation: {x: -0, y: -0, z: -0.7071068, w: 0.7071068}
+      scale: {x: 1.000001, y: 1.000001, z: 1}
+    - name: joint2
+      parentName: joint1
+      position: {x: -0.015602207, y: 3.4643858e-18, z: 0}
+      rotation: {x: 6.6613376e-16, y: -0.0000000048506386, z: -0, w: 1}
+      scale: {x: 1.0000006, y: 1.0000005, z: 1}
+    - name: joint3
+      parentName: joint2
+      position: {x: -0.019273315, y: 4.2795355e-18, z: -0.00075861387}
+      rotation: {x: -6.6613376e-16, y: 0.0000000048506386, z: -0, w: 1}
+      scale: {x: 1.0000007, y: 1.0000007, z: 1}
+    - name: joint4
+      parentName: joint3
+      position: {x: -0.016519984, y: 3.6681734e-18, z: 0}
+      rotation: {x: 0.0000000048506386, y: -0, z: 1.576813e-24, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint5
+      parentName: joint4
+      position: {x: -0.018355537, y: 4.075748e-18, z: 0}
+      rotation: {x: 0.000000037592446, y: 0.00000007761022, z: -3.7645908e-16, w: 1}
+      scale: {x: 0.9999997, y: 1.0000002, z: 1.0000006}
+    - name: joint6
+      parentName: joint5
+      position: {x: -0.012848876, y: 2.8530237e-18, z: 0}
+      rotation: {x: -0.00000006154247, y: -0.00000008246086, z: -1.2764319e-15, w: 1}
+      scale: {x: 0.9999996, y: 0.99999994, z: 1.0000002}
+    - name: joint7
+      parentName: joint6
+      position: {x: -0.015602207, y: 3.4643858e-18, z: 0}
+      rotation: {x: 0.000000013076562, y: -0.000000019936401, z: 0.7071068, w: 0.7071068}
+      scale: {x: 0.99999994, y: 1.0000002, z: 1.0000001}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
