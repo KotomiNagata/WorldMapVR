@@ -1,8 +1,8 @@
 ﻿<Properties StartupConfiguration="{ED251DE7-2A67-49F8-BC75-B74FA62CDEAB}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/FadeObj_PlanetOutSide.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/WaterBullet.cs">
     <Files>
-      <File FileName="Assets/Scripts/FadeObj_PlanetOutSide.cs" Line="20" Column="9" />
-      <File FileName="Assets/Scripts/Hologram.cs" Line="9" Column="5" />
+      <File FileName="Assets/Scripts/GameSystem.cs" Line="53" Column="29" />
+      <File FileName="Assets/Scripts/WaterBullet.cs" Line="73" Column="79" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

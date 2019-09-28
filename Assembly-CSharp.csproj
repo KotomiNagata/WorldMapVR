@@ -62,24 +62,30 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Animation_Oar.cs" />
-    <Compile Include="Assets\Scripts\Animation_Sea.cs" />
-    <Compile Include="Assets\Scripts\AnimationByArray.cs" />
-    <Compile Include="Assets\Scripts\FadeObj_PlanetOutSide.cs" />
-    <Compile Include="Assets\Scripts\GameSetting.cs" />
-    <Compile Include="Assets\Scripts\Hologram.cs" />
-    <Compile Include="Assets\Scripts\LotusBloom.cs" />
-    <Compile Include="Assets\Scripts\LotusBud.cs" />
-    <Compile Include="Assets\Scripts\LotusFlower.cs" />
-    <Compile Include="Assets\Scripts\LotusParticle.cs" />
-    <Compile Include="Assets\Scripts\PlanetDoor.cs" />
-    <Compile Include="Assets\Scripts\Sea\Sea.cs" />
-    <Compile Include="Assets\Scripts\Sea\Sea_MakeSomeNoise.cs" />
-    <Compile Include="Assets\Scripts\VisionSekaiisan.cs" />
-    <Compile Include="Assets\Scripts\Wave.cs" />
-    <Compile Include="Assets\Scripts\WorldMove.cs" />
+    <Compile Include="Assets\Scripts\GameSystem.cs" />
+    <Compile Include="Assets\Scripts\LotusColor.cs" />
+    <Compile Include="Assets\Scripts\Old\Animation_Oar.cs" />
+    <Compile Include="Assets\Scripts\Old\Animation_Sea.cs" />
+    <Compile Include="Assets\Scripts\Old\AnimationByArray.cs" />
+    <Compile Include="Assets\Scripts\Old\CityName.cs" />
+    <Compile Include="Assets\Scripts\Old\FadeObj_PlanetOutSide.cs" />
+    <Compile Include="Assets\Scripts\Old\GameSetting.cs" />
+    <Compile Include="Assets\Scripts\Old\Hologram.cs" />
+    <Compile Include="Assets\Scripts\Old\LotusBloom.cs" />
+    <Compile Include="Assets\Scripts\Old\LotusBud.cs" />
+    <Compile Include="Assets\Scripts\Old\LotusFlower.cs" />
+    <Compile Include="Assets\Scripts\Old\LotusParticle.cs" />
+    <Compile Include="Assets\Scripts\Old\PlanetDoor.cs" />
+    <Compile Include="Assets\Scripts\Old\Sea\Sea.cs" />
+    <Compile Include="Assets\Scripts\Old\Sea\Sea_MakeSomeNoise.cs" />
+    <Compile Include="Assets\Scripts\Old\VisionSekaiisan.cs" />
+    <Compile Include="Assets\Scripts\Old\Wave.cs" />
+    <Compile Include="Assets\Scripts\Old\WorldMove.cs" />
+    <Compile Include="Assets\Scripts\WaterBullet.cs" />
+    <Compile Include="Assets\Scripts\WaterParticle.cs" />
+    <Compile Include="Assets\Scripts\WorldMap.cs" />
     <None Include="Assets\Materials\Sea\Sea.shader" />
-    <None Include="Assets\Scripts\Sea\LightWave.shader" />
+    <None Include="Assets\Scripts\Old\Sea\LightWave.shader" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>/Users/Kotomi/Desktop/WorldMapVR/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
