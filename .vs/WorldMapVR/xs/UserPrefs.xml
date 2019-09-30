@@ -1,8 +1,8 @@
 ﻿<Properties StartupConfiguration="{ED251DE7-2A67-49F8-BC75-B74FA62CDEAB}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/EnemyFace.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Enemy.cs">
     <Files>
-      <File FileName="Assets/Scripts/EnemyFace.cs" Line="15" Column="15" />
-      <File FileName="Assets/Scripts/Old/WorldMove.cs" Line="29" Column="95" />
+      <File FileName="Assets/Scripts/Enemy.cs" Line="60" Column="50" />
+      <File FileName="Assets/Scripts/WaterBullet.cs" Line="32" Column="13" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

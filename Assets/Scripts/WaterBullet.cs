@@ -4,9 +4,14 @@ using UnityEngine;
 
 public class WaterBullet : MonoBehaviour
 {
-    public Rigidbody rbody;
-    public float xPosition = 0f;   // xの位置
-    public float radius = 2.0f;    // 半径
+
+    public enum AnimType
+    {
+        MOVE,
+        ATTACK,
+    }
+
+    public AnimType animType;
     public float speed = 1.0f;     // スピード
     public float timer = 2.0f;     // タイマー時間
     public GameObject particle;    // パーティクル
@@ -20,21 +25,36 @@ public class WaterBullet : MonoBehaviour
 
     void Update()
     {
-        // タイマー
-        this.timer -= Time.deltaTime;
-        if (this.timer < 0)
+        if (animType == AnimType.MOVE)
         {
-            clone = true;
+            Mawaru();
+
+            // タイマー
+            this.timer -= Time.deltaTime;
+            if (this.timer < 0)
+            {
+                Destroy(this.gameObject);
+            }
         }
 
-        WaterAnimation();
-        Mawaru();
-
-        // パーティクル生産
-        if(clone)
+        if (animType == AnimType.ATTACK)
         {
-            Instantiate(particle, this.transform.position, Quaternion.identity);
-            Destroy(this.gameObject);
+            WaterAnimation();
+
+            // タイマー
+            this.timer -= Time.deltaTime;
+            if (this.timer < 0)
+            {
+                clone = true;
+            }
+
+            // パーティクル生産
+            if (clone)
+            {
+                Instantiate(particle, this.transform.position, Quaternion.identity);
+                Destroy(this.gameObject);
+            }
+
         }
     }
 
@@ -70,20 +90,10 @@ public class WaterBullet : MonoBehaviour
 
     }
 
-    // 円運動・回転
+    // 回転
     void Mawaru()
     {
-        // 回転
-        transform.Rotate(new Vector3(-114.285f, 0, 0) * Time.deltaTime, Space.World);
-
-        // 円運動
-        rbody.MovePosition(
-            new Vector3(
-                xPosition,
-                radius * Mathf.Cos(Time.time * speed),
-                radius * Mathf.Sin(Time.time * -speed)
-             )
-        );
+        transform.Rotate(new Vector3(-speed, 0, 0) * Time.deltaTime, Space.World);
     }
 
 }

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: db3ccb1b1e32049bcbd43b5cd2d12730
+guid: 2e0b60f5d79c44da8af87af4ab6119ce
 ModelImporter:
   serializedVersion: 25
   internalIDToNameTable:
@@ -11,6 +11,11 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Body
+    second: {fileID: 2100000, guid: 7edb4f8a761a7415b809bf0bb8ecf4ee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
     second: {fileID: 2100000, guid: 7edb4f8a761a7415b809bf0bb8ecf4ee, type: 2}
   materials:
     importMaterials: 1
@@ -31,7 +36,7 @@ ModelImporter:
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
     importConstraints: 0
-    animationCompression: 3
+    animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
@@ -120,7 +125,7 @@ ModelImporter:
     globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
-    hasExtraRoot: 1
+    hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 2

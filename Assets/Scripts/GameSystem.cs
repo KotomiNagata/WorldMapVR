@@ -16,14 +16,11 @@ public class GameSystem : MonoBehaviour
     public bool noon = true;
 
     // 移動の切り替え
-    public bool advance = false; // 前進
-    public bool retreat = false; // 後退
     public bool right = false;   // 右回転
     public bool left = false;    // 左回転
 
     // 弾
-    public GameObject bullet;
-    bool bulletOK = true;
+    public bool bullet = false;
 
 
     void Start()
@@ -42,35 +39,11 @@ public class GameSystem : MonoBehaviour
         // 弾を打つ
         if(Input.GetKey(KeyCode.A))
         {
-            if(bulletOK)
-            {
-                Instantiate(bullet);
-                bulletOK = false;
-            }
+            bullet = true;
         }
         if(Input.GetKeyUp(KeyCode.A))
         {
-            bulletOK = true;
-        }
-
-        // 前進
-        if (Input.GetKey(KeyCode.UpArrow))
-        {
-            advance = true;
-        }
-        if (Input.GetKeyUp(KeyCode.UpArrow))
-        {
-            advance = false;
-        }
-
-        // 後退
-        if (Input.GetKey(KeyCode.DownArrow))
-        {
-            retreat = true;
-        }
-        if (Input.GetKeyUp(KeyCode.DownArrow))
-        {
-            retreat = false;
+            bullet = false;
         }
 
         // 右回転

@@ -1,0 +1,165 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &966591192015176603
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 966591192015176600}
+  - component: {fileID: 966591192015176601}
+  - component: {fileID: 966591192015176614}
+  m_Layer: 0
+  m_Name: WaterBulletParent
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &966591192015176600
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 966591192015176603}
+  m_LocalRotation: {x: -0.18152332, y: 0, z: 0, w: 0.9833867}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 8887490700804006232}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -20.917, y: 0, z: 0}
+--- !u!114 &966591192015176601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 966591192015176603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1f3771b5ddb74f5bb32263e12b50a5a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animType: 0
+  speed: 120
+  timer: 2.1
+  particle: {fileID: 0}
+--- !u!54 &966591192015176614
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 966591192015176603}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &144105389236695631
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5182226664095994830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1f3771b5ddb74f5bb32263e12b50a5a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animType: 1
+  speed: 1
+  timer: 2
+  particle: {fileID: 7009116843825058787, guid: 184b3d5fe79fd436c801c8f17d931dc6,
+    type: 3}
+--- !u!1001 &5440072606288191942
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 966591192015176600}
+    m_Modifications:
+    - target: {fileID: 906897564586734088, guid: 2b35e36f853d14bc096e82245ee9e9b0,
+        type: 3}
+      propertyPath: m_Name
+      value: WaterBullet
+      objectReference: {fileID: 0}
+    - target: {fileID: 3470499060864417950, guid: 2b35e36f853d14bc096e82245ee9e9b0,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3470499060864417950, guid: 2b35e36f853d14bc096e82245ee9e9b0,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.91
+      objectReference: {fileID: 0}
+    - target: {fileID: 3470499060864417950, guid: 2b35e36f853d14bc096e82245ee9e9b0,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3470499060864417950, guid: 2b35e36f853d14bc096e82245ee9e9b0,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 3470499060864417950, guid: 2b35e36f853d14bc096e82245ee9e9b0,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3470499060864417950, guid: 2b35e36f853d14bc096e82245ee9e9b0,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3470499060864417950, guid: 2b35e36f853d14bc096e82245ee9e9b0,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 3470499060864417950, guid: 2b35e36f853d14bc096e82245ee9e9b0,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3470499060864417950, guid: 2b35e36f853d14bc096e82245ee9e9b0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3470499060864417950, guid: 2b35e36f853d14bc096e82245ee9e9b0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3470499060864417950, guid: 2b35e36f853d14bc096e82245ee9e9b0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2b35e36f853d14bc096e82245ee9e9b0, type: 3}
+--- !u!1 &5182226664095994830 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 906897564586734088, guid: 2b35e36f853d14bc096e82245ee9e9b0,
+    type: 3}
+  m_PrefabInstance: {fileID: 5440072606288191942}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &8887490700804006232 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3470499060864417950, guid: 2b35e36f853d14bc096e82245ee9e9b0,
+    type: 3}
+  m_PrefabInstance: {fileID: 5440072606288191942}
+  m_PrefabAsset: {fileID: 0}
