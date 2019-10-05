@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 3470499060864417950}
   - component: {fileID: 505616295000061453}
   - component: {fileID: 1580963765103552123}
+  - component: {fileID: 608756885}
+  - component: {fileID: 1421138073762416015}
   m_Layer: 0
   m_Name: WaterBullet
   m_TagString: Untagged
@@ -25,13 +27,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 906897564586734088}
-  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.70710677}
   m_LocalPosition: {x: 0, y: -0.91, z: 0}
   m_LocalScale: {x: 4.9, y: 5, z: 5.500004}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 90.00001, y: 0, z: 0}
 --- !u!33 &505616295000061453
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -77,3 +79,32 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!135 &608756885
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 906897564586734088}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.0089
+  m_Center: {x: 0.000037338585, y: 0, z: -0.00006382914}
+--- !u!114 &1421138073762416015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 906897564586734088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1f3771b5ddb74f5bb32263e12b50a5a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animType: 2
+  speed: 1
+  timer: 2
+  particle: {fileID: 0}

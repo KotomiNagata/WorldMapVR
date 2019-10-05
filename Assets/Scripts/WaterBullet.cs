@@ -11,6 +11,7 @@ public class WaterBullet : MonoBehaviour
         ATTACK,
     }
 
+    Battery battery;
     public AnimType animType;
     public float speed = 1.0f;     // スピード
     public float timer = 2.0f;     // タイマー時間
@@ -20,7 +21,12 @@ public class WaterBullet : MonoBehaviour
 
     void Start()
     {
-
+        if(animType == AnimType.MOVE)
+        {
+            battery = FindObjectOfType<Battery>();
+            Vector3 rot = this.gameObject.transform.localEulerAngles;
+            rot.y = battery.gameObject.transform.localEulerAngles.y;
+        }
     }
 
     void Update()
@@ -93,7 +99,9 @@ public class WaterBullet : MonoBehaviour
     // 回転
     void Mawaru()
     {
-        transform.Rotate(new Vector3(-speed, 0, 0) * Time.deltaTime, Space.World);
+        // Space.WorldではなくSpace.SelfするとYも回転できるようになる
+        // ※下のコードはXでの回転
+        transform.Rotate(new Vector3(-speed, 0, 0) * Time.deltaTime, Space.Self);
     }
 
 }

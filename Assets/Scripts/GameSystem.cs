@@ -37,31 +37,35 @@ public class GameSystem : MonoBehaviour
         }
 
         // 弾を打つ
-        if(Input.GetKey(KeyCode.A))
+        if(Input.GetKey("joystick button 9"))
         {
             bullet = true;
         }
-        if(Input.GetKeyUp(KeyCode.A))
+        if(Input.GetKeyUp("joystick button 9"))
         {
             bullet = false;
         }
 
+        //L Stick
+        float lsh = Input.GetAxis("L_Stick_H");
+        float lsv = Input.GetAxis("L_Stick_V");
+
         // 右回転
-        if (Input.GetKey(KeyCode.RightArrow))
+        if (lsh == 1f && lsv == 0f)
         {
             right = true;
         }
-        if (Input.GetKeyUp(KeyCode.RightArrow))
+        else
         {
             right = false;
         }
 
         // 左回転
-        if (Input.GetKey(KeyCode.LeftArrow))
+        if (lsh == -1 && lsv == 0)
         {
             left = true;
         }
-        if (Input.GetKeyUp(KeyCode.LeftArrow))
+        else
         {
             left = false;
         }

@@ -13,7 +13,10 @@ public class Battery : MonoBehaviour
         RIGHT,  // マークが光る
         LEFT    // マークが光る
     }
+
+    internal Quaternion y;
     public AnimType animType;
+    public float YRot;           // 自分のY_Rotationを取得
     public float speed = 1.0f;   // スピード
     public GameObject bullet;    // 弾のObj
     bool bulletCreat = false;    // 弾を生成してもいいか
@@ -43,6 +46,9 @@ public class Battery : MonoBehaviour
     {
         if (animType == AnimType.BODY)
         {
+            // YのRotationを取得→WaterBulletへ教える
+            YRot = this.gameObject.transform.rotation.y;
+
             // 回転移動
             if (system.right)
             {
@@ -59,6 +65,7 @@ public class Battery : MonoBehaviour
                 if(bulletCreat)
                 {
 
+                    // ここでやかんのYをセットするだけです
                     Instantiate(bullet, transform.position, transform.rotation);
                     bulletCreat = false;
                 }
