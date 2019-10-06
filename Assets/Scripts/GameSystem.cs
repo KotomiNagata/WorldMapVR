@@ -37,11 +37,11 @@ public class GameSystem : MonoBehaviour
         }
 
         // 弾を打つ
-        if(Input.GetKey("joystick button 9"))
+        if(Input.GetKey("joystick button 17"))
         {
             bullet = true;
         }
-        if(Input.GetKeyUp("joystick button 9"))
+        if(Input.GetKeyUp("joystick button 17"))
         {
             bullet = false;
         }
