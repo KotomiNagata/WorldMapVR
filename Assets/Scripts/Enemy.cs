@@ -15,6 +15,7 @@ public class Enemy : MonoBehaviour
     public GameObject nextAnime; // 次の動きのObjを入れる
     public float time;
     public float speed;
+    Vector3 startPos;
     // アニメを終わらせてから次へ移行
     // STANDだけアニメを数回決めてから移行
     // 当たり判定はWaterBulletと連携
@@ -23,14 +24,14 @@ public class Enemy : MonoBehaviour
 
     void Start()
     {
-        
+        startPos = this.transform.position;
     }
 
     void Update()
     {
         if (animType == AnimType.APPEAN)
         {
-            if(this.transform.position.y < 0)
+            if(this.transform.position.y < startPos.y + 0.003)
             {
                 this.gameObject.transform.Translate(0, speed, 0);
             }
@@ -39,7 +40,7 @@ public class Enemy : MonoBehaviour
             this.time -= Time.deltaTime;
             if (this.time < 0)
             {
-                Instantiate(nextAnime, transform.position, Quaternion.identity);
+                Instantiate(nextAnime, transform.position, transform.rotation);
                 Destroy(this.gameObject);
             }
         }
@@ -50,14 +51,14 @@ public class Enemy : MonoBehaviour
             this.time -= Time.deltaTime;
             if (this.time < 0)
             {
-                Instantiate(nextAnime, transform.position, Quaternion.identity);
+                Instantiate(nextAnime, transform.position, transform.rotation);
                 Destroy(this.gameObject);
             }
         }
 
         if (animType == AnimType.HIDE)
         {
-            if (-0.15 < this.transform.position.y)
+            if (startPos.y - 0.05 < this.transform.position.y)
             {
                 this.gameObject.transform.Translate(0, -speed, 0);
             }
@@ -66,7 +67,7 @@ public class Enemy : MonoBehaviour
             this.time -= Time.deltaTime;
             if (this.time < 0)
             {
-                Instantiate(nextAnime, transform.position, Quaternion.identity);
+                //Instantiate(nextAnime, transform.position, transform.rotation);
                 Destroy(this.gameObject);
             }
         }

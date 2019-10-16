@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1580963765103552123}
   - component: {fileID: 608756885}
   - component: {fileID: 1421138073762416015}
+  - component: {fileID: -3678587836417984823}
   m_Layer: 0
   m_Name: WaterBullet
   m_TagString: Untagged
@@ -87,7 +88,7 @@ SphereCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 906897564586734088}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.0089
@@ -104,7 +105,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1f3771b5ddb74f5bb32263e12b50a5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animType: 2
+  animType: 1
   speed: 1
   timer: 2
-  particle: {fileID: 0}
+  particle: {fileID: 7009116843825058787, guid: 184b3d5fe79fd436c801c8f17d931dc6,
+    type: 3}
+  lotus: {fileID: 1236997182568950794, guid: c4cf97ddda31c487b831b5d40cbe0c5c, type: 3}
+--- !u!54 &-3678587836417984823
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 906897564586734088}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0

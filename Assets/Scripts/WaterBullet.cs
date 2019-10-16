@@ -16,6 +16,7 @@ public class WaterBullet : MonoBehaviour
     public float speed = 1.0f;     // スピード
     public float timer = 2.0f;     // タイマー時間
     public GameObject particle;    // パーティクル
+    public GameObject lotus;       // 花
     bool clone = false;            // パーティクル生産用
     bool scaleChange;
 
@@ -93,8 +94,19 @@ public class WaterBullet : MonoBehaviour
             scale.z + 0.15f
         );
         }
-
     }
+
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.tag == "Enemy")
+        {
+            Destroy(other.gameObject);
+            Instantiate(particle, this.transform.position, Quaternion.identity);
+            Instantiate(lotus, other.transform.position, other.transform.rotation);
+            Destroy(this.gameObject);
+        }
+    }
+
 
     // 回転
     void Mawaru()

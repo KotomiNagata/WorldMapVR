@@ -22,7 +22,6 @@ public class GameSystem : MonoBehaviour
     // 弾
     public bool bullet = false;
 
-
     void Start()
     {
 
@@ -31,6 +30,7 @@ public class GameSystem : MonoBehaviour
     void Update()
     {
         // 昼モード・夜モード切り替え
+
         if (Input.GetKeyUp(KeyCode.Q))
         {
             noon = !noon;
@@ -71,4 +71,5 @@ public class GameSystem : MonoBehaviour
         }
 
     }
+
 }

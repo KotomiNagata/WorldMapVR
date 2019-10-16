@@ -73,9 +73,11 @@ GameObject:
   - component: {fileID: 3720945370314538183}
   - component: {fileID: 6320869399560116504}
   - component: {fileID: 959863065}
+  - component: {fileID: -1198498658236030391}
+  - component: {fileID: -5548900806640583106}
   m_Layer: 0
   m_Name: Enemy_Stand
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -89,7 +91,7 @@ Transform:
   m_GameObject: {fileID: 2173951845227977598}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children:
   - {fileID: 4004354098326863653}
   - {fileID: 2185847878550403861}
@@ -132,6 +134,36 @@ MonoBehaviour:
   nextAnime: {fileID: 4038201594231352710, guid: c601ee5517da04cccaf4a01a56f311f2,
     type: 3}
   time: 7
+  speed: 0
+--- !u!65 &-1198498658236030391
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2173951845227977598}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.05, y: 0.1, z: 0.05}
+  m_Center: {x: 0, y: 0.05, z: -0.05}
+--- !u!54 &-5548900806640583106
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2173951845227977598}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &2833479667253969377
 GameObject:
   m_ObjectHideFlags: 0
