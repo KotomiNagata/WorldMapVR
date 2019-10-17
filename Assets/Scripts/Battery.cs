@@ -5,13 +5,15 @@ using UnityEngine;
 public class Battery : MonoBehaviour
 {
     GameSystem system;
+    GameScore score;
 
     public enum AnimType
     {
         BODY,   // 回転移動、弾の生成
         BULLET, // マークが光る
         RIGHT,  // マークが光る
-        LEFT    // マークが光る
+        LEFT,   // マークが光る
+        MATER
     }
 
     internal Quaternion y;
@@ -24,6 +26,8 @@ public class Battery : MonoBehaviour
     Renderer rend;               // カラー
     int cnt = 0;                 // マテリアルを入れるやつ
     bool change = false;         // マテリアルチェンジ
+    int colorLevelStart = 0;
+    int colorLevel = 0;
 
     void Awake()
     {
@@ -33,10 +37,12 @@ public class Battery : MonoBehaviour
     void Start()
     {
         system = FindObjectOfType<GameSystem>();
+        score = FindObjectOfType<GameScore>();
 
         if (animType == AnimType.BULLET ||
             animType == AnimType.RIGHT ||
-            animType == AnimType.LEFT)
+            animType == AnimType.LEFT ||
+            animType == AnimType.MATER)
         {
             rend.material.color = materials[cnt].color;
         }
@@ -76,7 +82,7 @@ public class Battery : MonoBehaviour
             }
         }
 
-        if(animType == AnimType.BULLET)
+        if (animType == AnimType.BULLET)
         {
             if(system.bullet && change == false)
             {
@@ -114,6 +120,21 @@ public class Battery : MonoBehaviour
             if (!system.left && change == true)
             {
                 rend.material = materials[cnt = 0];
+                change = false;
+            }
+        }
+
+        if (animType == AnimType.MATER)
+        {
+            colorLevelStart = colorLevel;
+            colorLevel = score.enemyEnelgy;
+            if(colorLevel != colorLevelStart)
+            {
+                change = true;
+            }
+            if(change)
+            {
+                rend.material = materials[cnt = colorLevel];
                 change = false;
             }
         }

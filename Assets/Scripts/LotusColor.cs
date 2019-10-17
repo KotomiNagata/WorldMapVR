@@ -5,6 +5,7 @@ using UnityEngine;
 public class LotusColor : MonoBehaviour
 {
     GameSystem system;
+    GameScore score;
 
     public Material[] materials;
     Renderer rend;
@@ -19,6 +20,9 @@ public class LotusColor : MonoBehaviour
     void Start()
     {
         system = FindObjectOfType<GameSystem>();
+        score = FindObjectOfType<GameScore>();
+        score.AddPoint(10);
+        score.AddEnemyEnelgy(1);
         rend.material.color = materials[cnt].color;
     }
 

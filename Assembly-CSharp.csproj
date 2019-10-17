@@ -66,6 +66,7 @@
     <Compile Include="Assets\Scripts\Controller.cs" />
     <Compile Include="Assets\Scripts\Enemy.cs" />
     <Compile Include="Assets\Scripts\EnemyPosition.cs" />
+    <Compile Include="Assets\Scripts\GameScore.cs" />
     <Compile Include="Assets\Scripts\GameSystem.cs" />
     <Compile Include="Assets\Scripts\GameText.cs" />
     <Compile Include="Assets\Scripts\LotusColor.cs" />
