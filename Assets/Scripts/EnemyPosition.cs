@@ -17,7 +17,7 @@ public class EnemyPosition : MonoBehaviour
         myName = this.transform.name;
 
         pos = this.transform.position;
-        pos.y += -0.005f;
+        //pos.y += -0.005f;
         clonePos = pos;
     }
 
@@ -39,6 +39,8 @@ public class EnemyPosition : MonoBehaviour
     {
         if (other.gameObject.tag == "Lotus")
         {
+            posList.flowerName = myName;
+            posList.flowerPlus = true;
             Destroy(this.gameObject);
         }
     }

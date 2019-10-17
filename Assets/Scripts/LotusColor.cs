@@ -23,7 +23,7 @@ public class LotusColor : MonoBehaviour
     }
 
     void Update()
-    {
+    {/*
         if (system.noon == true && change == false)
         {
             rend.material = materials[cnt = 0];
@@ -33,6 +33,6 @@ public class LotusColor : MonoBehaviour
         {
             rend.material = materials[cnt = 1];
             change = false;
-        }
+        }*/
     }
 }

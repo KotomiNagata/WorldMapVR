@@ -4,72 +4,36 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    public enum AnimType
-    {
-        APPEAN,
-        STAND,
-        DAMAGE,
-        HIDE
-    }
-    public AnimType animType;
-    public GameObject nextAnime; // 次の動きのObjを入れる
-    public float time;
-    public float speed;
+    Collider col;
+    float time = 8f;
     Vector3 startPos;
-    // アニメを終わらせてから次へ移行
-    // STANDだけアニメを数回決めてから移行
-    // 当たり判定はWaterBulletと連携
-    // DAMAGEの次の花のエフェクトは、花が作る
-
 
     void Start()
     {
+        col = GetComponent<Collider>();
         startPos = this.transform.position;
+        col.isTrigger = false;
     }
 
     void Update()
     {
-        if (animType == AnimType.APPEAN)
-        {
-            if(this.transform.position.y < startPos.y + 0.003)
-            {
-                this.gameObject.transform.Translate(0, speed, 0);
-            }
+        // タイマー
+        this.time -= Time.deltaTime;
 
-            // タイマー
-            this.time -= Time.deltaTime;
-            if (this.time < 0)
-            {
-                Instantiate(nextAnime, transform.position, transform.rotation);
-                Destroy(this.gameObject);
-            }
+        // 0.5秒後にTriggerON
+        if (this.time < 7.5f)
+        {
+            col.isTrigger = true;
+        }
+        // 7秒後にTriggerOFF
+        if (this.time < 1f)
+        {
+            col.isTrigger = false;
         }
 
-        if (animType == AnimType.STAND)
+        if (this.time < 0f)
         {
-            // タイマー
-            this.time -= Time.deltaTime;
-            if (this.time < 0)
-            {
-                Instantiate(nextAnime, transform.position, transform.rotation);
-                Destroy(this.gameObject);
-            }
-        }
-
-        if (animType == AnimType.HIDE)
-        {
-            if (startPos.y - 0.05 < this.transform.position.y)
-            {
-                this.gameObject.transform.Translate(0, -speed, 0);
-            }
-
-            // タイマー
-            this.time -= Time.deltaTime;
-            if (this.time < 0)
-            {
-                //Instantiate(nextAnime, transform.position, transform.rotation);
-                Destroy(this.gameObject);
-            }
+            Destroy(this.gameObject);
         }
     }
 

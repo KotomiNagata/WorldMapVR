@@ -7,6 +7,7 @@ TagManager:
   - PlayerCamera
   - Enemy
   - Lotus
+  - LotusParent
   layers:
   - Default
   - TransparentFX

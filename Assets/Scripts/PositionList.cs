@@ -4,14 +4,18 @@ using UnityEngine;
 
 public class PositionList : MonoBehaviour
 {
+    TimeAttack attack;
+
     // 乱数
     public bool reset = false;
     bool retry = false;
     int start = 0;  // 最初の場所名の数字から
-    int end = 219;    // 最後の場所名の数字+1まで
+    int end = 218;    // 最後の場所名の数字+1まで
     int i;
     public string posResult; // ランダムの結果、出現させる場所名
     public bool cloneOK = false;  // クローンを１回作るようにする
+    float time;
+    bool gamePlay = false;
 
     // リスト
     public List<string> FlowerList;  // 花が咲いた場所のリスト
@@ -63,18 +67,38 @@ public class PositionList : MonoBehaviour
         "WashingtonD.C.","Warsaw","Ndjamena"
     };
 
-    // テスト
-    public bool test = false;
+    // EnemyPositionからFlowerListを追加
+    public bool flowerPlus = false;
+    public string flowerName;
 
     void Start()
     {
+        attack = FindObjectOfType<TimeAttack>();
+
         // 敵を倒した場所をリスト化
         FlowerList = new List<string>();
-        //FlowerList.AddRange(posNameFlower); // リストへ追加
     }
 
     void Update()
     {
+        if (!attack.startClone)
+        {
+            gamePlay = true;
+
+            if(!attack.R2clone)
+            {
+                gamePlay = false;
+            }
+        }
+
+        // 約１秒ごとに処理
+        time -= Time.deltaTime;
+        if(time <= 0.0f && gamePlay)
+        {
+            reset = true;
+            time = 1.0f;
+        }
+
         // ランダムに敵を出現
         if (reset)
         {
@@ -89,10 +113,11 @@ public class PositionList : MonoBehaviour
             retry = false;
         }
 
-        if(test)
+        // 花リストに追加
+        if(flowerPlus)
         {
-            FlowerList.Add("D");
-            test = false;
+            FlowerList.Add(flowerName);
+            flowerPlus = false;
         }
     }
 
@@ -111,5 +136,6 @@ public class PositionList : MonoBehaviour
             cloneOK = true;
         }
     }
+
 
 }

@@ -17,8 +17,10 @@ public class WaterBullet : MonoBehaviour
     public float timer = 2.0f;     // タイマー時間
     public GameObject particle;    // パーティクル
     public GameObject lotus;       // 花
+    GameObject lotusParent;        // 花をまとめる場所
     bool clone = false;            // パーティクル生産用
     bool scaleChange;
+    public GameObject musicEnemyDie; // エネミーを倒した時の効果音
 
     void Start()
     {
@@ -27,6 +29,10 @@ public class WaterBullet : MonoBehaviour
             battery = FindObjectOfType<Battery>();
             Vector3 rot = this.gameObject.transform.localEulerAngles;
             rot.y = battery.gameObject.transform.localEulerAngles.y;
+        }
+        if(animType == AnimType.ATTACK)
+        {
+            lotusParent = GameObject.FindGameObjectWithTag("LotusParent");
         }
     }
 
@@ -102,7 +108,9 @@ public class WaterBullet : MonoBehaviour
         {
             Destroy(other.gameObject);
             Instantiate(particle, this.transform.position, Quaternion.identity);
-            Instantiate(lotus, other.transform.position, other.transform.rotation);
+            Instantiate(musicEnemyDie);
+            var parent = lotusParent.transform;
+            Instantiate(lotus, other.transform.position, other.transform.rotation, parent);
             Destroy(this.gameObject);
         }
     }

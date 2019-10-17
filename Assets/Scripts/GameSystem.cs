@@ -6,14 +6,10 @@ public class GameSystem : MonoBehaviour
 {
     // 操作についてのスクリプト
 
-
-    /*
-     * このScriptを取得しているScript
-     * ・WorldMap
-     */
+    TimeAttack attack;
 
     // 昼・夜の切り替え
-    public bool noon = true;
+    //public bool noon = true;
 
     // 移動の切り替え
     public bool right = false;   // 右回転
@@ -22,26 +18,41 @@ public class GameSystem : MonoBehaviour
     // 弾
     public bool bullet = false;
 
+    // 操作制限
+    bool move = false;
+    bool bulletEnd = false;
+
     void Start()
     {
-
+        attack = FindObjectOfType<TimeAttack>();
     }
 
     void Update()
     {
-        // 昼モード・夜モード切り替え
+        if(!attack.startClone)
+        {
+            move = true;
 
+            if(!attack.finishClone)
+            {
+                move = false;
+                bulletEnd = true;
+            }
+        }
+
+        // 昼モード・夜モード切り替え
+        /*
         if (Input.GetKeyUp(KeyCode.Q))
         {
             noon = !noon;
-        }
+        }*/
 
         // 弾を打つ
-        if(Input.GetKey("joystick button 17"))
+        if (Input.GetKey("joystick button 17") && !bulletEnd)
         {
             bullet = true;
         }
-        if(Input.GetKeyUp("joystick button 17"))
+        if(Input.GetKeyUp("joystick button 17") && !bulletEnd)
         {
             bullet = false;
         }
@@ -51,7 +62,7 @@ public class GameSystem : MonoBehaviour
         float lsv = Input.GetAxis("L_Stick_V");
 
         // 右回転
-        if (lsh == 1f && lsv == 0f)
+        if (lsh == 1f && lsv == 0f && move)
         {
             right = true;
         }
@@ -61,7 +72,7 @@ public class GameSystem : MonoBehaviour
         }
 
         // 左回転
-        if (lsh == -1 && lsv == 0)
+        if (lsh == -1 && lsv == 0 && move)
         {
             left = true;
         }
