@@ -16,7 +16,6 @@ public class Battery : MonoBehaviour
         MATER
     }
 
-    internal Quaternion y;
     public AnimType animType;
     public float YRot;           // 自分のY_Rotationを取得
     public float speed = 1.0f;   // スピード

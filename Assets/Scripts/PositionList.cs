@@ -10,7 +10,7 @@ public class PositionList : MonoBehaviour
     public bool reset = false;
     bool retry = false;
     int start = 0;  // 最初の場所名の数字から
-    int end = 218;    // 最後の場所名の数字+1まで
+    int end = 219;    // 最後の場所名の数字+1まで
     int i;
     public string posResult; // ランダムの結果、出現させる場所名
     public bool cloneOK = false;  // クローンを１回作るようにする
@@ -32,7 +32,7 @@ public class PositionList : MonoBehaviour
         "Kuwait","Guangzhou","CopperMine","Conakry","Copenhagen",
         "Saglouc","Zagreb","Sapporo","Sanaa","Sarajevo",
         "SanSalvador","Santiago","SantoDomingo","SaoTome","SanFrancisco",
-        "SanJose","SanJose","Seattle","XianCity","Chicago",
+        "SanJose","SanJose","SanMarino","Seattle","XianCity","Chicago",
         "Sydney","Djibouti","Jakarta","Shanghai","Juba",
         "Georgetown","Singapore","Sucre","Stockholm","Suva",
         "SriJayaSaldanaPracotte","Chengdu","St.George’s","St.John’s","Seoul",

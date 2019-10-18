@@ -18,6 +18,10 @@ public class GameSystem : MonoBehaviour
     // 弾
     public bool bullet = false;
 
+    // 文字入れ替え
+    public bool rightText = false;
+    public bool leftText = false;
+
     // 操作制限
     bool move = false;
     bool bulletEnd = false;
@@ -57,6 +61,24 @@ public class GameSystem : MonoBehaviour
             bullet = false;
         }
 
+        // 文字入れ替え
+        if (Input.GetKey("joystick button 13")) // 左
+        {
+            leftText = true;
+        }
+        if (Input.GetKeyUp("joystick button 13"))
+        {
+            leftText = false;
+        }
+        if (Input.GetKey("joystick button 14")) // 右
+        {
+            rightText = true;
+        }
+        if (Input.GetKeyUp("joystick button 14"))
+        {
+            rightText = false;
+        }
+
         //L Stick
         float lsh = Input.GetAxis("L_Stick_H");
         float lsv = Input.GetAxis("L_Stick_V");
@@ -80,6 +102,7 @@ public class GameSystem : MonoBehaviour
         {
             left = false;
         }
+
 
     }
 
