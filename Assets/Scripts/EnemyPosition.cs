@@ -31,6 +31,8 @@ public class EnemyPosition : MonoBehaviour
             GameObject obj1 = (GameObject)Instantiate(enemy, this.transform.position, this.transform.rotation);
             obj1.name = myName;
             obj1.transform.parent = transform;
+            GameObject obj2 = (GameObject)Instantiate(cityName, transform.position, transform.rotation);
+            obj2.transform.parent = transform;
             cloneEnemy = false;
         }
         if(cloneText)
