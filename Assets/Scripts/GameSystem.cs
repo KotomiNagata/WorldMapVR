@@ -4,12 +4,11 @@ using UnityEngine;
 
 public class GameSystem : MonoBehaviour
 {
-    // 操作についてのスクリプト
+    // 操作についてのコード
+    // クイズ問題発生のコード
 
     TimeAttack attack;
-
-    // 昼・夜の切り替え
-    //public bool noon = true;
+    GameScore score;
 
     // 移動の切り替え
     public bool right = false;   // 右回転
@@ -26,9 +25,15 @@ public class GameSystem : MonoBehaviour
     bool move = false;
     bool bulletEnd = false;
 
+    // クイズ問題
+    public bool noon = true;
+    public bool quizStart = false;
+    public string enemyName = "None";
+
     void Start()
     {
         attack = FindObjectOfType<TimeAttack>();
+        score = FindObjectOfType<GameScore>();
     }
 
     void Update()
@@ -43,13 +48,6 @@ public class GameSystem : MonoBehaviour
                 bulletEnd = true;
             }
         }
-
-        // 昼モード・夜モード切り替え
-        /*
-        if (Input.GetKeyUp(KeyCode.Q))
-        {
-            noon = !noon;
-        }*/
 
         // 弾を打つ
         if (Input.GetKey("joystick button 17") && !bulletEnd)
@@ -102,8 +100,21 @@ public class GameSystem : MonoBehaviour
         {
             left = false;
         }
+        /*
+        if(score.enemyEnelgy == 10)
+        {
+            QuizGame();
+            quizStart = true;
+        }*/
 
+    }
 
+    void QuizGame()
+    {
+        if(enemyName != "None")
+        {
+            noon = false;
+        }
     }
 
 }

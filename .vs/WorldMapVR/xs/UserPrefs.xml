@@ -1,5 +1,11 @@
 ﻿<Properties StartupConfiguration="{ED251DE7-2A67-49F8-BC75-B74FA62CDEAB}|">
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/EnemyPosition.cs">
+    <Files>
+      <File FileName="Assets/Scripts/GameSystem.cs" Line="108" Column="12" />
+      <File FileName="Assets/Scripts/EnemyPosition.cs" Line="40" Column="31" />
+      <File FileName="Assets/Scripts/Battery.cs" Line="22" Column="26" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />

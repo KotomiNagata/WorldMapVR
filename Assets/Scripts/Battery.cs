@@ -13,13 +13,14 @@ public class Battery : MonoBehaviour
         BULLET, // マークが光る
         RIGHT,  // マークが光る
         LEFT,   // マークが光る
-        MATER
+        MATER,
     }
 
     public AnimType animType;
     public float YRot;           // 自分のY_Rotationを取得
     public float speed = 1.0f;   // スピード
     public GameObject bullet;    // 弾のObj
+    public GameObject bulletSpecial;// クイズを発生させる弾
     bool bulletCreat = false;    // 弾を生成してもいいか
     public Material[] materials; // マテリアル
     Renderer rend;               // カラー
@@ -69,9 +70,16 @@ public class Battery : MonoBehaviour
             {
                 if(bulletCreat)
                 {
-
-                    // ここでやかんのYをセットするだけです
-                    Instantiate(bullet, transform.position, transform.rotation);
+                    if(!system.quizStart)
+                    {
+                        // 普通の弾
+                        Instantiate(bullet, transform.position, transform.rotation);
+                    }
+                    if (system.quizStart)
+                    {
+                        // クイズ問題発生させる弾
+                        Instantiate(bulletSpecial, transform.position, transform.rotation);
+                    }
                     bulletCreat = false;
                 }
             }

@@ -22,7 +22,7 @@ public class WorldMap : MonoBehaviour
     }
 
     void Update()
-    {/*
+    {
         if (system.noon == true && change == false)
         {
             rend.material = materials[cnt = 0];
@@ -32,6 +32,6 @@ public class WorldMap : MonoBehaviour
         {
             rend.material = materials[cnt = 1];
             change = false;
-        }*/
+        }
     }
 }

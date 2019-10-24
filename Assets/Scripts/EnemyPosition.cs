@@ -4,34 +4,40 @@ using UnityEngine;
 
 public class EnemyPosition : MonoBehaviour
 {
+    GameSystem system;
     PositionList posList;
     public GameObject enemy;
-    bool clone = false;
+    public GameObject cityName;
+    bool cloneEnemy = false;
+    bool cloneText = false;
     Vector3 pos;
-    Vector3 clonePos;
     string myName;
 
     void Start()
     {
+        system = FindObjectOfType<GameSystem>();
         posList = FindObjectOfType<PositionList>();
         myName = this.transform.name;
-
-        pos = this.transform.position;
-        //pos.y += -0.005f;
-        clonePos = pos;
     }
 
     void Update()
     {
-        if(posList.posResult == myName && posList.cloneOK)
+        if(posList.posResult == myName && posList.cloneOK && system.noon)
         {
-            clone = true;
+            cloneEnemy = true;
         }
-        if(clone)
+        if(cloneEnemy)
         {
-            GameObject obj = (GameObject)Instantiate(enemy, clonePos, this.transform.rotation);
-            obj.transform.parent = transform;
-            clone = false;
+            GameObject obj1 = (GameObject)Instantiate(enemy, this.transform.position, this.transform.rotation);
+            obj1.name = myName;
+            obj1.transform.parent = transform;
+            cloneEnemy = false;
+        }
+        if(cloneText)
+        {
+            GameObject obj2 = (GameObject)Instantiate(cityName, transform.position, transform.rotation);
+            obj2.transform.parent = transform;
+            cloneText = false;
         }
     }
 

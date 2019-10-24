@@ -9,8 +9,10 @@ public class WaterBullet : MonoBehaviour
     {
         MOVE,
         ATTACK,
+        ATTACK_QUIZ
     }
 
+    GameSystem system;
     Battery battery;
     public AnimType animType;
     public float speed = 1.0f;     // スピード
@@ -21,6 +23,7 @@ public class WaterBullet : MonoBehaviour
     bool clone = false;            // パーティクル生産用
     bool scaleChange;
     public GameObject musicEnemyDie; // エネミーを倒した時の効果音
+    string quizEnemyName;
 
     void Start()
     {
@@ -33,6 +36,10 @@ public class WaterBullet : MonoBehaviour
         if(animType == AnimType.ATTACK)
         {
             lotusParent = GameObject.FindGameObjectWithTag("LotusParent");
+        }
+        if (animType == AnimType.ATTACK_QUIZ)
+        {
+            system = FindObjectOfType<GameSystem>();
         }
     }
 
@@ -67,7 +74,6 @@ public class WaterBullet : MonoBehaviour
                 Instantiate(particle, this.transform.position, Quaternion.identity);
                 Destroy(this.gameObject);
             }
-
         }
     }
 
@@ -106,6 +112,11 @@ public class WaterBullet : MonoBehaviour
     {
         if (other.gameObject.tag == "Enemy")
         {
+            if (animType == AnimType.ATTACK_QUIZ)
+            {
+                system.enemyName = other.name;
+            }
+
             Destroy(other.gameObject);
             Instantiate(particle, this.transform.position, Quaternion.identity);
             Instantiate(musicEnemyDie);

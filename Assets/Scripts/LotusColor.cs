@@ -9,8 +9,8 @@ public class LotusColor : MonoBehaviour
 
     public Material[] materials;
     Renderer rend;
-    //int cnt = 0;
-    //bool change = false;
+    int cnt = 0;
+    bool change = false;
 
     void Awake()
     {
@@ -24,11 +24,11 @@ public class LotusColor : MonoBehaviour
         score.AddPoint(10);
         score.AddEnemyEnelgy(1);
 
-        //rend.material.color = materials[cnt].color;
+        rend.material.color = materials[cnt].color;
     }
 
     void Update()
-    {/*
+    {
         if (system.noon == true && change == false)
         {
             rend.material = materials[cnt = 0];
@@ -38,6 +38,6 @@ public class LotusColor : MonoBehaviour
         {
             rend.material = materials[cnt = 1];
             change = false;
-        }*/
+        }
     }
 }
