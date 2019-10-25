@@ -11,9 +11,11 @@ public class GameText : MonoBehaviour
         G_NUMBER,
         R_NUMBER,
         FINISH,
-        BATTERY_TEXT
+        BATTERY_TEXT,
+        BUTTON_APPEAN
     }
     public AnimType animType;
+    GameSystem system;
 
     // G_NUMBER (ズーム + フェード)
     private Renderer rend;
@@ -27,9 +29,6 @@ public class GameText : MonoBehaviour
     bool kakudai = true;
     bool syukusyou = false;
     bool end = false;
-
-    // R_NUMBER
-    float timer = 1f;
 
     void Start()
     {
@@ -50,6 +49,11 @@ public class GameText : MonoBehaviour
             Vector3 scale = this.gameObject.transform.localScale;
             gameObject.transform.localScale = new Vector3(0, 0, scale.z);
         }
+
+        if(animType == AnimType.BUTTON_APPEAN)
+        {
+            system = FindObjectOfType<GameSystem>();
+        }
     }
 
     void Update()
@@ -61,23 +65,40 @@ public class GameText : MonoBehaviour
 
         if (animType == AnimType.R_NUMBER)
         {
-            timer -= Time.deltaTime;
-            if(timer <= 0f)
-            {
-                Destroy(this.gameObject);
-            }
+            R_NumberScript();
         }
 
         if (animType == AnimType.FINISH)
         {
-            // 回転
-            transform.Rotate(new Vector3(0, -0.3f, 0));
+            FinishScript();
         }
 
         if (animType == AnimType.BATTERY_TEXT)
         {
             StartCoroutine("Appean_BATTERY_TEXT");
         }
+
+        if(animType == AnimType.BUTTON_APPEAN)
+        {
+            ButtonAppeanScript();
+        }
+    }
+
+    void R_NumberScript()
+    {
+        float timer = 1f;
+
+        timer -= Time.deltaTime;
+        if (timer <= 0f)
+        {
+            Destroy(this.gameObject);
+        }
+    }
+
+    void FinishScript()
+    {
+        // 回転
+        transform.Rotate(new Vector3(0, -0.3f, 0));
     }
 
     private IEnumerator Appean_G_NUMBER()
@@ -151,9 +172,17 @@ public class GameText : MonoBehaviour
             }
         }
 
-
-        yield return new WaitForSeconds(2.5f);
+        yield return new WaitForSeconds(2f);
 
         Destroy(this.gameObject);
     }
+
+    void ButtonAppeanScript()
+    {
+        if(!system.quizSelect)
+        {
+            Destroy(this.gameObject);
+        }
+    }
+
 }

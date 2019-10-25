@@ -19,6 +19,7 @@ public class BatteryTextParent : MonoBehaviour
     public List<int> threeSelectList;  // 三選択を収納
     public int answer;                 // 答えの番号
     public string cityList;            // Switchにてまとめている
+    public bool numberMatch;           // 答えが正解かどうか
     bool selectNumberChange = false;
 
     // 00 = 無地
@@ -53,10 +54,35 @@ public class BatteryTextParent : MonoBehaviour
 
     void Update()
     {
-        // 右と入れ替え
-        if(system.rightText && !system.leftText)
+        if(!system.decision)
         {
-            if(numberChange1)
+            OperationScript();
+        }
+
+        // クイズ開始時の選択肢表示
+        if (system.quizStart)
+        {
+            if(selectNumberChange && system.selectEnemy)
+            {
+                cityList = system.enemyName;
+                CityAnswerSelect();
+                BattertTextSend();
+                selectNumberChange = false;
+            }
+            system.selectEnemy = false;
+        }
+        if(!system.quizStart)
+        {
+            selectNumberChange = true;
+        }
+    }
+
+    void OperationScript()
+    {
+        // 右と入れ替え
+        if (system.rightText && !system.leftText)
+        {
+            if (numberChange1)
             {
                 numberLeave = numberMiddle;
                 numberMiddle = numberRight;
@@ -83,21 +109,6 @@ public class BatteryTextParent : MonoBehaviour
         if (!system.leftText)
         {
             numberChange2 = true;
-        }
-
-        if (system.quizStart)
-        {
-            if(selectNumberChange && system.selectEnemy)
-            {
-                cityList = system.enemyName;
-                CityAnswerSelect();
-                BattertTextSend();
-                selectNumberChange = false;
-            }
-        }
-        if(!system.quizStart)
-        {
-            selectNumberChange = true;
         }
     }
 

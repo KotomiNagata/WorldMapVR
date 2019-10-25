@@ -8,6 +8,7 @@ TagManager:
   - Enemy
   - Lotus
   - LotusParent
+  - GameText
   layers:
   - Default
   - TransparentFX

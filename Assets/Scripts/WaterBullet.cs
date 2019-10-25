@@ -15,12 +15,13 @@ public class WaterBullet : MonoBehaviour
     GameSystem system;
     Battery battery;
     public AnimType animType;
-    public float speed = 1.0f;     // スピード
-    public float timer = 2.0f;     // タイマー時間
-    public GameObject particle;    // パーティクル
-    public GameObject lotus;       // 花
-    GameObject lotusParent;        // 花をまとめる場所
-    bool clone = false;            // パーティクル生産用
+
+    public float speed = 1.0f;       // スピード
+    public float timer = 2.0f;       // タイマー時間
+    public GameObject particle;      // パーティクル
+    public GameObject lotus;         // 花
+    GameObject lotusParent;          // 花をまとめる場所
+    bool clone = false;              // パーティクル生産用
     bool scaleChange;
     public GameObject musicEnemyDie; // エネミーを倒した時の効果音
     string quizEnemyName;
@@ -47,14 +48,7 @@ public class WaterBullet : MonoBehaviour
     {
         if (animType == AnimType.MOVE)
         {
-            Mawaru();
-
-            // タイマー
-            this.timer -= Time.deltaTime;
-            if (this.timer < 0)
-            {
-                Destroy(this.gameObject);
-            }
+            MoveScript();
         }
 
         if(animType == AnimType.ATTACK)
@@ -65,19 +59,7 @@ public class WaterBullet : MonoBehaviour
         if (animType == AnimType.ATTACK ||
            animType == AnimType.ATTACK_QUIZ)
         {
-            // タイマー
-            this.timer -= Time.deltaTime;
-            if (this.timer < 0)
-            {
-                clone = true;
-            }
-
-            // パーティクル生産
-            if (clone)
-            {
-                Instantiate(particle, this.transform.position, Quaternion.identity);
-                Destroy(this.gameObject);
-            }
+            AttackAndQuiz_Script();
         }
     }
 
@@ -118,35 +100,64 @@ public class WaterBullet : MonoBehaviour
         {
             if (animType == AnimType.ATTACK_QUIZ)
             {
-                system.enemyName = other.name;
-                system.selectEnemy = true;
-                //Destroy(other.gameObject);
+                system.decision = false;
+                system.quizEnd = true;
                 Instantiate(particle, this.transform.position, Quaternion.identity);
                 //Instantiate(musicEnemyDie);
-                //var parent = lotusParent.transform;
-                //Instantiate(lotus, other.transform.position, other.transform.rotation, parent);
                 Destroy(this.gameObject);
             }
 
             if(animType == AnimType.ATTACK)
             {
-                Destroy(other.gameObject);
+                if(!system.quizStart)
+                {
+                    Destroy(other.gameObject);
+                    Instantiate(musicEnemyDie);
+                    var parent = lotusParent.transform;
+                    Instantiate(lotus, other.transform.position, other.transform.rotation, parent);
+                }else
+                {
+                    system.enemyName = other.name;
+                    system.selectEnemy = true;
+                }
                 Instantiate(particle, this.transform.position, Quaternion.identity);
-                Instantiate(musicEnemyDie);
-                var parent = lotusParent.transform;
-                Instantiate(lotus, other.transform.position, other.transform.rotation, parent);
                 Destroy(this.gameObject);
             }
         }
     }
 
-
-    // 回転
-    void Mawaru()
+    void MoveScript()
     {
         // Space.WorldではなくSpace.SelfするとYも回転できるようになる
         // ※下のコードはXでの回転
         transform.Rotate(new Vector3(-speed, 0, 0) * Time.deltaTime, Space.Self);
+
+        // タイマー
+        this.timer -= Time.deltaTime;
+        if (this.timer < 0)
+        {
+            Destroy(this.gameObject);
+        }
     }
 
+    void AttackAndQuiz_Script()
+    {
+        // タイマー
+        this.timer -= Time.deltaTime;
+        if (this.timer < 0)
+        {
+            clone = true;
+        }
+
+        // パーティクル生産
+        if (clone)
+        {
+            Instantiate(particle, this.transform.position, Quaternion.identity);
+            system.decision = false;
+            system.quizGood = false;
+            system.quizMiss = true;
+            system.quizEnd = true;
+            Destroy(this.gameObject);
+        }
+    }
 }

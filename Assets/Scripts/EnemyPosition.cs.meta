@@ -4,7 +4,11 @@ MonoImporter:
   externalObjects: {}
   serializedVersion: 2
   defaultReferences:
-  - enemy: {fileID: 3111223373836736204, guid: c7bd102cbada741429bc54c5fd7d33b7, type: 3}
+  - enemy: {instanceID: 0}
+  - enemyQuiz: {instanceID: 0}
+  - cityName_Quiz: {instanceID: 0}
+  - cityName_Good: {instanceID: 0}
+  - cityName_Miss: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

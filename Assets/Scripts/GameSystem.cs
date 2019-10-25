@@ -27,8 +27,18 @@ public class GameSystem : MonoBehaviour
 
     // クイズ問題
     public bool noon = true;          // 昼・夜切り替え
-    public bool quizStart = false;    // クイズスタート合図
+    public bool quizStart = false;    // これからクイズをスタート合図
     public bool selectEnemy = false;  // クイズスタート後エネミーを選んだ合図
+                                      // WaterBulletがtrueに変更
+                                      // BatteryTextがfalseに変更
+    public bool quizSelect = false;   // エネミーに当たり、選択肢が表示される合図
+    public bool decision = false;     // 答えを決めてから、敵に当たる・外れるまでの合図
+    public bool quizGood = false;     // 正解した合図
+                                      // BatteryTextのMIDDLEから指示
+    public bool quizMiss = false;     // 誤った合図
+                                      // BatteryTextのMIDDLEから指示
+                                      // WaterBulletのQuizBulletから指示
+    public bool quizEnd = false;      // QuizBulletが消えてクイズ終了
     public string enemyName = "None"; // WaterBulletから代入
 
     void Start()
@@ -39,6 +49,10 @@ public class GameSystem : MonoBehaviour
 
     void Update()
     {
+        // 操作について
+        PlayingButtonScript();
+
+        // タイムリミットに合わせて動きを制御
         if(!attack.startClone)
         {
             move = true;
@@ -50,14 +64,55 @@ public class GameSystem : MonoBehaviour
             }
         }
 
-        // 弾を打つ
-        if (Input.GetKey("joystick button 17") && !bulletEnd)
+        // ゲージが満タンになった時にクイズ発生
+        if(score.enemyEnelgy == 10)
         {
-            bullet = true;
+            QuizGame();
+            quizStart = true;
         }
-        if(Input.GetKeyUp("joystick button 17") && !bulletEnd)
+    }
+
+    void QuizGame()
+    {
+        if(enemyName != "None")
         {
-            bullet = false;
+            noon = false;
+        }
+
+        // エネミーに当たったので、選択肢を表示
+        if(selectEnemy)
+        {
+            quizSelect = true;
+        }
+
+        // 決定ボタンを押したので、選択肢は消滅
+        if(decision)
+        {
+            quizSelect = false;
+        }
+
+        if(quizEnd)
+        {
+            if(quizGood)
+            {
+                // ここから！！！！！
+            }
+            if(quizMiss)
+            {
+
+            }
+        }
+    }
+
+    void PlayingButtonScript()
+    {
+        // 弾を打つ
+        if(quizSelect)
+        {
+            QuizBulletCreatScript();
+        }
+        else{
+            BulletCreatScript();
         }
 
         // 文字入れ替え
@@ -101,26 +156,27 @@ public class GameSystem : MonoBehaviour
         {
             left = false;
         }
-
-        if(score.enemyEnelgy == 10)
-        {
-            QuizGame();
-            quizStart = true;
-        }
-
-        if(!quizStart)
-        {
-            selectEnemy = false;
-        }
-
     }
 
-    void QuizGame()
+    void BulletCreatScript()
     {
-        if(enemyName != "None")
+        if (Input.GetKey("joystick button 17") && !bulletEnd)
         {
-            noon = false;
+            bullet = true;
+        }
+        if (Input.GetKeyUp("joystick button 17") && !bulletEnd
+           || GameObject.FindGameObjectWithTag("GameText"))
+        {
+            bullet = false;
         }
     }
 
+    void QuizBulletCreatScript()
+    {
+        if (Input.GetKey("joystick button 17") && !bulletEnd)
+        {
+            bullet = true;
+            decision = true;
+        }
+    }
 }

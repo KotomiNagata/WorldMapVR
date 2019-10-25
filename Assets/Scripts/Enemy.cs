@@ -37,33 +37,43 @@ public class Enemy : MonoBehaviour
     {
         if (animType == AnimType.USUALLY)
         {
-            // タイマー
-            this.time -= Time.deltaTime;
-
-            // 0.5秒後にTriggerON
-            if (this.time < 7.5f)
-            {
-                col.isTrigger = true;
-            }
-            // 7秒後にTriggerOFF
-            if (this.time < 1f)
-            {
-                col.isTrigger = false;
-            }
-
-            if (this.time < 0f ||
-                parentScript.enemyDestory)
-            {
-                Destroy(this.gameObject);
-            }
+            UsuallyScript();
         }
 
         if(animType == AnimType.QUIZ)
         {
-            if(parentScript.enemyDestory == false)
-            {
-                Destroy(this.gameObject);
-            }
+            QuizScript();
+        }
+    }
+
+    void UsuallyScript()
+    {
+        // タイマー
+        this.time -= Time.deltaTime;
+
+        // 0.5秒後にTriggerON
+        if (this.time < 7.5f)
+        {
+            col.isTrigger = true;
+        }
+        // 7秒後にTriggerOFF
+        if (this.time < 1f)
+        {
+            col.isTrigger = false;
+        }
+
+        if (this.time < 0f ||
+            parentScript.enemyDestory)
+        {
+            Destroy(this.gameObject);
+        }
+    }
+
+    void QuizScript()
+    {
+        if (parentScript.enemyDestory == false)
+        {
+            Destroy(this.gameObject);
         }
     }
 }

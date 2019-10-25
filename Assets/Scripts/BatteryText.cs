@@ -38,50 +38,91 @@ public class BatteryText : MonoBehaviour
     {
         if (animType == AnimType.MIDDLE)
         {
-            startNumber = nowNumber;
-            nowNumber = parent.numberMiddle;
-            if (nowNumber != startNumber)
-            {
-                change = true;
-            }
-            if (change)
-            {
-                rend.material = materials[cnt = nowNumber];
-                change = false;
-            }
+            MiddleScript();
         }
+
         if (animType == AnimType.RIGHT)
         {
-            startNumber = nowNumber;
-            nowNumber = parent.numberRight;
-            if (nowNumber != startNumber)
-            {
-                change = true;
-            }
-            if (change)
-            {
-                rend.material = materials[cnt = nowNumber];
-                change = false;
-            }
+            RightScript();
         }
+
         if (animType == AnimType.LEFT)
         {
-            startNumber = nowNumber;
-            nowNumber = parent.numberLeft;
-            if (nowNumber != startNumber)
-            {
-                change = true;
-            }
-            if (change)
-            {
-                rend.material = materials[cnt = nowNumber];
-                change = false;
-            }
+            LeftScript();
         }
         /*
         if(system.noon)
         {
             rend.material = materials[cnt = 0];
         }*/
+    }
+
+    void MiddleScript()
+    {
+        startNumber = nowNumber;
+        nowNumber = parent.numberMiddle;
+        if (nowNumber != startNumber)
+        {
+            change = true;
+        }
+        if (change)
+        {
+            rend.material = materials[cnt = nowNumber];
+            change = false;
+        }
+
+        if (system.quizSelect)
+        {
+            if(parent.answer == nowNumber)
+            {
+                system.quizGood = true;
+                system.quizMiss = false;
+            }
+            if (parent.answer != nowNumber)
+            {
+                system.quizGood = false;
+                system.quizMiss = true;
+            }
+        }
+    }
+
+    void RightScript()
+    {
+        startNumber = nowNumber;
+        nowNumber = parent.numberRight;
+        if (nowNumber != startNumber)
+        {
+            change = true;
+        }
+        if (change)
+        {
+            rend.material = materials[cnt = nowNumber];
+            change = false;
+        }
+
+        if(system.decision)
+        {
+            rend.material = materials[cnt = 0];
+        }
+    }
+
+    void LeftScript()
+    {
+        startNumber = nowNumber;
+        nowNumber = parent.numberLeft;
+        if (nowNumber != startNumber)
+        {
+            change = true;
+        }
+        if (change)
+        {
+            rend.material = materials[cnt = nowNumber];
+            change = false;
+        }
+
+        if (system.decision)
+        {
+            rend.material = materials[cnt = 0];
+        }
     }
 }

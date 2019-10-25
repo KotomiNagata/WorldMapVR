@@ -13,7 +13,6 @@ public class EnemyPosition : MonoBehaviour
     public GameObject cityName_Miss;
     public bool enemyDestory = false;
     bool cloneEnemy = false;
-    bool cloneText = false;
     bool cloneEnemyQuiz = false;
     Vector3 pos;
     string myName;
@@ -28,37 +27,13 @@ public class EnemyPosition : MonoBehaviour
 
     void Update()
     {
-        if(posList.posResult == myName && posList.cloneOK && !system.selectEnemy)
-        {
-            cloneEnemy = true;
-        }
-        if(cloneEnemy)
-        {
-            GameObject obj1 = (GameObject)Instantiate(enemy, this.transform.position, this.transform.rotation);
-            obj1.name = myName;
-            obj1.transform.parent = transform;
-            cloneEnemy = false;
-        }
-        if(cloneText)
-        {
-            GameObject obj2 = (GameObject)Instantiate(cityName_Quiz, transform.position, transform.rotation);
-            obj2.transform.parent = transform;
-            cloneText = false;
-        }
+        // エネミー生成
+        EnemyCreat();
 
+        // クイズ発生時
         if(system.selectEnemy)
         {
-            enemyDestory = true;
-
-            if (system.enemyName == myName)
-            {
-                if(cloneEnemyQuiz)
-                {
-                    GameObject obj3 = (GameObject)Instantiate(enemyQuiz, transform.position, transform.rotation);
-                    obj3.transform.parent = transform;
-                    cloneEnemyQuiz = false;
-                }
-            }
+            StartQuiz();
         }
         else{
             enemyDestory = false;
@@ -66,6 +41,7 @@ public class EnemyPosition : MonoBehaviour
         }
     }
 
+    // 花とぶつかった時に、EnemyPositionは消滅
     void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Lotus")
@@ -73,6 +49,38 @@ public class EnemyPosition : MonoBehaviour
             posList.flowerName = myName;
             posList.flowerPlus = true;
             Destroy(this.gameObject);
+        }
+    }
+
+    void EnemyCreat()
+    {
+        if (posList.posResult == myName && posList.cloneOK && !system.selectEnemy)
+        {
+            cloneEnemy = true;
+        }
+        if (cloneEnemy)
+        {
+            GameObject obj1 = (GameObject)Instantiate(enemy, this.transform.position, this.transform.rotation);
+            obj1.name = myName;
+            obj1.transform.parent = transform;
+            cloneEnemy = false;
+        }
+    }
+
+    void StartQuiz()
+    {
+        enemyDestory = true;
+
+        if (system.enemyName == myName)
+        {
+            if (cloneEnemyQuiz)
+            {
+                GameObject obj2 = (GameObject)Instantiate(cityName_Quiz, transform.position, transform.rotation);
+                obj2.transform.parent = transform;
+                GameObject obj3 = (GameObject)Instantiate(enemyQuiz, transform.position, transform.rotation);
+                obj3.transform.parent = transform;
+                cloneEnemyQuiz = false;
+            }
         }
     }
 }

@@ -18,17 +18,25 @@ public class Battery : MonoBehaviour
     }
 
     public AnimType animType;
-    public float YRot;           // 自分のY_Rotationを取得
-    public float speed = 1.0f;   // スピード
-    public GameObject bullet;    // 弾のObj
-    public GameObject bulletSpecial;// クイズを発生させる弾
-    public GameObject textGetManyPoint;
-    public GameObject textGood;
-    public GameObject textMiss;
 
     // BODY
-    bool bulletCreat = false;    // 弾を生成してもいいか
+    public float YRot;                   // 自分のY_Rotationを取得
+    public float speed = 1.0f;           // スピード
+    public GameObject bullet;            // 弾のObj
+    public GameObject bulletSpecial;     // クイズを発生させる弾
+    bool bulletCreat = false;            // 弾を生成してもいいか
+
+    // TEXT
+    public GameObject textGetManyPoint;  // 「高得点チャンス！」生成
+    public GameObject textStartQuiz;     // 「クイズ発！」生成
+    public GameObject textGood;          // 「Good!」生成
+    public GameObject textMiss;          // 「Miss...」生成
+    public GameObject ButtonAppean;      // 操作についての文字を生成
     bool textGetManyPointCreat = false;
+    bool textStartQuizCreat = false;
+    bool textGoodCreat = false;
+    bool textMissCreat = false;
+    bool ButtonAppeanCreat = false;
 
     // マテリアル
     public Material[] materials; // マテリアル
@@ -61,118 +69,180 @@ public class Battery : MonoBehaviour
     {
         if (animType == AnimType.BODY)
         {
-            // YのRotationを取得→WaterBulletへ教える
-            YRot = this.gameObject.transform.rotation.y;
-
-            // 回転移動
-            if (system.right)
-            {
-                transform.Rotate(new Vector3(0, speed, 0) * Time.deltaTime, Space.World);
-            }
-            if (system.left)
-            {
-                transform.Rotate(new Vector3(0, -speed, 0) * Time.deltaTime, Space.World);
-            }
-
-            // 弾を生成
-            if(system.bullet)
-            {
-                if(bulletCreat)
-                {
-                    if(!system.quizStart)
-                    {
-                        // 普通の弾
-                        Instantiate(bullet, transform.position, transform.rotation);
-                    }
-                    if (system.quizStart)
-                    {
-                        // クイズ問題発生させる弾
-                        Instantiate(bulletSpecial, transform.position, transform.rotation);
-                    }
-                    bulletCreat = false;
-                }
-            }
-            if(!system.bullet)
-            {
-                bulletCreat = true;
-            }
+            BodyScript();
         }
 
         if (animType == AnimType.BULLET)
         {
-            if(system.bullet && change == false)
-            {
-                rend.material = materials[cnt = 1];
-                change = true;
-            }
-            if (!system.bullet && change == true)
-            {
-                rend.material = materials[cnt = 0];
-                change = false;
-            }
+            BulletScript();
         }
 
         if (animType == AnimType.RIGHT)
         {
-            if (system.right && change == false)
-            {
-                rend.material = materials[cnt = 1];
-                change = true;
-            }
-            if (!system.right && change == true)
-            {
-                rend.material = materials[cnt = 0];
-                change = false;
-            }
+            RightScript();
         }
 
         if (animType == AnimType.LEFT)
         {
-            if (system.left && change == false)
-            {
-                rend.material = materials[cnt = 1];
-                change = true;
-            }
-            if (!system.left && change == true)
-            {
-                rend.material = materials[cnt = 0];
-                change = false;
-            }
+            LeftScript();
         }
 
         if (animType == AnimType.MATER)
         {
-            colorLevelStart = colorLevel;
-            colorLevel = score.enemyEnelgy;
-            if(colorLevel != colorLevelStart)
-            {
-                change = true;
-            }
-            if(change)
-            {
-                rend.material = materials[cnt = colorLevel];
-                change = false;
-            }
+            MaterScript();
         }
 
         if (animType == AnimType.TEXT)
         {
-            // テキスト生成
-            if (!system.noon)
+            TextScript();
+        }
+    }
+
+    void BodyScript()
+    {
+        // YのRotationを取得→WaterBulletへ教える
+        YRot = this.gameObject.transform.rotation.y;
+
+        // 回転移動
+        if (system.right)
+        {
+            transform.Rotate(new Vector3(0, speed, 0) * Time.deltaTime, Space.World);
+        }
+        if (system.left)
+        {
+            transform.Rotate(new Vector3(0, -speed, 0) * Time.deltaTime, Space.World);
+        }
+
+        // 弾を生成
+        if (system.bullet)
+        {
+            if (bulletCreat)
             {
-                if (textGetManyPointCreat)
+                if (!system.quizSelect)
                 {
-                    GameObject obj = (GameObject)Instantiate(textGetManyPoint,
-                                                             this.transform.position,
-                                                             this.transform.rotation);
-                    obj.transform.parent = transform;
-                    textGetManyPointCreat = false;
+                    // 普通の弾
+                    Instantiate(bullet, transform.position, transform.rotation);
                 }
+                if (system.quizSelect)
+                {
+                    // クイズ問題発生させる弾
+                    Instantiate(bulletSpecial, transform.position, transform.rotation);
+                }
+                bulletCreat = false;
             }
-            else
+        }
+        if (!system.bullet)
+        {
+            bulletCreat = true;
+        }
+    }
+
+    void BulletScript()
+    {
+        if (system.bullet && change == false)
+        {
+            rend.material = materials[cnt = 1];
+            change = true;
+        }
+        if (!system.bullet && change == true)
+        {
+            rend.material = materials[cnt = 0];
+            change = false;
+        }
+    }
+
+    void RightScript()
+    {
+        if (system.right && change == false)
+        {
+            rend.material = materials[cnt = 1];
+            change = true;
+        }
+        if (!system.right && change == true)
+        {
+            rend.material = materials[cnt = 0];
+            change = false;
+        }
+    }
+
+    void LeftScript()
+    {
+        if (system.left && change == false)
+        {
+            rend.material = materials[cnt = 1];
+            change = true;
+        }
+        if (!system.left && change == true)
+        {
+            rend.material = materials[cnt = 0];
+            change = false;
+        }
+    }
+
+    void MaterScript()
+    {
+        colorLevelStart = colorLevel;
+        colorLevel = score.enemyEnelgy;
+        if (colorLevel != colorLevelStart)
+        {
+            change = true;
+        }
+        if (change)
+        {
+            rend.material = materials[cnt = colorLevel];
+            change = false;
+        }
+    }
+
+    void TextScript()
+    {
+        // 「高得点チャンス！」
+        if (!system.noon)
+        {
+            if (textGetManyPointCreat)
             {
-                textGetManyPointCreat = true;
+                GameObject obj = (GameObject)Instantiate(textGetManyPoint,
+                                                         this.transform.position,
+                                                         this.transform.rotation);
+                obj.transform.parent = transform;
+                textGetManyPointCreat = false;
             }
+        }
+
+        // 「クイズ発生！」
+        if(system.selectEnemy)
+        {
+            if(textStartQuizCreat)
+            {
+                GameObject obj = (GameObject)Instantiate(textStartQuiz,
+                                                         this.transform.position,
+                                                         this.transform.rotation);
+                obj.transform.parent = transform;
+                textStartQuizCreat = false;
+            }
+        }
+
+        // 操作についての文字
+        if(system.quizSelect)
+        {
+            if(ButtonAppeanCreat)
+            {
+                GameObject obj = (GameObject)Instantiate(ButtonAppean,
+                                                         this.transform.position,
+                                                         this.transform.rotation);
+                obj.transform.parent = transform;
+                ButtonAppeanCreat = false;
+            }
+        }
+
+        // 文字生成用のBoolをリセット
+        if(!system.quizStart)
+        {
+            textGetManyPointCreat = true;
+            textStartQuizCreat = true;
+            textGoodCreat = true;
+            textMissCreat = true;
+            ButtonAppeanCreat = true;
         }
     }
 }
