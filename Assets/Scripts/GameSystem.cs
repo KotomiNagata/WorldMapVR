@@ -26,9 +26,10 @@ public class GameSystem : MonoBehaviour
     bool bulletEnd = false;
 
     // クイズ問題
-    public bool noon = true;
-    public bool quizStart = false;
-    public string enemyName = "None";
+    public bool noon = true;          // 昼・夜切り替え
+    public bool quizStart = false;    // クイズスタート合図
+    public bool selectEnemy = false;  // クイズスタート後エネミーを選んだ合図
+    public string enemyName = "None"; // WaterBulletから代入
 
     void Start()
     {
@@ -100,12 +101,17 @@ public class GameSystem : MonoBehaviour
         {
             left = false;
         }
-        /*
+
         if(score.enemyEnelgy == 10)
         {
             QuizGame();
             quizStart = true;
-        }*/
+        }
+
+        if(!quizStart)
+        {
+            selectEnemy = false;
+        }
 
     }
 

@@ -47,8 +47,7 @@ MonoBehaviour:
   animType: 0
   speed: 120
   timer: 2.1
-  particle: {fileID: 7009116843825058787, guid: 184b3d5fe79fd436c801c8f17d931dc6,
-    type: 3}
+  particle: {fileID: 711251738207454732, guid: 63d803c0217ad489ca928843cebd3de2, type: 3}
   lotus: {fileID: 1236997182568950794, guid: c4cf97ddda31c487b831b5d40cbe0c5c, type: 3}
   musicEnemyDie: {fileID: 0}
 --- !u!1001 &780028608724126602

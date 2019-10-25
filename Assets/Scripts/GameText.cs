@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class GameText : MonoBehaviour
 {
+    // タイムリミットの数字のアニメーション
+    // 終わった時の「Finish」のアニメーション
     public enum AnimType
     {
         G_NUMBER,

@@ -4,15 +4,21 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
+    EnemyPosition parent;
+    GameSystem system;
     Collider col;
     float time = 8f;
     Vector3 startPos;
+    int HP = 0;
 
     void Start()
     {
+        parent = GetComponent<EnemyPosition>();
+        system = GetComponent<GameSystem>();
         col = GetComponent<Collider>();
         startPos = this.transform.position;
         col.isTrigger = false;
+        HP = 0;
     }
 
     void Update()
@@ -31,7 +37,8 @@ public class Enemy : MonoBehaviour
             col.isTrigger = false;
         }
 
-        if (this.time < 0f)
+        if (this.time < 0f ||
+            parent.enemyDestory && )
         {
             Destroy(this.gameObject);
         }

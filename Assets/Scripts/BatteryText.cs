@@ -11,6 +11,7 @@ public class BatteryText : MonoBehaviour
         LEFT
     }
 
+    GameSystem system;
     BatteryTextParent parent;
 
     public AnimType animType;
@@ -18,30 +19,32 @@ public class BatteryText : MonoBehaviour
     Renderer rend;               // カラー
     int cnt = 0;                 // マテリアルを入れるやつ
     bool change = false;         // マテリアルチェンジ
-    int nowNumber;
-    int startNumner;
+    public int nowNumber;
+    int startNumber;
 
     void Awake()
     {
+        system = GetComponent<GameSystem>();
         rend = GetComponent<Renderer>();
     }
 
     void Start()
     {
         parent = FindObjectOfType<BatteryTextParent>();
+        rend.material = materials[cnt = 0];
     }
 
     void Update()
     {
         if (animType == AnimType.MIDDLE)
         {
-            startNumner = nowNumber;
+            startNumber = nowNumber;
             nowNumber = parent.numberMiddle;
-            if(nowNumber != startNumner)
+            if (nowNumber != startNumber)
             {
                 change = true;
             }
-            if(change)
+            if (change)
             {
                 rend.material = materials[cnt = nowNumber];
                 change = false;
@@ -49,9 +52,9 @@ public class BatteryText : MonoBehaviour
         }
         if (animType == AnimType.RIGHT)
         {
-            startNumner = nowNumber;
+            startNumber = nowNumber;
             nowNumber = parent.numberRight;
-            if (nowNumber != startNumner)
+            if (nowNumber != startNumber)
             {
                 change = true;
             }
@@ -63,9 +66,9 @@ public class BatteryText : MonoBehaviour
         }
         if (animType == AnimType.LEFT)
         {
-            startNumner = nowNumber;
+            startNumber = nowNumber;
             nowNumber = parent.numberLeft;
-            if (nowNumber != startNumner)
+            if (nowNumber != startNumber)
             {
                 change = true;
             }
@@ -75,5 +78,10 @@ public class BatteryText : MonoBehaviour
                 change = false;
             }
         }
+        /*
+        if(system.noon)
+        {
+            rend.material = materials[cnt = 0];
+        }*/
     }
 }

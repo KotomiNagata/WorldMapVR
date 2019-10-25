@@ -7,7 +7,10 @@ public class EnemyPosition : MonoBehaviour
     GameSystem system;
     PositionList posList;
     public GameObject enemy;
-    public GameObject cityName;
+    public GameObject cityName_Quiz;
+    public GameObject cityName_Good;
+    public GameObject cityName_Miss;
+    public bool enemyDestory = false;
     bool cloneEnemy = false;
     bool cloneText = false;
     Vector3 pos;
@@ -18,11 +21,12 @@ public class EnemyPosition : MonoBehaviour
         system = FindObjectOfType<GameSystem>();
         posList = FindObjectOfType<PositionList>();
         myName = this.transform.name;
+        enemyDestory = false;
     }
 
     void Update()
     {
-        if(posList.posResult == myName && posList.cloneOK && system.noon)
+        if(posList.posResult == myName && posList.cloneOK && !system.selectEnemy)
         {
             cloneEnemy = true;
         }
@@ -31,15 +35,20 @@ public class EnemyPosition : MonoBehaviour
             GameObject obj1 = (GameObject)Instantiate(enemy, this.transform.position, this.transform.rotation);
             obj1.name = myName;
             obj1.transform.parent = transform;
-            GameObject obj2 = (GameObject)Instantiate(cityName, transform.position, transform.rotation);
-            obj2.transform.parent = transform;
             cloneEnemy = false;
         }
         if(cloneText)
         {
-            GameObject obj2 = (GameObject)Instantiate(cityName, transform.position, transform.rotation);
+            GameObject obj2 = (GameObject)Instantiate(cityName_Quiz, transform.position, transform.rotation);
             obj2.transform.parent = transform;
             cloneText = false;
+        }
+
+        if(system.selectEnemy)
+        {
+            enemyDestory = true;
+        }else{
+            enemyDestory = false;
         }
     }
 

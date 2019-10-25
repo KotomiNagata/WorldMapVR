@@ -57,7 +57,8 @@ public class WaterBullet : MonoBehaviour
             }
         }
 
-        if (animType == AnimType.ATTACK)
+        if (animType == AnimType.ATTACK ||
+           animType == AnimType.ATTACK_QUIZ)
         {
             WaterAnimation();
 
@@ -115,14 +116,24 @@ public class WaterBullet : MonoBehaviour
             if (animType == AnimType.ATTACK_QUIZ)
             {
                 system.enemyName = other.name;
+                system.selectEnemy = true;
+                //Destroy(other.gameObject);
+                Instantiate(particle, this.transform.position, Quaternion.identity);
+                //Instantiate(musicEnemyDie);
+                //var parent = lotusParent.transform;
+                //Instantiate(lotus, other.transform.position, other.transform.rotation, parent);
+                Destroy(this.gameObject);
             }
 
-            Destroy(other.gameObject);
-            Instantiate(particle, this.transform.position, Quaternion.identity);
-            Instantiate(musicEnemyDie);
-            var parent = lotusParent.transform;
-            Instantiate(lotus, other.transform.position, other.transform.rotation, parent);
-            Destroy(this.gameObject);
+            if(animType == AnimType.ATTACK)
+            {
+                Destroy(other.gameObject);
+                Instantiate(particle, this.transform.position, Quaternion.identity);
+                Instantiate(musicEnemyDie);
+                var parent = lotusParent.transform;
+                Instantiate(lotus, other.transform.position, other.transform.rotation, parent);
+                Destroy(this.gameObject);
+            }
         }
     }
 

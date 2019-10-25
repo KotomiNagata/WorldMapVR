@@ -19,7 +19,7 @@ public class BatteryTextParent : MonoBehaviour
     public List<int> threeSelectList;  // 三選択を収納
     public int answer;                 // 答えの番号
     public string cityList;            // Switchにてまとめている
-    bool quizStart = false;
+    bool selectNumberChange = false;
 
     // 00 = 無地
     // 01 = ア
@@ -85,10 +85,27 @@ public class BatteryTextParent : MonoBehaviour
             numberChange2 = true;
         }
 
-        if(quizStart)
+        if (system.quizStart)
         {
-            CityAnswerSelect();
+            if(selectNumberChange)
+            {
+                cityList = system.enemyName;
+                CityAnswerSelect();
+                BattertTextSend();
+                selectNumberChange = false;
+            }
         }
+        if(!system.quizStart)
+        {
+            selectNumberChange = true;
+        }
+    }
+
+    void BattertTextSend()
+    {
+        numberLeft = threeSelectList[0];
+        numberMiddle = threeSelectList[1];
+        numberRight = threeSelectList[2];
     }
 
     void CityAnswerSelect()
