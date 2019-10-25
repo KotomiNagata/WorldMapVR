@@ -201,9 +201,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &18040126
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -279,9 +282,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &20579453
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -357,9 +363,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &21827780
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -435,9 +444,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &23344299
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -513,9 +525,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &30061289
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -591,9 +606,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &84412909
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -669,9 +687,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &87012187
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -747,9 +768,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &97353956
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -825,9 +849,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &106108861
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -903,9 +930,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &117380276
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -967,9 +997,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!4 &132946904
 Transform:
   m_ObjectHideFlags: 0
@@ -1059,9 +1092,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &148429644
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1137,9 +1173,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &149676793
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1215,9 +1254,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &151411733
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1293,9 +1335,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &165977999
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1371,9 +1416,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &170046474
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1435,9 +1483,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!4 &179166424
 Transform:
   m_ObjectHideFlags: 0
@@ -1527,9 +1578,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &180599664
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1605,9 +1659,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &198990595
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1683,9 +1740,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &211846933
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1761,9 +1821,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &215823660
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1870,9 +1933,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &221758425
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1948,9 +2014,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &221948039
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2012,9 +2081,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!4 &242842866
 Transform:
   m_ObjectHideFlags: 0
@@ -2104,9 +2176,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &266491980
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2182,9 +2257,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &269375369
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2260,9 +2338,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &293920974
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2338,9 +2419,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &305621771
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2416,9 +2500,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &316498246
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2494,9 +2581,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &318267018
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2572,9 +2662,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &331367586
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2650,9 +2743,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &347337402
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2728,9 +2824,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &348621370
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2806,9 +2905,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &362155523
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2877,6 +2979,7 @@ MonoBehaviour:
   leftText: 0
   noon: 1
   quizStart: 0
+  selectEnemy: 0
   enemyName: 
 --- !u!4 &364425384
 Transform:
@@ -3004,9 +3107,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &380450666
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3082,9 +3188,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &383247932
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3160,9 +3269,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &394246939
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3238,9 +3350,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &404601147
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3316,9 +3431,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &406580567
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3394,9 +3512,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &412256786
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3472,9 +3593,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &412774794
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3583,9 +3707,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &420864136
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3694,9 +3821,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &427867268
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3772,9 +3902,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &436263210
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3836,9 +3969,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!4 &437934131
 Transform:
   m_ObjectHideFlags: 0
@@ -3914,9 +4050,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!4 &439531739
 Transform:
   m_ObjectHideFlags: 0
@@ -4006,9 +4145,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &442143526
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4145,9 +4287,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &461692018
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4223,9 +4368,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &463468003
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4301,9 +4449,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &471207183
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4379,9 +4530,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &475504790
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4457,9 +4611,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &486687344
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4521,9 +4678,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!4 &494241565
 Transform:
   m_ObjectHideFlags: 0
@@ -4599,9 +4759,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!4 &501096052
 Transform:
   m_ObjectHideFlags: 0
@@ -4691,9 +4854,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &509318967
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4769,9 +4935,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &525014303
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4847,9 +5016,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &533909617
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4925,9 +5097,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &535151255
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5003,9 +5178,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &546683286
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5116,9 +5294,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &549440038
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5194,9 +5375,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &563513405
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5258,9 +5442,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!4 &568104123
 Transform:
   m_ObjectHideFlags: 0
@@ -5387,9 +5574,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!4 &579699214
 Transform:
   m_ObjectHideFlags: 0
@@ -5479,9 +5669,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &592199855
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5557,9 +5750,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &602991328
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5635,9 +5831,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &614777057
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5713,9 +5912,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &641039372
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5791,9 +5993,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &662424824
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5869,9 +6074,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &662874992
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5947,9 +6155,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &679432490
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6025,9 +6236,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &680206426
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6145,9 +6359,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &681594944
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6263,9 +6480,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &686331239
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6327,9 +6547,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!4 &704333388
 Transform:
   m_ObjectHideFlags: 0
@@ -6475,9 +6698,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &729344241
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6553,9 +6779,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &733366337
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6631,9 +6860,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &743828224
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6709,9 +6941,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &750072513
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6787,9 +7022,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &750355969
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6851,9 +7089,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!4 &766709715
 Transform:
   m_ObjectHideFlags: 0
@@ -6943,9 +7184,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &770382455
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7021,9 +7265,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &783155175
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7099,9 +7346,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &803449808
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7177,9 +7427,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &813738387
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7241,9 +7494,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!4 &817408043
 Transform:
   m_ObjectHideFlags: 0
@@ -7333,9 +7589,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &847356825
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7411,9 +7670,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &871168090
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7489,9 +7751,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &871988534
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7567,9 +7832,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &872074188
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7645,9 +7913,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &872369709
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7709,9 +7980,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!4 &878376309
 Transform:
   m_ObjectHideFlags: 0
@@ -7801,9 +8075,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &882579229
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7879,9 +8156,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &903944634
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7957,9 +8237,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &919234079
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -8035,9 +8318,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &921021787
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -8113,9 +8399,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &930564953
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -8191,9 +8480,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &940663537
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -8269,9 +8561,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &941692201
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -8347,9 +8642,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &952060955
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -8425,9 +8723,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &953730807
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -8503,9 +8804,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &964802033
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -8581,9 +8885,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &971085520
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -8659,9 +8966,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &975820565
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -8737,9 +9047,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &989342972
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -8815,9 +9128,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &990533395
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -8930,9 +9246,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &996875112
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -8994,9 +9313,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!4 &1009335052
 Transform:
   m_ObjectHideFlags: 0
@@ -9086,9 +9408,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &1032129786
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -9164,9 +9489,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &1035007438
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -9273,9 +9601,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &1088966946
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -9351,9 +9682,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &1096433611
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -9415,9 +9749,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!4 &1103929337
 Transform:
   m_ObjectHideFlags: 0
@@ -9507,9 +9844,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &1106386506
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -9619,9 +9959,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &1108425245
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -9739,9 +10082,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &1116905465
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -9817,9 +10163,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &1119728778
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -9933,9 +10282,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &1124614023
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -10011,9 +10363,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &1131079477
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -10089,9 +10444,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &1137804603
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -10167,9 +10525,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &1146006871
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -10245,9 +10606,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &1178105140
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -10414,9 +10778,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &1192691226
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -10492,9 +10859,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &1217457094
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -10570,9 +10940,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &1222039814
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -10680,9 +11053,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &1225442454
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -10758,9 +11134,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &1227253934
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -10836,9 +11215,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &1233516146
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -10914,9 +11296,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &1239508564
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -10992,9 +11377,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &1241651098
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -11070,9 +11458,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &1246583906
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -11148,9 +11539,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &1257017176
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -11226,9 +11620,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &1261612548
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -11304,9 +11701,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &1261960061
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -11382,9 +11782,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &1265160390
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -11491,9 +11894,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &1273450537
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -11555,9 +11961,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!4 &1274414711
 Transform:
   m_ObjectHideFlags: 0
@@ -11647,9 +12056,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &1279760253
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -11725,9 +12137,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &1292749038
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -11803,9 +12218,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &1302729383
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -11881,9 +12299,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &1309936859
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -11959,9 +12380,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &1311048619
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -12037,9 +12461,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &1312653600
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -12208,9 +12635,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &1320446602
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -12286,9 +12716,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &1328764400
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -12364,9 +12797,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &1330879451
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -12442,9 +12878,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &1344363067
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -12520,9 +12959,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &1381174482
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -12598,9 +13040,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &1394315463
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -12731,9 +13176,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &1419878740
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -12809,9 +13257,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &1452703624
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -12887,9 +13338,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &1452954063
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -12965,9 +13419,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &1453514665
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -13077,9 +13534,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &1494500092
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -13155,9 +13615,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &1512964608
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -13233,9 +13696,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &1525645124
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -13311,9 +13777,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &1527972279
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -13415,7 +13884,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1866076879}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!20 &1530067470
 Camera:
@@ -13559,9 +14028,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &1541954137
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -13637,9 +14109,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &1564172042
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -13715,9 +14190,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &1564865493
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -13793,9 +14271,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &1605374258
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -13871,9 +14352,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &1612285697
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -13935,9 +14419,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!4 &1612742510
 Transform:
   m_ObjectHideFlags: 0
@@ -14013,9 +14500,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!4 &1618039997
 Transform:
   m_ObjectHideFlags: 0
@@ -14105,9 +14595,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &1622804986
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -14183,9 +14676,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &1624450925
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -14261,9 +14757,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &1624657599
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -14339,9 +14838,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &1637196876
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -14507,9 +15009,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!4 &1689078598
 Transform:
   m_ObjectHideFlags: 0
@@ -14599,9 +15104,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &1696663652
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -14677,9 +15185,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &1697852250
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -14755,9 +15266,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &1700047625
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -14833,9 +15347,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &1701991322
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -14911,9 +15428,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &1702944884
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -14989,9 +15509,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &1712905294
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -15067,9 +15590,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &1716691332
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -15145,9 +15671,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &1730356631
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -15223,9 +15752,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &1748448222
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -15301,9 +15833,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &1789222821
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -15379,9 +15914,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &1805868988
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -15457,9 +15995,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &1820364894
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -15566,9 +16107,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &1837051850
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -15630,9 +16174,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!4 &1839031341
 Transform:
   m_ObjectHideFlags: 0
@@ -15713,6 +16260,9 @@ MonoBehaviour:
   bullet: {fileID: 966591192015176603, guid: 06ed414c03b1a45a9879d005b28647ed, type: 3}
   bulletSpecial: {fileID: 156363784186341656, guid: c8f92e966398146efabe4aeef06f31ba,
     type: 3}
+  textGetManyPoint: {fileID: 0}
+  textGood: {fileID: 0}
+  textMiss: {fileID: 0}
   materials: []
 --- !u!212 &1866076878
 SpriteRenderer:
@@ -15773,6 +16323,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 1991934633}
   - {fileID: 1530067469}
   - {fileID: 8814868424361791014}
   m_Father: {fileID: 0}
@@ -15828,9 +16379,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!4 &1881719735
 Transform:
   m_ObjectHideFlags: 0
@@ -15920,9 +16474,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &1901298993
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -15998,9 +16555,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &1903415366
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -16076,9 +16636,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &1903897733
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -16154,9 +16717,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &1912510357
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -16232,9 +16798,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &1915264520
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -16310,9 +16879,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &1917686630
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -16388,9 +16960,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &1933513761
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -16466,9 +17041,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &1936826128
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -16544,9 +17122,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &1953341411
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -16622,9 +17203,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &1954059293
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -16747,9 +17331,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &1956375059
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -16825,9 +17412,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &1971921219
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -16857,6 +17447,59 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.01
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1991934632
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1991934633}
+  - component: {fileID: 1991934634}
+  m_Layer: 0
+  m_Name: TextPosition
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1991934633
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1991934632}
+  m_LocalRotation: {x: 0.097574174, y: -0, z: -0, w: 0.9952283}
+  m_LocalPosition: {x: 0, y: -0.663, z: 0.128}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1866076879}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 11.199, y: 0, z: 0}
+--- !u!114 &1991934634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1991934632}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 363050052a6f94564a5a0bf1c8c175c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animType: 5
+  YRot: 0
+  speed: 1
+  bullet: {fileID: 0}
+  bulletSpecial: {fileID: 0}
+  textGetManyPoint: {fileID: 6970030163310498464, guid: 4750c96f0d2cf418c97e8bbb843c943d,
+    type: 3}
+  textGood: {fileID: 0}
+  textMiss: {fileID: 0}
+  materials: []
 --- !u!1 &1992374546
 GameObject:
   m_ObjectHideFlags: 0
@@ -16903,9 +17546,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &1992374549
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -16981,9 +17627,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &1993647263
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -17059,9 +17708,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &1994399886
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -17137,9 +17789,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &2016703779
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -17215,9 +17870,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &2020111211
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -17293,9 +17951,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &2024626112
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -17371,9 +18032,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &2034192035
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -17449,9 +18113,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &2054205759
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -17513,9 +18180,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!4 &2058894620
 Transform:
   m_ObjectHideFlags: 0
@@ -17632,9 +18302,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!4 &2089621211
 Transform:
   m_ObjectHideFlags: 0
@@ -17724,9 +18397,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &2089728251
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -17802,9 +18478,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &2094419235
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -17880,9 +18559,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &2102997753
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -17958,9 +18640,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &2105506606
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -18036,9 +18721,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &2116171786
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -18155,9 +18843,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &2126269978
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -18233,9 +18924,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &2126950166
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -18311,9 +19005,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &2128579828
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -18389,9 +19086,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &2129262586
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -18467,9 +19167,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &2134471018
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -18545,9 +19248,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &2140381736
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -18623,9 +19329,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &2142763807
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -18701,9 +19410,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba, type: 3}
+  enemyQuiz: {fileID: 3810186481392750080, guid: c243ce215a6404f9a96d256467a0577b,
+    type: 3}
   cityName_Quiz: {fileID: 0}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
+  enemyDestory: 0
 --- !u!54 &2145215214
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -18756,6 +19468,9 @@ MonoBehaviour:
   speed: 0
   bullet: {fileID: 0}
   bulletSpecial: {fileID: 0}
+  textGetManyPoint: {fileID: 0}
+  textGood: {fileID: 0}
+  textMiss: {fileID: 0}
   materials:
   - {fileID: 2100000, guid: 544a36efd69e746c785ae692bcded6c9, type: 2}
   - {fileID: 2100000, guid: 40ce86d63cc7f4f2dab95d104bc7776d, type: 2}
@@ -18818,7 +19533,7 @@ PrefabInstance:
     - target: {fileID: 7979105981648646328, guid: aaab195c353f1426b90cb5a414b9c77a,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7979105981648646328, guid: aaab195c353f1426b90cb5a414b9c77a,
         type: 3}
@@ -18901,6 +19616,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 9cc3d50034660483595e342c0f79c246, type: 2}
   - {fileID: 2100000, guid: 25804c99bcd9f45b29cf4099b029e95e, type: 2}
   - {fileID: 2100000, guid: 6a48288f6eb4346d6a90dd8e7ae04da3, type: 2}
+  nowNumber: 0
 --- !u!114 &1508651713663925923
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18932,6 +19648,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 9cc3d50034660483595e342c0f79c246, type: 2}
   - {fileID: 2100000, guid: 25804c99bcd9f45b29cf4099b029e95e, type: 2}
   - {fileID: 2100000, guid: 6a48288f6eb4346d6a90dd8e7ae04da3, type: 2}
+  nowNumber: 0
 --- !u!114 &1508651713663925924
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18963,6 +19680,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 9cc3d50034660483595e342c0f79c246, type: 2}
   - {fileID: 2100000, guid: 25804c99bcd9f45b29cf4099b029e95e, type: 2}
   - {fileID: 2100000, guid: 6a48288f6eb4346d6a90dd8e7ae04da3, type: 2}
+  nowNumber: 0
 --- !u!4 &8814868424361791014 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7979105981648646328, guid: aaab195c353f1426b90cb5a414b9c77a,

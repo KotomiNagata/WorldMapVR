@@ -57,11 +57,14 @@ public class WaterBullet : MonoBehaviour
             }
         }
 
+        if(animType == AnimType.ATTACK)
+        {
+            WaterAnimation();
+        }
+
         if (animType == AnimType.ATTACK ||
            animType == AnimType.ATTACK_QUIZ)
         {
-            WaterAnimation();
-
             // タイマー
             this.timer -= Time.deltaTime;
             if (this.timer < 0)

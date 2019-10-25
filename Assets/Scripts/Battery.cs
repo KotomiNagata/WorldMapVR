@@ -14,6 +14,7 @@ public class Battery : MonoBehaviour
         RIGHT,  // マークが光る
         LEFT,   // マークが光る
         MATER,
+        TEXT    // テキスト生成
     }
 
     public AnimType animType;
@@ -21,7 +22,15 @@ public class Battery : MonoBehaviour
     public float speed = 1.0f;   // スピード
     public GameObject bullet;    // 弾のObj
     public GameObject bulletSpecial;// クイズを発生させる弾
+    public GameObject textGetManyPoint;
+    public GameObject textGood;
+    public GameObject textMiss;
+
+    // BODY
     bool bulletCreat = false;    // 弾を生成してもいいか
+    bool textGetManyPointCreat = false;
+
+    // マテリアル
     public Material[] materials; // マテリアル
     Renderer rend;               // カラー
     int cnt = 0;                 // マテリアルを入れるやつ
@@ -143,6 +152,26 @@ public class Battery : MonoBehaviour
             {
                 rend.material = materials[cnt = colorLevel];
                 change = false;
+            }
+        }
+
+        if (animType == AnimType.TEXT)
+        {
+            // テキスト生成
+            if (!system.noon)
+            {
+                if (textGetManyPointCreat)
+                {
+                    GameObject obj = (GameObject)Instantiate(textGetManyPoint,
+                                                             this.transform.position,
+                                                             this.transform.rotation);
+                    obj.transform.parent = transform;
+                    textGetManyPointCreat = false;
+                }
+            }
+            else
+            {
+                textGetManyPointCreat = true;
             }
         }
     }

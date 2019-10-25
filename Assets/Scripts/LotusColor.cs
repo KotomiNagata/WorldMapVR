@@ -25,6 +25,16 @@ public class LotusColor : MonoBehaviour
         score.AddEnemyEnelgy(1);
 
         rend.material.color = materials[cnt].color;
+        if (system.noon == true)
+        {
+            rend.material = materials[cnt = 0];
+            change = true;
+        }
+        if (system.noon == false)
+        {
+            rend.material = materials[cnt = 1];
+            change = false;
+        }
     }
 
     void Update()

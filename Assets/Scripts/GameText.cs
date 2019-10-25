@@ -10,7 +10,8 @@ public class GameText : MonoBehaviour
     {
         G_NUMBER,
         R_NUMBER,
-        FINISH
+        FINISH,
+        BATTERY_TEXT
     }
     public AnimType animType;
 
@@ -21,6 +22,11 @@ public class GameText : MonoBehaviour
     Vector3 thisSize;
     float appeanTime = 0.6f;
     float appeanSpeed = 0.005f;
+
+    // BATTERY_TEXT
+    bool kakudai = true;
+    bool syukusyou = false;
+    bool end = false;
 
     // R_NUMBER
     float timer = 1f;
@@ -37,16 +43,23 @@ public class GameText : MonoBehaviour
             Vector3 scale = this.gameObject.transform.localScale;
             gameObject.transform.localScale = new Vector3(0, 0, scale.z);
         }
+
+        if(animType == AnimType.BATTERY_TEXT)
+        {
+            thisSize = gameObject.transform.localScale;
+            Vector3 scale = this.gameObject.transform.localScale;
+            gameObject.transform.localScale = new Vector3(0, 0, scale.z);
+        }
     }
 
     void Update()
     {
-        if(animType == AnimType.G_NUMBER)
+        if (animType == AnimType.G_NUMBER)
         {
-            StartCoroutine("Appean");
+            StartCoroutine("Appean_G_NUMBER");
         }
 
-        if(animType == AnimType.R_NUMBER)
+        if (animType == AnimType.R_NUMBER)
         {
             timer -= Time.deltaTime;
             if(timer <= 0f)
@@ -60,9 +73,14 @@ public class GameText : MonoBehaviour
             // 回転
             transform.Rotate(new Vector3(0, -0.3f, 0));
         }
+
+        if (animType == AnimType.BATTERY_TEXT)
+        {
+            StartCoroutine("Appean_BATTERY_TEXT");
+        }
     }
 
-    private IEnumerator Appean()
+    private IEnumerator Appean_G_NUMBER()
     {
         Vector3 scale = this.gameObject.transform.localScale;
 
@@ -73,7 +91,7 @@ public class GameText : MonoBehaviour
             scale.z
         );
 
-        //もし大きさが1.3を超えたら拡大を止める
+        //拡大を止める
         if (scale.x > thisSize.x)
         {
             gameObject.transform.localScale = new Vector3(
@@ -93,5 +111,49 @@ public class GameText : MonoBehaviour
         {
             Destroy(gameObject);
         }
+    }
+
+    private IEnumerator Appean_BATTERY_TEXT()
+    {
+        if(!end)
+        {
+            Vector3 scale = this.gameObject.transform.localScale;
+
+            if (scale.x > thisSize.x + 0.01 && kakudai)
+            {
+                kakudai = false;
+                syukusyou = true;
+            }
+
+            if (scale.x < thisSize.x && syukusyou)
+            {
+                syukusyou = false;
+                end = true;
+            }
+
+            //拡大する
+            if (kakudai)
+            {
+                gameObject.transform.localScale = new Vector3(
+            scale.x + appeanSpeed,
+            scale.y + appeanSpeed,
+            scale.z
+            );
+            }
+
+            // 縮小する
+            if (syukusyou)
+            {
+                gameObject.transform.localScale = new Vector3(
+                scale.x - appeanSpeed,
+                scale.y - appeanSpeed,
+                scale.z);
+            }
+        }
+
+
+        yield return new WaitForSeconds(2.5f);
+
+        Destroy(this.gameObject);
     }
 }

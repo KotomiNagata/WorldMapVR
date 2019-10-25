@@ -87,7 +87,7 @@ public class BatteryTextParent : MonoBehaviour
 
         if (system.quizStart)
         {
-            if(selectNumberChange)
+            if(selectNumberChange && system.selectEnemy)
             {
                 cityList = system.enemyName;
                 CityAnswerSelect();

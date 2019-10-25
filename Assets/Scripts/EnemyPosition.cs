@@ -7,12 +7,14 @@ public class EnemyPosition : MonoBehaviour
     GameSystem system;
     PositionList posList;
     public GameObject enemy;
+    public GameObject enemyQuiz;
     public GameObject cityName_Quiz;
     public GameObject cityName_Good;
     public GameObject cityName_Miss;
     public bool enemyDestory = false;
     bool cloneEnemy = false;
     bool cloneText = false;
+    bool cloneEnemyQuiz = false;
     Vector3 pos;
     string myName;
 
@@ -47,8 +49,20 @@ public class EnemyPosition : MonoBehaviour
         if(system.selectEnemy)
         {
             enemyDestory = true;
-        }else{
+
+            if (system.enemyName == myName)
+            {
+                if(cloneEnemyQuiz)
+                {
+                    GameObject obj3 = (GameObject)Instantiate(enemyQuiz, transform.position, transform.rotation);
+                    obj3.transform.parent = transform;
+                    cloneEnemyQuiz = false;
+                }
+            }
+        }
+        else{
             enemyDestory = false;
+            cloneEnemyQuiz = true;
         }
     }
 

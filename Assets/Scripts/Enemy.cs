@@ -4,44 +4,66 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    EnemyPosition parent;
+    public enum AnimType
+    {
+        USUALLY,
+        QUIZ
+    }
+    public AnimType animType;
+    EnemyPosition parentScript;
     GameSystem system;
     Collider col;
+
     float time = 8f;
     Vector3 startPos;
-    int HP = 0;
+    public bool noDie = false;
+    GameObject parentObj;
 
     void Start()
     {
-        parent = GetComponent<EnemyPosition>();
-        system = GetComponent<GameSystem>();
-        col = GetComponent<Collider>();
-        startPos = this.transform.position;
-        col.isTrigger = false;
-        HP = 0;
+        parentObj = this.transform.parent.gameObject;
+        parentScript = parentObj.GetComponent<EnemyPosition>();
+
+        if (animType == AnimType.USUALLY)
+        {
+            system = GetComponent<GameSystem>();
+            col = GetComponent<Collider>();
+            startPos = this.transform.position;
+            col.isTrigger = false;
+        }
     }
 
     void Update()
     {
-        // タイマー
-        this.time -= Time.deltaTime;
+        if (animType == AnimType.USUALLY)
+        {
+            // タイマー
+            this.time -= Time.deltaTime;
 
-        // 0.5秒後にTriggerON
-        if (this.time < 7.5f)
-        {
-            col.isTrigger = true;
-        }
-        // 7秒後にTriggerOFF
-        if (this.time < 1f)
-        {
-            col.isTrigger = false;
+            // 0.5秒後にTriggerON
+            if (this.time < 7.5f)
+            {
+                col.isTrigger = true;
+            }
+            // 7秒後にTriggerOFF
+            if (this.time < 1f)
+            {
+                col.isTrigger = false;
+            }
+
+            if (this.time < 0f ||
+                parentScript.enemyDestory)
+            {
+                Destroy(this.gameObject);
+            }
         }
 
-        if (this.time < 0f ||
-            parent.enemyDestory && )
+        if(animType == AnimType.QUIZ)
         {
-            Destroy(this.gameObject);
+            if(parentScript.enemyDestory == false)
+            {
+                Destroy(this.gameObject);
+            }
         }
     }
-
 }
