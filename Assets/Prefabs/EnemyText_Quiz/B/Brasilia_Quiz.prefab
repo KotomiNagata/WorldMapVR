@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7766672217596718813}
+  - component: {fileID: 220893879109261918}
   m_Layer: 0
   m_Name: Brasilia_Quiz
   m_TagString: Untagged
@@ -31,6 +32,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &220893879109261918
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1666889416763260202}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bd282870dae94997ae2b1d1e1a6ec77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animType: 0
 --- !u!1 &6980257945995987906
 GameObject:
   m_ObjectHideFlags: 0

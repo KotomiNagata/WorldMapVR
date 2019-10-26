@@ -69,7 +69,6 @@ public class BatteryTextParent : MonoBehaviour
                 BattertTextSend();
                 selectNumberChange = false;
             }
-            system.selectEnemy = false;
         }
         if(!system.quizStart)
         {

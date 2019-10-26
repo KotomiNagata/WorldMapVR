@@ -9,6 +9,6 @@ EditorBuildSettings:
     path: Assets/Scenes/1_Title.unity
     guid: 8881722d87cc14cf4b35ec01c876f752
   - enabled: 1
-    path: Assets/Scenes/2_PlanetOutside.unity
+    path: Assets/Scenes/Test_PlanetOutside.unity
     guid: 1dde157e5a6cf4989972c847df5335f1
   m_configObjects: {}

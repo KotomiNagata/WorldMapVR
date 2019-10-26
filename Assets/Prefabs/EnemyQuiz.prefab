@@ -88,9 +88,10 @@ GameObject:
   m_Component:
   - component: {fileID: 196990367399148563}
   - component: {fileID: 8741638497464186915}
+  - component: {fileID: 2164329967052042146}
   m_Layer: 0
   m_Name: EnemyQuiz
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -124,8 +125,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animType: 1
-  parentObj: {fileID: 0}
   noDie: 0
+  usuallyEnemy: {fileID: 677940276504926274, guid: a232968bf4817432fa8d4e39a1a4b0ba,
+    type: 3}
+--- !u!65 &2164329967052042146
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3810186481392750080}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.05, y: 0.1, z: 0.05}
+  m_Center: {x: 0, y: 0.05, z: 0}
 --- !u!1 &5110106149928800004
 GameObject:
   m_ObjectHideFlags: 0

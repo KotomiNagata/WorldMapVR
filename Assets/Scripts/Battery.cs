@@ -235,6 +235,32 @@ public class Battery : MonoBehaviour
             }
         }
 
+        // 「Good!」
+        if(system.quizEnd && system.quizGood)
+        {
+            if(textGoodCreat)
+            {
+                GameObject obj = (GameObject)Instantiate(textGood,
+                                                            this.transform.position,
+                                                            this.transform.rotation);
+                obj.transform.parent = transform;
+                textGoodCreat = false;
+            }
+        }
+
+        // 「Miss...」
+        if(system.quizEnd && system.quizMiss)
+        {
+            if(textMissCreat)
+            {
+                GameObject obj = (GameObject)Instantiate(textMiss,
+                                                            this.transform.position,
+                                                            this.transform.rotation);
+                obj.transform.parent = transform;
+                textMissCreat = false;
+            }
+        }
+
         // 文字生成用のBoolをリセット
         if(!system.quizStart)
         {

@@ -90,6 +90,7 @@ GameObject:
   m_Component:
   - component: {fileID: 51887731931523786}
   - component: {fileID: 8623440960269344946}
+  - component: {fileID: 1602242353062606858}
   m_Layer: 0
   m_Name: Anchorage_Quiz
   m_TagString: Untagged
@@ -160,3 +161,16 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1602242353062606858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1800678146847644160}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bd282870dae94997ae2b1d1e1a6ec77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animType: 0

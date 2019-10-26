@@ -26,20 +26,23 @@ public class GameSystem : MonoBehaviour
     bool bulletEnd = false;
 
     // クイズ問題
-    public bool noon = true;          // 昼・夜切り替え
-    public bool quizStart = false;    // これからクイズをスタート合図
-    public bool selectEnemy = false;  // クイズスタート後エネミーを選んだ合図
-                                      // WaterBulletがtrueに変更
-                                      // BatteryTextがfalseに変更
-    public bool quizSelect = false;   // エネミーに当たり、選択肢が表示される合図
-    public bool decision = false;     // 答えを決めてから、敵に当たる・外れるまでの合図
-    public bool quizGood = false;     // 正解した合図
-                                      // BatteryTextのMIDDLEから指示
-    public bool quizMiss = false;     // 誤った合図
-                                      // BatteryTextのMIDDLEから指示
-                                      // WaterBulletのQuizBulletから指示
-    public bool quizEnd = false;      // QuizBulletが消えてクイズ終了
-    public string enemyName = "None"; // WaterBulletから代入
+    public bool noon = true;             // 昼・夜切り替え
+    public bool quizStart = false;       // これからクイズをスタート合図
+                                         // GameTextがfalse指示
+    public bool selectEnemy = false;     // クイズスタート後エネミーを選び、クイズ終了までTrue
+                                         // WaterBulletがtrueに変更
+                                         // Batteryがfalseに変更
+    public bool quizSelect = false;      // エネミーに当たり、選択肢が表示される合図
+    public bool decision = false;        // 答えを決めてから、敵に当たる・外れるまでの合図
+                                         // WaterBulletのQuizBulletからfalse指示
+    public bool quizGood = false;        // 正解した合図
+                                         // BatteryTextのMIDDLEから指示
+    public bool quizMiss = false;        // 誤った合図
+                                         // BatteryTextのMIDDLEから指示
+                                         // WaterBulletのQuizBulletから指示
+    public bool quizEnd = false;         // QuizBulletが消えてクイズ終了
+
+    public string enemyName = "None";    // WaterBulletから代入
 
     void Start()
     {
@@ -70,38 +73,34 @@ public class GameSystem : MonoBehaviour
             QuizGame();
             quizStart = true;
         }
+
+        if (!quizStart)
+        {
+            noon = true;
+            quizEnd = false;
+            quizGood = false;
+            quizMiss = false;
+            quizSelect = false;
+            selectEnemy = false;
+            enemyName = "None";
+        }
     }
 
     void QuizGame()
     {
-        if(enemyName != "None")
-        {
-            noon = false;
-        }
+        noon = false;
 
         // エネミーに当たったので、選択肢を表示
         if(selectEnemy)
         {
             quizSelect = true;
         }
-
+        /*
         // 決定ボタンを押したので、選択肢は消滅
         if(decision)
         {
             quizSelect = false;
-        }
-
-        if(quizEnd)
-        {
-            if(quizGood)
-            {
-                // ここから！！！！！
-            }
-            if(quizMiss)
-            {
-
-            }
-        }
+        }*/
     }
 
     void PlayingButtonScript()
@@ -173,7 +172,7 @@ public class GameSystem : MonoBehaviour
 
     void QuizBulletCreatScript()
     {
-        if (Input.GetKey("joystick button 17") && !bulletEnd)
+        if (Input.GetKey("joystick button 17") && !bulletEnd && !decision)
         {
             bullet = true;
             decision = true;

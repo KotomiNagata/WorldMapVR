@@ -34,13 +34,11 @@ public class WaterBullet : MonoBehaviour
             Vector3 rot = this.gameObject.transform.localEulerAngles;
             rot.y = battery.gameObject.transform.localEulerAngles.y;
         }
-        if(animType == AnimType.ATTACK)
-        {
-            lotusParent = GameObject.FindGameObjectWithTag("LotusParent");
-        }
-        if (animType == AnimType.ATTACK_QUIZ)
+
+        if(animType == AnimType.ATTACK || animType == AnimType.ATTACK_QUIZ)
         {
             system = FindObjectOfType<GameSystem>();
+            lotusParent = GameObject.FindGameObjectWithTag("LotusParent");
         }
     }
 
@@ -54,12 +52,12 @@ public class WaterBullet : MonoBehaviour
         if(animType == AnimType.ATTACK)
         {
             WaterAnimation();
+            AttackScript();
         }
 
-        if (animType == AnimType.ATTACK ||
-           animType == AnimType.ATTACK_QUIZ)
+        if (animType == AnimType.ATTACK_QUIZ)
         {
-            AttackAndQuiz_Script();
+            AttackQuizScript();
         }
     }
 
@@ -94,38 +92,6 @@ public class WaterBullet : MonoBehaviour
         }
     }
 
-    void OnTriggerEnter(Collider other)
-    {
-        if (other.gameObject.tag == "Enemy")
-        {
-            if (animType == AnimType.ATTACK_QUIZ)
-            {
-                system.decision = false;
-                system.quizEnd = true;
-                Instantiate(particle, this.transform.position, Quaternion.identity);
-                //Instantiate(musicEnemyDie);
-                Destroy(this.gameObject);
-            }
-
-            if(animType == AnimType.ATTACK)
-            {
-                if(!system.quizStart)
-                {
-                    Destroy(other.gameObject);
-                    Instantiate(musicEnemyDie);
-                    var parent = lotusParent.transform;
-                    Instantiate(lotus, other.transform.position, other.transform.rotation, parent);
-                }else
-                {
-                    system.enemyName = other.name;
-                    system.selectEnemy = true;
-                }
-                Instantiate(particle, this.transform.position, Quaternion.identity);
-                Destroy(this.gameObject);
-            }
-        }
-    }
-
     void MoveScript()
     {
         // Space.WorldではなくSpace.SelfするとYも回転できるようになる
@@ -140,7 +106,30 @@ public class WaterBullet : MonoBehaviour
         }
     }
 
-    void AttackAndQuiz_Script()
+    void AttackScript()
+    {
+        // タイマー
+        this.timer -= Time.deltaTime;
+        if (this.timer < 0)
+        {
+            clone = true;
+        }
+
+        // 夜モードになった瞬間のみ消える
+        if(GameObject.FindGameObjectWithTag("GameText"))
+        {
+            clone = true;
+        }
+
+        // パーティクル生産
+        if (clone)
+        {
+            Instantiate(particle, this.transform.position, Quaternion.identity);
+            Destroy(this.gameObject);
+        }
+    }
+
+    void AttackQuizScript()
     {
         // タイマー
         this.timer -= Time.deltaTime;
@@ -160,4 +149,43 @@ public class WaterBullet : MonoBehaviour
             Destroy(this.gameObject);
         }
     }
+
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.tag == "Enemy")
+        {
+            if (animType == AnimType.ATTACK_QUIZ)
+            {
+                Destroy(other.gameObject);
+                Instantiate(musicEnemyDie);
+                Instantiate(particle, this.transform.position, Quaternion.identity);
+                var parent = lotusParent.transform;
+                Instantiate(lotus, other.transform.position, other.transform.rotation, parent);
+
+                system.decision = false;
+                system.quizEnd = true;
+
+                Destroy(this.gameObject);
+            }
+
+            if (animType == AnimType.ATTACK)
+            {
+                if (!system.quizStart)
+                {
+                    Destroy(other.gameObject);
+                    Instantiate(musicEnemyDie);
+                    var parent = lotusParent.transform;
+                    Instantiate(lotus, other.transform.position, other.transform.rotation, parent);
+                }
+                else
+                {
+                    system.enemyName = other.name;
+                    system.selectEnemy = true;
+                }
+                Instantiate(particle, this.transform.position, Quaternion.identity);
+                Destroy(this.gameObject);
+            }
+        }
+    }
+
 }

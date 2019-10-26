@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class GameScore : MonoBehaviour
 {
+    GameSystem system;
 
     public int score = 0;
     public int enemyEnelgy = 0;
@@ -11,7 +12,7 @@ public class GameScore : MonoBehaviour
 
     void Start()
     {
-        
+        system = FindObjectOfType<GameSystem>();
     }
 
     public void AddPoint(int point)
@@ -21,17 +22,18 @@ public class GameScore : MonoBehaviour
 
     public void AddEnemyEnelgy(int point)
     {
-        enemyEnelgy = enemyEnelgy + point;
-
-        if(enemyEnelgy == 11)
+        if(enemyEnelgy < 10)
         {
-            Hissatsuwaza = true;
-            enemyEnelgy = 0;
+            enemyEnelgy = enemyEnelgy + point;
         }
     }
 
     void Update()
     {
-        
+        if (system.decision)
+        {
+            Hissatsuwaza = true;
+            enemyEnelgy = 0;
+        }
     }
 }

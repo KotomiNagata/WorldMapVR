@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3767307629801292133}
   - component: {fileID: 459612331156857621}
+  - component: {fileID: 156623035904213416}
   m_Layer: 0
   m_Name: Antananarivo_Quiz
   m_TagString: Untagged
@@ -80,6 +81,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &156623035904213416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 912099284507415010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bd282870dae94997ae2b1d1e1a6ec77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animType: 0
 --- !u!1 &1266056117517677546
 GameObject:
   m_ObjectHideFlags: 0

@@ -12,7 +12,8 @@ public class BatteryText : MonoBehaviour
     }
 
     GameSystem system;
-    BatteryTextParent parent;
+    BatteryTextParent parentScript;
+    GameObject parentObj;
 
     public AnimType animType;
     public Material[] materials; // マテリアル
@@ -24,13 +25,14 @@ public class BatteryText : MonoBehaviour
 
     void Awake()
     {
-        system = GetComponent<GameSystem>();
         rend = GetComponent<Renderer>();
     }
 
     void Start()
     {
-        parent = FindObjectOfType<BatteryTextParent>();
+        system = FindObjectOfType<GameSystem>();
+        parentObj = this.transform.root.gameObject;
+        parentScript = parentObj.GetComponent<BatteryTextParent>();
         rend.material = materials[cnt = 0];
     }
 
@@ -50,17 +52,17 @@ public class BatteryText : MonoBehaviour
         {
             LeftScript();
         }
-        /*
-        if(system.noon)
+
+        if(!system.quizStart)
         {
             rend.material = materials[cnt = 0];
-        }*/
+        }
     }
 
     void MiddleScript()
     {
         startNumber = nowNumber;
-        nowNumber = parent.numberMiddle;
+        nowNumber = parentScript.numberMiddle;
         if (nowNumber != startNumber)
         {
             change = true;
@@ -71,14 +73,14 @@ public class BatteryText : MonoBehaviour
             change = false;
         }
 
-        if (system.quizSelect)
+        if (system.quizSelect && !system.decision && !system.quizEnd)
         {
-            if(parent.answer == nowNumber)
+            if(parentScript.answer == nowNumber)
             {
                 system.quizGood = true;
                 system.quizMiss = false;
             }
-            if (parent.answer != nowNumber)
+            if (parentScript.answer != nowNumber)
             {
                 system.quizGood = false;
                 system.quizMiss = true;
@@ -89,7 +91,7 @@ public class BatteryText : MonoBehaviour
     void RightScript()
     {
         startNumber = nowNumber;
-        nowNumber = parent.numberRight;
+        nowNumber = parentScript.numberRight;
         if (nowNumber != startNumber)
         {
             change = true;
@@ -109,7 +111,7 @@ public class BatteryText : MonoBehaviour
     void LeftScript()
     {
         startNumber = nowNumber;
-        nowNumber = parent.numberLeft;
+        nowNumber = parentScript.numberLeft;
         if (nowNumber != startNumber)
         {
             change = true;

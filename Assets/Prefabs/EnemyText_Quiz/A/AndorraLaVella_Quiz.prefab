@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 514360978969018264}
   - component: {fileID: 5474079236192537392}
+  - component: {fileID: 7059791247565791682}
   m_Layer: 0
   m_Name: AndorraLaVella_Quiz
   m_TagString: Untagged
@@ -80,6 +81,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &7059791247565791682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4492090400300744777}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bd282870dae94997ae2b1d1e1a6ec77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animType: 0
 --- !u!1 &7287663530365366685
 GameObject:
   m_ObjectHideFlags: 0

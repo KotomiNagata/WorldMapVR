@@ -90,6 +90,7 @@
     <Compile Include="Assets\Scripts\Old\Wave.cs" />
     <Compile Include="Assets\Scripts\Old\WorldMove.cs" />
     <Compile Include="Assets\Scripts\PositionList.cs" />
+    <Compile Include="Assets\Scripts\QuizText.cs" />
     <Compile Include="Assets\Scripts\TimeAttack.cs" />
     <Compile Include="Assets\Scripts\WaterBullet.cs" />
     <Compile Include="Assets\Scripts\WaterParticle.cs" />

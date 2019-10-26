@@ -18,15 +18,16 @@ public class Enemy : MonoBehaviour
     Vector3 startPos;
     public bool noDie = false;
     GameObject parentObj;
+    public GameObject usuallyEnemy;
 
     void Start()
     {
+        system =FindObjectOfType<GameSystem>();
         parentObj = this.transform.parent.gameObject;
         parentScript = parentObj.GetComponent<EnemyPosition>();
 
         if (animType == AnimType.USUALLY)
         {
-            system = GetComponent<GameSystem>();
             col = GetComponent<Collider>();
             startPos = this.transform.position;
             col.isTrigger = false;
@@ -67,12 +68,21 @@ public class Enemy : MonoBehaviour
         {
             Destroy(this.gameObject);
         }
+
+        if(system.selectEnemy)
+        {
+            Destroy(this.gameObject);
+        }
     }
 
     void QuizScript()
     {
-        if (parentScript.enemyDestory == false)
+        if (system.quizEnd)
         {
+            GameObject obj = (GameObject)Instantiate(usuallyEnemy,
+                                                     this.transform.position,
+                                                     this.transform.rotation);
+            obj.transform.parent = transform;
             Destroy(this.gameObject);
         }
     }
