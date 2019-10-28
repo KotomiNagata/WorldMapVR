@@ -5,14 +5,17 @@ using UnityEngine;
 public class GameScore : MonoBehaviour
 {
     GameSystem system;
+    GameRecord record;
 
-    public int score = 0;
-    public int enemyEnelgy = 0;
     public bool Hissatsuwaza = false;
+    public int enemyEnelgy = 0;
+    int score = 0;
+    int enemyNumber = 0;
 
     void Start()
     {
         system = FindObjectOfType<GameSystem>();
+        record = FindObjectOfType<GameRecord>();
     }
 
     public void AddPoint(int point)
@@ -28,6 +31,11 @@ public class GameScore : MonoBehaviour
         }
     }
 
+    public void AddEnemyDieNumber(int point)
+    {
+        enemyNumber = enemyNumber + point;
+    }
+
     void Update()
     {
         if (system.decision)
@@ -35,5 +43,11 @@ public class GameScore : MonoBehaviour
             Hissatsuwaza = true;
             enemyEnelgy = 0;
         }
+    }
+
+    void SceneChange()
+    {
+        record.intEnemy = enemyNumber;
+        record.intScore = score;
     }
 }

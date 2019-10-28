@@ -16,6 +16,7 @@ public class GameText : MonoBehaviour
     }
     public AnimType animType;
     GameSystem system;
+    GameScore score;
 
     // G_NUMBER (ズーム + フェード)
     private Renderer rend;
@@ -29,7 +30,8 @@ public class GameText : MonoBehaviour
     float timer = 1f;
 
     // BATTERY_TEXT
-    public bool goodOrMiss = false;
+    public bool good = false;
+    public bool miss = false;
     bool kakudai = true;
     bool syukusyou = false;
     bool end = false;
@@ -50,6 +52,7 @@ public class GameText : MonoBehaviour
         if(animType == AnimType.BATTERY_TEXT)
         {
             system = FindObjectOfType<GameSystem>();
+            score = FindObjectOfType<GameScore>();
             thisSize = gameObject.transform.localScale;
             Vector3 scale = this.gameObject.transform.localScale;
             gameObject.transform.localScale = new Vector3(0, 0, scale.z);
@@ -178,8 +181,14 @@ public class GameText : MonoBehaviour
 
         yield return new WaitForSeconds(1f);
 
-        if(goodOrMiss)
+        if(good)
         {
+            score.AddPoint(1000);
+            system.quizStart = false;
+        }
+        if(miss)
+        {
+            score.AddPoint(100);
             system.quizStart = false;
         }
         Destroy(this.gameObject);

@@ -68,6 +68,8 @@
     <Compile Include="Assets\Scripts\Controller.cs" />
     <Compile Include="Assets\Scripts\Enemy.cs" />
     <Compile Include="Assets\Scripts\EnemyPosition.cs" />
+    <Compile Include="Assets\Scripts\GameRecord.cs" />
+    <Compile Include="Assets\Scripts\GameRecordChild.cs" />
     <Compile Include="Assets\Scripts\GameScore.cs" />
     <Compile Include="Assets\Scripts\GameSystem.cs" />
     <Compile Include="Assets\Scripts\GameText.cs" />

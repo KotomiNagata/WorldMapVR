@@ -21,12 +21,12 @@ public class LotusColor : MonoBehaviour
     {
         system = FindObjectOfType<GameSystem>();
         score = FindObjectOfType<GameScore>();
-        score.AddPoint(10);
-        score.AddEnemyEnelgy(1);
-
         rend.material.color = materials[cnt].color;
+
         if (system.noon == true)
         {
+            score.AddPoint(300);
+            score.AddEnemyEnelgy(1);
             rend.material = materials[cnt = 0];
             change = true;
         }

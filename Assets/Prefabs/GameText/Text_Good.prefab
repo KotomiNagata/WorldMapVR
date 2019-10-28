@@ -93,4 +93,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animType: 3
-  goodOrMiss: 1
+  good: 1
+  miss: 0
