@@ -609,6 +609,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e35c9b6ff834942baa2d35ee7393c6dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fadeInObj: {fileID: 2476686109301754780, guid: 70bdd5d53efb64bc0bdfac2316874519,
+    type: 3}
+  sceneName: 2_GamePlay
 --- !u!23 &1707360845
 MeshRenderer:
   m_ObjectHideFlags: 0
