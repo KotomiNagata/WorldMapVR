@@ -62,23 +62,29 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Battery.cs" />
-    <Compile Include="Assets\Scripts\BatteryText.cs" />
-    <Compile Include="Assets\Scripts\BatteryTextParent.cs" />
-    <Compile Include="Assets\Scripts\Controller.cs" />
-    <Compile Include="Assets\Scripts\Enemy.cs" />
-    <Compile Include="Assets\Scripts\EnemyPosition.cs" />
+    <Compile Include="Assets\Scripts\FadeObject.cs" />
     <Compile Include="Assets\Scripts\GameRecord.cs" />
-    <Compile Include="Assets\Scripts\GameRecordChild.cs" />
-    <Compile Include="Assets\Scripts\GameScore.cs" />
-    <Compile Include="Assets\Scripts\GameSystem.cs" />
-    <Compile Include="Assets\Scripts\GameText.cs" />
-    <Compile Include="Assets\Scripts\LotusColor.cs" />
+    <Compile Include="Assets\Scripts\GamPlay\Battery.cs" />
+    <Compile Include="Assets\Scripts\GamPlay\BatteryText.cs" />
+    <Compile Include="Assets\Scripts\GamPlay\BatteryTextParent.cs" />
+    <Compile Include="Assets\Scripts\GamPlay\Controller.cs" />
+    <Compile Include="Assets\Scripts\GamPlay\Enemy.cs" />
+    <Compile Include="Assets\Scripts\GamPlay\EnemyPosition.cs" />
+    <Compile Include="Assets\Scripts\GamPlay\GameRecordChild.cs" />
+    <Compile Include="Assets\Scripts\GamPlay\GameScore.cs" />
+    <Compile Include="Assets\Scripts\GamPlay\GameSystem.cs" />
+    <Compile Include="Assets\Scripts\GamPlay\GameText.cs" />
+    <Compile Include="Assets\Scripts\GamPlay\LotusColor.cs" />
+    <Compile Include="Assets\Scripts\GamPlay\PositionList.cs" />
+    <Compile Include="Assets\Scripts\GamPlay\QuizText.cs" />
+    <Compile Include="Assets\Scripts\GamPlay\TimeAttack.cs" />
+    <Compile Include="Assets\Scripts\GamPlay\WaterBullet.cs" />
+    <Compile Include="Assets\Scripts\GamPlay\WaterParticle.cs" />
+    <Compile Include="Assets\Scripts\GamPlay\WorldMap.cs" />
     <Compile Include="Assets\Scripts\Music.cs" />
     <Compile Include="Assets\Scripts\Old\Animation_Oar.cs" />
     <Compile Include="Assets\Scripts\Old\Animation_Sea.cs" />
     <Compile Include="Assets\Scripts\Old\AnimationByArray.cs" />
-    <Compile Include="Assets\Scripts\Old\FadeObj_PlanetOutSide.cs" />
     <Compile Include="Assets\Scripts\Old\GameSetting.cs" />
     <Compile Include="Assets\Scripts\Old\Hologram.cs" />
     <Compile Include="Assets\Scripts\Old\LotusBloom.cs" />
@@ -91,12 +97,8 @@
     <Compile Include="Assets\Scripts\Old\VisionSekaiisan.cs" />
     <Compile Include="Assets\Scripts\Old\Wave.cs" />
     <Compile Include="Assets\Scripts\Old\WorldMove.cs" />
-    <Compile Include="Assets\Scripts\PositionList.cs" />
-    <Compile Include="Assets\Scripts\QuizText.cs" />
-    <Compile Include="Assets\Scripts\TimeAttack.cs" />
-    <Compile Include="Assets\Scripts\WaterBullet.cs" />
-    <Compile Include="Assets\Scripts\WaterParticle.cs" />
-    <Compile Include="Assets\Scripts\WorldMap.cs" />
+    <Compile Include="Assets\Scripts\Title\Title_Map.cs" />
+    <Compile Include="Assets\Scripts\Title\Title_Text.cs" />
     <None Include="Assets\Materials\Sea\Sea.shader" />
     <None Include="Assets\Scripts\Old\Sea\LightWave.shader" />
     <Reference Include="Unity.Timeline.Editor">

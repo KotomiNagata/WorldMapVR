@@ -9,6 +9,8 @@ TagManager:
   - Lotus
   - LotusParent
   - GameText
+  - LankingPosition
+  - LankingParent
   layers:
   - Default
   - TransparentFX

@@ -6,9 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/1_Title.unity
+    path: Assets/Scenes/1_Title01.unity
     guid: 8881722d87cc14cf4b35ec01c876f752
   - enabled: 1
-    path: Assets/Scenes/Test_PlanetOutside.unity
-    guid: 1dde157e5a6cf4989972c847df5335f1
+    path: Assets/Scenes/1_Title02.unity
+    guid: f0662ca3742284a958658b5e1bf4dd8d
+  - enabled: 1
+    path: Assets/Scenes/2_GamePlay.unity
+    guid: a27422e371e534bb0b687d0ab793b5c7
+  - enabled: 1
+    path: Assets/Scenes/3_Result.unity
+    guid: 97559fe95c9f647129f984b7b4f8373a
   m_configObjects: {}
