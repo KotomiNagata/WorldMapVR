@@ -201,7 +201,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &7342832
 GameObject:
   m_ObjectHideFlags: 0
@@ -283,7 +282,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &8726786
 GameObject:
   m_ObjectHideFlags: 0
@@ -365,7 +363,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &11530704
 GameObject:
   m_ObjectHideFlags: 0
@@ -447,7 +444,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &21592256
 GameObject:
   m_ObjectHideFlags: 0
@@ -529,7 +525,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &26254387
 GameObject:
   m_ObjectHideFlags: 0
@@ -611,7 +606,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &43173209
 GameObject:
   m_ObjectHideFlags: 0
@@ -693,7 +687,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &49712898
 GameObject:
   m_ObjectHideFlags: 0
@@ -775,7 +768,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &51448036
 GameObject:
   m_ObjectHideFlags: 0
@@ -857,7 +849,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &52231799
 GameObject:
   m_ObjectHideFlags: 0
@@ -939,7 +930,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &54742194
 GameObject:
   m_ObjectHideFlags: 0
@@ -1021,7 +1011,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &55399881
 GameObject:
   m_ObjectHideFlags: 0
@@ -1103,7 +1092,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &55921268
 GameObject:
   m_ObjectHideFlags: 0
@@ -1185,7 +1173,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &57290282
 GameObject:
   m_ObjectHideFlags: 0
@@ -1267,7 +1254,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &58259994
 GameObject:
   m_ObjectHideFlags: 0
@@ -1349,7 +1335,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &69475047
 GameObject:
   m_ObjectHideFlags: 0
@@ -1462,7 +1447,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &82847780
 GameObject:
   m_ObjectHideFlags: 0
@@ -1544,7 +1528,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &93652395
 GameObject:
   m_ObjectHideFlags: 0
@@ -1626,7 +1609,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &99277669
 GameObject:
   m_ObjectHideFlags: 0
@@ -1779,7 +1761,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &145515813
 GameObject:
   m_ObjectHideFlags: 0
@@ -1861,7 +1842,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &158493204
 GameObject:
   m_ObjectHideFlags: 0
@@ -1943,7 +1923,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &163927166
 GameObject:
   m_ObjectHideFlags: 0
@@ -2025,7 +2004,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &167333489
 GameObject:
   m_ObjectHideFlags: 0
@@ -2200,7 +2178,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &198764004
 GameObject:
   m_ObjectHideFlags: 0
@@ -2282,7 +2259,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &198825726
 GameObject:
   m_ObjectHideFlags: 0
@@ -2364,7 +2340,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &200418370
 GameObject:
   m_ObjectHideFlags: 0
@@ -2446,7 +2421,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &214471263
 GameObject:
   m_ObjectHideFlags: 0
@@ -2528,7 +2502,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &214982827
 GameObject:
   m_ObjectHideFlags: 0
@@ -2752,7 +2725,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &275466440
 GameObject:
   m_ObjectHideFlags: 0
@@ -2834,7 +2806,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &280213796
 GameObject:
   m_ObjectHideFlags: 0
@@ -2916,7 +2887,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &293651166
 GameObject:
   m_ObjectHideFlags: 0
@@ -2998,7 +2968,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &297290232
 GameObject:
   m_ObjectHideFlags: 0
@@ -3080,7 +3049,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &302523044
 GameObject:
   m_ObjectHideFlags: 0
@@ -3162,7 +3130,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &306413417
 GameObject:
   m_ObjectHideFlags: 0
@@ -3244,7 +3211,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &307187366
 GameObject:
   m_ObjectHideFlags: 0
@@ -3326,7 +3292,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &313709207
 GameObject:
   m_ObjectHideFlags: 0
@@ -3408,7 +3373,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &325083461
 GameObject:
   m_ObjectHideFlags: 0
@@ -3490,7 +3454,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &336603956
 GameObject:
   m_ObjectHideFlags: 0
@@ -3572,7 +3535,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &348929468
 GameObject:
   m_ObjectHideFlags: 0
@@ -3654,7 +3616,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &376308460
 GameObject:
   m_ObjectHideFlags: 0
@@ -3736,7 +3697,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &384771219
 GameObject:
   m_ObjectHideFlags: 0
@@ -3818,7 +3778,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &396777683
 GameObject:
   m_ObjectHideFlags: 0
@@ -3900,7 +3859,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &400397209
 GameObject:
   m_ObjectHideFlags: 0
@@ -3982,7 +3940,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &407004803
 GameObject:
   m_ObjectHideFlags: 0
@@ -4064,7 +4021,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &414491916
 GameObject:
   m_ObjectHideFlags: 0
@@ -4146,7 +4102,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &417401296
 GameObject:
   m_ObjectHideFlags: 0
@@ -4228,7 +4183,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &432682659
 GameObject:
   m_ObjectHideFlags: 0
@@ -4310,7 +4264,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &434672734
 GameObject:
   m_ObjectHideFlags: 0
@@ -4392,7 +4345,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &439462141
 GameObject:
   m_ObjectHideFlags: 0
@@ -4474,7 +4426,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &454366940
 GameObject:
   m_ObjectHideFlags: 0
@@ -4593,7 +4544,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &463279423
 GameObject:
   m_ObjectHideFlags: 0
@@ -4716,7 +4666,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &485610812
 GameObject:
   m_ObjectHideFlags: 0
@@ -4798,7 +4747,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &495610796
 GameObject:
   m_ObjectHideFlags: 0
@@ -4880,7 +4828,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &496558533
 GameObject:
   m_ObjectHideFlags: 0
@@ -4962,7 +4909,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &505555003
 GameObject:
   m_ObjectHideFlags: 0
@@ -5044,7 +4990,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &516015382
 GameObject:
   m_ObjectHideFlags: 0
@@ -5177,7 +5122,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &534902737
 GameObject:
   m_ObjectHideFlags: 0
@@ -5259,7 +5203,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &537251990
 GameObject:
   m_ObjectHideFlags: 0
@@ -5341,7 +5284,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &541912953
 GameObject:
   m_ObjectHideFlags: 0
@@ -5423,7 +5365,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &560990737
 GameObject:
   m_ObjectHideFlags: 0
@@ -5505,7 +5446,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &568960660
 GameObject:
   m_ObjectHideFlags: 0
@@ -5587,7 +5527,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &581355491
 GameObject:
   m_ObjectHideFlags: 0
@@ -5669,7 +5608,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &591444192
 GameObject:
   m_ObjectHideFlags: 0
@@ -5751,7 +5689,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &592287471
 GameObject:
   m_ObjectHideFlags: 0
@@ -5833,7 +5770,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &601223907
 GameObject:
   m_ObjectHideFlags: 0
@@ -5915,7 +5851,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &605091147
 GameObject:
   m_ObjectHideFlags: 0
@@ -5997,7 +5932,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &608140179
 GameObject:
   m_ObjectHideFlags: 0
@@ -6079,7 +6013,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &626480334
 GameObject:
   m_ObjectHideFlags: 0
@@ -6161,7 +6094,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &639578537
 GameObject:
   m_ObjectHideFlags: 0
@@ -6243,7 +6175,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &651230138
 GameObject:
   m_ObjectHideFlags: 0
@@ -6325,7 +6256,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &658719430
 GameObject:
   m_ObjectHideFlags: 0
@@ -6407,7 +6337,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &675811672
 GameObject:
   m_ObjectHideFlags: 0
@@ -6489,7 +6418,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &687018551
 GameObject:
   m_ObjectHideFlags: 0
@@ -6571,7 +6499,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &688927498
 GameObject:
   m_ObjectHideFlags: 0
@@ -6653,7 +6580,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &693395048
 GameObject:
   m_ObjectHideFlags: 0
@@ -6735,7 +6661,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &696139887
 GameObject:
   m_ObjectHideFlags: 0
@@ -6817,7 +6742,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &718513422
 GameObject:
   m_ObjectHideFlags: 0
@@ -6899,7 +6823,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &720267520
 GameObject:
   m_ObjectHideFlags: 0
@@ -6981,7 +6904,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &725409923
 GameObject:
   m_ObjectHideFlags: 0
@@ -7063,7 +6985,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &731179001
 GameObject:
   m_ObjectHideFlags: 0
@@ -7145,7 +7066,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &745542682
 GameObject:
   m_ObjectHideFlags: 0
@@ -7227,7 +7147,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &754750155
 GameObject:
   m_ObjectHideFlags: 0
@@ -7309,7 +7228,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &756218433
 GameObject:
   m_ObjectHideFlags: 0
@@ -7422,7 +7340,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &773630871
 GameObject:
   m_ObjectHideFlags: 0
@@ -7504,7 +7421,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &783796095
 GameObject:
   m_ObjectHideFlags: 0
@@ -7586,7 +7502,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &787650799
 GameObject:
   m_ObjectHideFlags: 0
@@ -7668,7 +7583,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &806359690
 GameObject:
   m_ObjectHideFlags: 0
@@ -7750,7 +7664,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &812435541
 GameObject:
   m_ObjectHideFlags: 0
@@ -7832,7 +7745,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &823027897
 GameObject:
   m_ObjectHideFlags: 0
@@ -7914,7 +7826,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &831053837
 GameObject:
   m_ObjectHideFlags: 0
@@ -8038,7 +7949,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &842880053
 GameObject:
   m_ObjectHideFlags: 0
@@ -8120,7 +8030,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &862565178
 GameObject:
   m_ObjectHideFlags: 0
@@ -8202,7 +8111,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &870187425
 GameObject:
   m_ObjectHideFlags: 0
@@ -8284,7 +8192,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &880333701
 GameObject:
   m_ObjectHideFlags: 0
@@ -8366,7 +8273,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &883585111
 GameObject:
   m_ObjectHideFlags: 0
@@ -8448,7 +8354,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &887800642
 GameObject:
   m_ObjectHideFlags: 0
@@ -8530,7 +8435,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &899053119
 GameObject:
   m_ObjectHideFlags: 0
@@ -8612,7 +8516,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &908200478
 GameObject:
   m_ObjectHideFlags: 0
@@ -8694,7 +8597,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &912419270
 GameObject:
   m_ObjectHideFlags: 0
@@ -8776,7 +8678,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &924729824
 GameObject:
   m_ObjectHideFlags: 0
@@ -8858,7 +8759,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &924794301
 GameObject:
   m_ObjectHideFlags: 0
@@ -8972,7 +8872,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &928041061
 GameObject:
   m_ObjectHideFlags: 0
@@ -9054,7 +8953,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &931508359
 GameObject:
   m_ObjectHideFlags: 0
@@ -9167,7 +9065,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &972900171
 GameObject:
   m_ObjectHideFlags: 0
@@ -9249,7 +9146,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &989728861
 GameObject:
   m_ObjectHideFlags: 0
@@ -9331,7 +9227,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &1044763001
 GameObject:
   m_ObjectHideFlags: 0
@@ -9413,7 +9308,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &1050906814
 GameObject:
   m_ObjectHideFlags: 0
@@ -9526,7 +9420,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &1065154787
 GameObject:
   m_ObjectHideFlags: 0
@@ -9608,7 +9501,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &1076728940
 GameObject:
   m_ObjectHideFlags: 0
@@ -9690,7 +9582,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &1077759567
 GameObject:
   m_ObjectHideFlags: 0
@@ -9805,7 +9696,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &1090559933
 GameObject:
   m_ObjectHideFlags: 0
@@ -9887,7 +9777,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &1094210856
 GameObject:
   m_ObjectHideFlags: 0
@@ -9969,7 +9858,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &1119908320
 GameObject:
   m_ObjectHideFlags: 0
@@ -10051,7 +9939,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &1121284942
 GameObject:
   m_ObjectHideFlags: 0
@@ -10133,7 +10020,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &1127254222
 GameObject:
   m_ObjectHideFlags: 0
@@ -10215,7 +10101,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &1135752750
 GameObject:
   m_ObjectHideFlags: 0
@@ -10297,7 +10182,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &1143568727
 GameObject:
   m_ObjectHideFlags: 0
@@ -10379,7 +10263,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &1144945570
 GameObject:
   m_ObjectHideFlags: 0
@@ -10461,7 +10344,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &1150309517
 GameObject:
   m_ObjectHideFlags: 0
@@ -10634,7 +10516,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &1175235555
 GameObject:
   m_ObjectHideFlags: 0
@@ -10716,7 +10597,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &1195907506
 GameObject:
   m_ObjectHideFlags: 0
@@ -10798,7 +10678,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &1198825366
 GameObject:
   m_ObjectHideFlags: 0
@@ -10880,7 +10759,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &1242223855
 GameObject:
   m_ObjectHideFlags: 0
@@ -10962,7 +10840,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &1277544426
 GameObject:
   m_ObjectHideFlags: 0
@@ -11044,7 +10921,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1001 &1286860237
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11268,7 +11144,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animType: 4
-  YRot: 0
   speed: 0
   bullet: {fileID: 0}
   bulletSpecial: {fileID: 0}
@@ -11457,7 +11332,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &1312124950
 GameObject:
   m_ObjectHideFlags: 0
@@ -11539,7 +11413,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &1318134327
 GameObject:
   m_ObjectHideFlags: 0
@@ -11621,7 +11494,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &1324999876
 GameObject:
   m_ObjectHideFlags: 0
@@ -11703,7 +11575,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &1327576404
 GameObject:
   m_ObjectHideFlags: 0
@@ -11785,7 +11656,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &1340961502
 GameObject:
   m_ObjectHideFlags: 0
@@ -11867,7 +11737,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &1342579319
 GameObject:
   m_ObjectHideFlags: 0
@@ -11949,7 +11818,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &1344532589
 GameObject:
   m_ObjectHideFlags: 0
@@ -12031,7 +11899,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &1351765802
 GameObject:
   m_ObjectHideFlags: 0
@@ -12066,8 +11933,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   score: 0
-  enemyEnelgy: 0
-  Hissatsuwaza: 0
 --- !u!114 &1351765804
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12093,14 +11958,6 @@ MonoBehaviour:
   Music01: {fileID: 8641314644213839883, guid: 792b801bac05441d696b60cc8ec20aa5, type: 3}
   Music02: {fileID: 9103470777708099927, guid: 1530e0cb597c44ffa8ff47603ccb8a8b, type: 3}
   Music03: {fileID: 7876727412003792669, guid: 53b9ffb070c3741fe9bcda2a7cdecd46, type: 3}
-  G3clone: 1
-  G2clone: 1
-  G1clone: 1
-  R3clone: 1
-  R2clone: 1
-  R1clone: 1
-  startClone: 1
-  finishClone: 1
 --- !u!114 &1351765805
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12113,12 +11970,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a89c9f48fc76469ea051b34be9ece35, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  reset: 0
-  posResult: 
-  cloneOK: 0
-  FlowerList: []
-  flowerPlus: 0
-  flowerName: 
 --- !u!114 &1351765806
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12131,11 +11982,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e3b17120e3b4e64ae8370052b21036, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  right: 0
-  left: 0
-  bullet: 0
-  rightText: 0
-  leftText: 0
   noon: 1
   quizStart: 0
   selectEnemy: 0
@@ -12144,7 +11990,6 @@ MonoBehaviour:
   quizGood: 0
   quizMiss: 0
   quizEnd: 0
-  enemyName: 
 --- !u!4 &1351765807
 Transform:
   m_ObjectHideFlags: 0
@@ -12336,7 +12181,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &1377592673
 GameObject:
   m_ObjectHideFlags: 0
@@ -12418,7 +12262,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &1377610154
 GameObject:
   m_ObjectHideFlags: 0
@@ -12429,7 +12272,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1377610155}
   - component: {fileID: 1377610157}
-  - component: {fileID: 1377610156}
   m_Layer: 0
   m_Name: PlayerCamera
   m_TagString: Untagged
@@ -12451,14 +12293,6 @@ Transform:
   m_Father: {fileID: 1472910268}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!81 &1377610156
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1377610154}
-  m_Enabled: 1
 --- !u!20 &1377610157
 Camera:
   m_ObjectHideFlags: 0
@@ -12583,7 +12417,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &1415174926
 GameObject:
   m_ObjectHideFlags: 0
@@ -12769,7 +12602,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &1427679576
 GameObject:
   m_ObjectHideFlags: 0
@@ -12851,7 +12683,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &1427755974
 GameObject:
   m_ObjectHideFlags: 0
@@ -12933,7 +12764,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &1431032016
 GameObject:
   m_ObjectHideFlags: 0
@@ -13015,7 +12845,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &1438540575
 GameObject:
   m_ObjectHideFlags: 0
@@ -13097,7 +12926,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &1443268842
 GameObject:
   m_ObjectHideFlags: 0
@@ -13163,13 +12991,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4feb4b66f31d542709f12b4018963494, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  numberMiddle: 0
-  numberRight: 0
-  numberLeft: 0
-  threeSelectList: 
-  answer: 0
-  cityList: 
-  numberMatch: 0
 --- !u!114 &1472910266
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13183,7 +13004,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animType: 0
-  YRot: 0
   speed: 70
   bullet: {fileID: 966591192015176603, guid: 06ed414c03b1a45a9879d005b28647ed, type: 3}
   bulletSpecial: {fileID: 156363784186341656, guid: c8f92e966398146efabe4aeef06f31ba,
@@ -13340,7 +13160,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &1513854006
 GameObject:
   m_ObjectHideFlags: 0
@@ -13422,7 +13241,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &1524771845
 GameObject:
   m_ObjectHideFlags: 0
@@ -13504,7 +13322,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &1531255855
 GameObject:
   m_ObjectHideFlags: 0
@@ -13586,7 +13403,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &1558962291
 GameObject:
   m_ObjectHideFlags: 0
@@ -13668,7 +13484,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &1561276688
 GameObject:
   m_ObjectHideFlags: 0
@@ -13750,7 +13565,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &1562157847
 GameObject:
   m_ObjectHideFlags: 0
@@ -13872,7 +13686,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &1583523368
 GameObject:
   m_ObjectHideFlags: 0
@@ -13954,7 +13767,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &1601689059
 GameObject:
   m_ObjectHideFlags: 0
@@ -14036,7 +13848,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &1603013525
 GameObject:
   m_ObjectHideFlags: 0
@@ -14081,7 +13892,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animType: 5
-  YRot: 0
   speed: 1
   bullet: {fileID: 0}
   bulletSpecial: {fileID: 0}
@@ -14177,7 +13987,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &1635646140
 GameObject:
   m_ObjectHideFlags: 0
@@ -14259,7 +14068,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &1640080396
 GameObject:
   m_ObjectHideFlags: 0
@@ -14341,7 +14149,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &1644374173
 GameObject:
   m_ObjectHideFlags: 0
@@ -14423,7 +14230,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &1644701641
 GameObject:
   m_ObjectHideFlags: 0
@@ -14505,7 +14311,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &1645574360
 GameObject:
   m_ObjectHideFlags: 0
@@ -14587,7 +14392,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &1657827147
 GameObject:
   m_ObjectHideFlags: 0
@@ -14669,7 +14473,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &1659849499
 GameObject:
   m_ObjectHideFlags: 0
@@ -14751,7 +14554,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &1660456368
 GameObject:
   m_ObjectHideFlags: 0
@@ -14833,7 +14635,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &1665047426
 GameObject:
   m_ObjectHideFlags: 0
@@ -14915,7 +14716,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &1677008664
 GameObject:
   m_ObjectHideFlags: 0
@@ -14997,7 +14797,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &1677695979
 GameObject:
   m_ObjectHideFlags: 0
@@ -15079,7 +14878,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &1681951970
 GameObject:
   m_ObjectHideFlags: 0
@@ -15216,7 +15014,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &1707569594
 GameObject:
   m_ObjectHideFlags: 0
@@ -15298,7 +15095,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &1716178570
 GameObject:
   m_ObjectHideFlags: 0
@@ -15380,7 +15176,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &1732310920
 GameObject:
   m_ObjectHideFlags: 0
@@ -15509,7 +15304,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &1752155137
 GameObject:
   m_ObjectHideFlags: 0
@@ -15591,7 +15385,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &1756231532
 GameObject:
   m_ObjectHideFlags: 0
@@ -15673,7 +15466,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &1764228533
 GameObject:
   m_ObjectHideFlags: 0
@@ -15755,7 +15547,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &1771769555
 GameObject:
   m_ObjectHideFlags: 0
@@ -15837,7 +15628,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &1781224760
 GameObject:
   m_ObjectHideFlags: 0
@@ -15919,7 +15709,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &1782854110
 GameObject:
   m_ObjectHideFlags: 0
@@ -16001,7 +15790,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &1791328800
 GameObject:
   m_ObjectHideFlags: 0
@@ -16083,7 +15871,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &1793064476
 GameObject:
   m_ObjectHideFlags: 0
@@ -16165,7 +15952,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &1796785347
 GameObject:
   m_ObjectHideFlags: 0
@@ -16247,7 +16033,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &1805244553
 GameObject:
   m_ObjectHideFlags: 0
@@ -16329,7 +16114,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &1807093943
 GameObject:
   m_ObjectHideFlags: 0
@@ -16444,7 +16228,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &1826086130
 GameObject:
   m_ObjectHideFlags: 0
@@ -16526,7 +16309,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &1835877794
 GameObject:
   m_ObjectHideFlags: 0
@@ -16608,7 +16390,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &1839356763
 GameObject:
   m_ObjectHideFlags: 0
@@ -16690,7 +16471,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &1847603169
 GameObject:
   m_ObjectHideFlags: 0
@@ -16772,7 +16552,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &1864195894
 GameObject:
   m_ObjectHideFlags: 0
@@ -16854,7 +16633,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &1865745457
 GameObject:
   m_ObjectHideFlags: 0
@@ -16936,7 +16714,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &1871774618
 GameObject:
   m_ObjectHideFlags: 0
@@ -17018,7 +16795,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &1876450934
 GameObject:
   m_ObjectHideFlags: 0
@@ -17100,7 +16876,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &1878090970
 GameObject:
   m_ObjectHideFlags: 0
@@ -17182,7 +16957,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &1878895890
 GameObject:
   m_ObjectHideFlags: 0
@@ -17264,7 +17038,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &1878983684
 GameObject:
   m_ObjectHideFlags: 0
@@ -17381,7 +17154,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &1894018582
 GameObject:
   m_ObjectHideFlags: 0
@@ -17463,7 +17235,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &1896746919
 GameObject:
   m_ObjectHideFlags: 0
@@ -17545,7 +17316,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &1897471456
 GameObject:
   m_ObjectHideFlags: 0
@@ -17665,7 +17435,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &1915423857
 GameObject:
   m_ObjectHideFlags: 0
@@ -17747,7 +17516,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &1919414552
 GameObject:
   m_ObjectHideFlags: 0
@@ -17829,7 +17597,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &1923492695
 GameObject:
   m_ObjectHideFlags: 0
@@ -17911,7 +17678,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &1926277285
 GameObject:
   m_ObjectHideFlags: 0
@@ -17993,7 +17759,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &1932752881
 GameObject:
   m_ObjectHideFlags: 0
@@ -18075,7 +17840,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &1933212457
 GameObject:
   m_ObjectHideFlags: 0
@@ -18157,7 +17921,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &1944854647
 GameObject:
   m_ObjectHideFlags: 0
@@ -18239,7 +18002,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &1956083546
 GameObject:
   m_ObjectHideFlags: 0
@@ -18321,7 +18083,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &1959061788
 GameObject:
   m_ObjectHideFlags: 0
@@ -18403,7 +18164,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &1965340418
 GameObject:
   m_ObjectHideFlags: 0
@@ -18485,7 +18245,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &1968513828
 GameObject:
   m_ObjectHideFlags: 0
@@ -18567,7 +18326,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &1970269643
 GameObject:
   m_ObjectHideFlags: 0
@@ -18649,7 +18407,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &1990808044
 GameObject:
   m_ObjectHideFlags: 0
@@ -18731,7 +18488,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &1991336997
 GameObject:
   m_ObjectHideFlags: 0
@@ -18813,7 +18569,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &1992280268
 GameObject:
   m_ObjectHideFlags: 0
@@ -18895,7 +18650,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &1997168629
 GameObject:
   m_ObjectHideFlags: 0
@@ -18977,7 +18731,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &2001781662
 GameObject:
   m_ObjectHideFlags: 0
@@ -19059,7 +18812,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &2013943855
 GameObject:
   m_ObjectHideFlags: 0
@@ -19141,7 +18893,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &2035436500
 GameObject:
   m_ObjectHideFlags: 0
@@ -19223,7 +18974,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &2039818695
 GameObject:
   m_ObjectHideFlags: 0
@@ -19305,7 +19055,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &2055479007
 GameObject:
   m_ObjectHideFlags: 0
@@ -19387,7 +19136,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &2068829886
 GameObject:
   m_ObjectHideFlags: 0
@@ -19469,7 +19217,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &2098362978
 GameObject:
   m_ObjectHideFlags: 0
@@ -19551,7 +19298,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &2103918772
 GameObject:
   m_ObjectHideFlags: 0
@@ -19633,7 +19379,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &2105036756
 GameObject:
   m_ObjectHideFlags: 0
@@ -19715,7 +19460,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &2109258480
 GameObject:
   m_ObjectHideFlags: 0
@@ -19853,7 +19597,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &2114686287
 GameObject:
   m_ObjectHideFlags: 0
@@ -19935,7 +19678,6 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0
 --- !u!1 &2123886886
 GameObject:
   m_ObjectHideFlags: 0
@@ -20017,4 +19759,3 @@ MonoBehaviour:
     type: 3}
   cityName_Good: {fileID: 0}
   cityName_Miss: {fileID: 0}
-  enemyDestory: 0

@@ -18,6 +18,7 @@ public class GameRecord : MonoBehaviour
     public GameObject objLankingNo4;
     public GameObject objLankingNo5;
     public GameObject objLankingNone;
+    public GameObject objReturnTitleText;
 
     [System.NonSerialized]
     public int intScore;
@@ -38,7 +39,7 @@ public class GameRecord : MonoBehaviour
     bool lanking01Creat = true;
     bool lanking02Creat = true;
     bool lanking03Creat = true;
-    //int lankingNo1 = 5000;
+    bool ReturnTitleCreat = true;
 
     // 作動開始
     [System.NonSerialized]
@@ -53,11 +54,11 @@ public class GameRecord : MonoBehaviour
     // Lanking
     [System.NonSerialized]
     public List<int> nowLanking;
-    int lankingNo1 = 5000;
-    int lankingNo2 = 4000;
-    int lankingNo3 = 3000;
-    int lankingNo4 = 2000;
-    int lankingNo5 = 1000;
+    int lankingNo1 = 11900;
+    int lankingNo2 = 9800;
+    int lankingNo3 = 7600;
+    int lankingNo4 = 7400;
+    int lankingNo5 = 6600;
     bool calEnd = false;   // 計算終了合図
 
     void Awake()
@@ -79,16 +80,39 @@ public class GameRecord : MonoBehaviour
             {
                 ResultNumberic();
             }
-            if(resultAnime)
+            if(resultAnime && !GameObject.FindGameObjectWithTag("Fade"))
             {
                 StartCoroutine("ResultAnime");
             }
         }
+        // タイトルへ戻る
+        if (Input.GetKey("joystick button 9") ||
+            Input.GetKey("joystick button 10"))
+        {
+            ReturnTitle();
+        }
 
-        if(Input.GetKeyDown(KeyCode.Escape))
+        // ゲーム 終了
+        if (Input.GetKeyDown(KeyCode.Escape))
         {
             Quit();
         }
+    }
+
+    public void AllTrue()
+    {
+        calculation = true;
+        resultAnime = true;
+
+        scoreCreat = true;
+        enemyCreat = true;
+        bonusCreat = true;
+        totalScoreCreat = true;
+        lanking01Creat = true;
+        lanking02Creat = true;
+        lanking03Creat = true;
+        ReturnTitleCreat = true;
+        calEnd = false;
     }
 
     void ResultNumberic()
@@ -247,6 +271,14 @@ public class GameRecord : MonoBehaviour
             lanking03Creat = false;
         }
 
+        yield return new WaitForSeconds(0.5f);
+
+        if(ReturnTitleCreat)
+        {
+            Instantiate(objReturnTitleText);
+            ReturnTitleCreat = false;
+        }
+
         resultAnime = false;
     }
 
@@ -258,5 +290,10 @@ public class GameRecord : MonoBehaviour
 #elif UNITY_STANDALONE
     UnityEngine.Application.Quit();
 #endif
+    }
+
+    void ReturnTitle()
+    {
+        SceneManager.LoadScene("1_Title02");
     }
 }

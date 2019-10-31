@@ -11,6 +11,7 @@ TagManager:
   - GameText
   - LankingPosition
   - LankingParent
+  - Fade
   layers:
   - Default
   - TransparentFX

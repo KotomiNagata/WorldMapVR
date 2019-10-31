@@ -59,7 +59,7 @@ public class GameRecordChild : MonoBehaviour
             parent = FindObjectOfType<GameRecord>();
             text = thisObject.GetComponent<TextMesh>();
             myNumber = (int)parent.intEnemy;
-            myNumberText = Convert.ToString(myNumber);
+            myNumberText = Convert.ToString(myNumber) + "体";
         }
         if (type == Type.BONUS)
         {
