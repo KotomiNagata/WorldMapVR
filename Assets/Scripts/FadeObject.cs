@@ -13,6 +13,7 @@ public class FadeObject : MonoBehaviour
 
     public FadeType fadeType;
 
+    [System.NonSerialized]
     public string nextSceneName;
     private Renderer rend;
     private Color color;

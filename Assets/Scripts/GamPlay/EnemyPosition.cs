@@ -6,11 +6,16 @@ public class EnemyPosition : MonoBehaviour
 {
     GameSystem system;
     PositionList posList;
+
+    [Header("敵のオブジェクト")]
     public GameObject enemy;
     public GameObject enemyQuiz;
+
+    [Header("クイズ問題のテキストオブジェクト")]
     public GameObject cityName_Quiz;
     public GameObject cityName_Good;
     public GameObject cityName_Miss;
+    [System.NonSerialized]
     public bool enemyDestory = false;
     bool cloneEnemy = false;
     bool cloneEnemyQuiz = false;

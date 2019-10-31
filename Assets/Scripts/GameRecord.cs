@@ -19,9 +19,13 @@ public class GameRecord : MonoBehaviour
     public GameObject objLankingNo5;
     public GameObject objLankingNone;
 
+    [System.NonSerialized]
     public int intScore;
+    [System.NonSerialized]
     public int intBonus;
+    [System.NonSerialized]
     public float intEnemy;
+    [System.NonSerialized]
     public int intTotalScore;
 
     GameObject myLankingNumber; // 自分のランキング
@@ -37,7 +41,9 @@ public class GameRecord : MonoBehaviour
     //int lankingNo1 = 5000;
 
     // 作動開始
+    [System.NonSerialized]
     public bool calculation = false; // 結果発表についての計算開始
+    [System.NonSerialized]
     public bool resultAnime = false; // 結果発表のアニメーション 
 
     // Bonus計算
@@ -45,6 +51,7 @@ public class GameRecord : MonoBehaviour
     int BI;
 
     // Lanking
+    [System.NonSerialized]
     public List<int> nowLanking;
     int lankingNo1 = 5000;
     int lankingNo2 = 4000;

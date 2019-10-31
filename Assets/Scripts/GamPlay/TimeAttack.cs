@@ -16,16 +16,24 @@ public class TimeAttack : MonoBehaviour
     public GameObject Music02; // Start音
     public GameObject Music03; // Finish音
 
+    [System.NonSerialized]
     public bool G3clone = true;
+    [System.NonSerialized]
     public bool G2clone = true;
+    [System.NonSerialized]
     public bool G1clone = true;
+    [System.NonSerialized]
     public bool R3clone = true;
+    [System.NonSerialized]
     public bool R2clone = true;
+    [System.NonSerialized]
     public bool R1clone = true;
+    [System.NonSerialized]
     public bool startClone = true;
+    [System.NonSerialized]
     public bool finishClone = true;
 
-    float time = 54f;
+    float time = 65f;
 
     void Start()
     {
@@ -39,7 +47,7 @@ public class TimeAttack : MonoBehaviour
 
         this.time -= Time.deltaTime;
 
-        if (time < 53)
+        if (time < 63)
         {
             if (G3clone)
             {
@@ -48,7 +56,7 @@ public class TimeAttack : MonoBehaviour
                 G3clone = false;
             }
         }
-        if (time < 52)
+        if (time < 62)
         {
             if (G2clone)
             {
@@ -57,7 +65,7 @@ public class TimeAttack : MonoBehaviour
                 G2clone = false;
             }
         }
-        if (time < 51)
+        if (time < 61)
         {
             if (G1clone)
             {
@@ -66,7 +74,7 @@ public class TimeAttack : MonoBehaviour
                 G1clone = false;
             }
         }
-        if (time < 50)
+        if (time < 60)
         {
             if (startClone)
             {

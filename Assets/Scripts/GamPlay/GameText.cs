@@ -18,7 +18,7 @@ public class GameText : MonoBehaviour
     GameSystem system;
     GameScore score;
 
-    // G_NUMBER (ズーム + フェード)
+    // G_NUMBER
     private Renderer rend;
     private Color color;
     float alpha;
@@ -29,8 +29,16 @@ public class GameText : MonoBehaviour
     // R_NUMBER
     float timer = 1f;
 
+    [Header("FINISH")]
+    public GameObject fadeObj;
+    public string sceneName;
+    float finishTime = 3f;
+    bool creatObj = true;
+
     // BATTERY_TEXT
+    [System.NonSerialized]
     public bool good = false;
+    [System.NonSerialized]
     public bool miss = false;
     bool kakudai = true;
     bool syukusyou = false;
@@ -106,6 +114,14 @@ public class GameText : MonoBehaviour
     {
         // 回転
         transform.Rotate(new Vector3(0, -0.3f, 0));
+
+        finishTime -= Time.deltaTime;
+
+        if(finishTime <= 0 && creatObj)
+        {
+            Instantiate(fadeObj);
+            creatObj = false;
+        }
     }
 
     private IEnumerator Appean_G_NUMBER()

@@ -19,14 +19,14 @@ public class Battery : MonoBehaviour
 
     public AnimType animType;
 
-    // BODY
-    public float YRot;                   // 自分のY_Rotationを取得
+    [Header("BODY")]
     public float speed = 1.0f;           // スピード
     public GameObject bullet;            // 弾のObj
     public GameObject bulletSpecial;     // クイズを発生させる弾
     bool bulletCreat = false;            // 弾を生成してもいいか
+    float YRot;                          // 自分のY_Rotationを取得
 
-    // TEXT
+    [Header("TEXT")]
     public GameObject textGetManyPoint;  // 「高得点チャンス！」生成
     public GameObject textStartQuiz;     // 「クイズ発！」生成
     public GameObject textGood;          // 「Good!」生成
@@ -38,7 +38,7 @@ public class Battery : MonoBehaviour
     bool textMissCreat = false;
     bool ButtonAppeanCreat = false;
 
-    // マテリアル
+    [Header("マテリアル")]
     public Material[] materials; // マテリアル
     Renderer rend;               // カラー
     int cnt = 0;                 // マテリアルを入れるやつ

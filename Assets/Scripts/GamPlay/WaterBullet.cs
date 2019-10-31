@@ -16,15 +16,19 @@ public class WaterBullet : MonoBehaviour
     Battery battery;
     public AnimType animType;
 
-    public float speed = 1.0f;       // スピード
+    [Header("ALL")]
     public float timer = 2.0f;       // タイマー時間
+
+    // MOVE
+    float speed = 120f;              // スピード
+
+    [Header("ATTACK用(QUIZも含む)")]
     public GameObject particle;      // パーティクル
     public GameObject lotus;         // 花
+    public GameObject musicEnemyDie; // エネミーを倒した時の効果音
     GameObject lotusParent;          // 花をまとめる場所
     bool clone = false;              // パーティクル生産用
     bool scaleChange;
-    public GameObject musicEnemyDie; // エネミーを倒した時の効果音
-    string quizEnemyName;
 
     void Start()
     {

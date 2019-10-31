@@ -16,8 +16,11 @@ public class Enemy : MonoBehaviour
 
     float time = 8f;
     Vector3 startPos;
+    [System.NonSerialized]
     public bool noDie = false;
     GameObject parentObj;
+
+    [Header("QUIZ")]
     public GameObject usuallyEnemy;
 
     void Start()

@@ -10,22 +10,27 @@ public class GameSystem : MonoBehaviour
     TimeAttack attack;
     GameScore score;
 
-    // 移動の切り替え
+    // 移動
+    [System.NonSerialized]
     public bool right = false;   // 右回転
+    [System.NonSerialized]
     public bool left = false;    // 左回転
 
     // 弾
+    [System.NonSerialized]
     public bool bullet = false;
 
     // 文字入れ替え
+    [System.NonSerialized]
     public bool rightText = false;
+    [System.NonSerialized]
     public bool leftText = false;
 
     // 操作制限
     bool move = false;
     bool bulletEnd = false;
 
-    // クイズ問題
+    [Header("クイズ問題の合図")]
     public bool noon = true;             // 昼・夜切り替え
     public bool quizStart = false;       // これからクイズをスタート合図
                                          // GameTextがfalse指示
@@ -42,6 +47,7 @@ public class GameSystem : MonoBehaviour
                                          // WaterBulletのQuizBulletから指示
     public bool quizEnd = false;         // QuizBulletが消えてクイズ終了
 
+    [System.NonSerialized]
     public string enemyName = "None";    // WaterBulletから代入
 
     void Start()

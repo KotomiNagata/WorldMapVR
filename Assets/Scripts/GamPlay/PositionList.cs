@@ -7,17 +7,21 @@ public class PositionList : MonoBehaviour
     TimeAttack attack;
 
     // 乱数
+    [System.NonSerialized]
     public bool reset = false;
     bool retry = false;
     int start = 0;  // 最初の場所名の数字から
     int end = 219;    // 最後の場所名の数字+1まで
     int i;
+    [System.NonSerialized]
     public string posResult; // ランダムの結果、出現させる場所名
+    [System.NonSerialized]
     public bool cloneOK = false;  // クローンを１回作るようにする
     float time;
     bool gamePlay = false;
 
     // リスト
+    [System.NonSerialized]
     public List<string> FlowerList;  // 花が咲いた場所のリスト
     string[] posName =  // 全ての場所名
     {
@@ -68,7 +72,9 @@ public class PositionList : MonoBehaviour
     };
 
     // EnemyPositionからFlowerListを追加
+    [System.NonSerialized]
     public bool flowerPlus = false;
+    [System.NonSerialized]
     public string flowerName;
 
     void Start()

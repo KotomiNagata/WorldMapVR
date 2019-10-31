@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class WaterParticle : MonoBehaviour
 {
-    public float timer = 0.5f;   // タイマー時間
+    float timer = 0.5f;   // タイマー時間
 
     void Update()
     {

@@ -209,7 +209,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 5354154059777391930, guid: 39bfb8cd6c9474da298516cb799b73ff,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &18040126
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -293,7 +292,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 7599640221668220354, guid: 6f07c5b64f5d2453e9ecebd52c48dd98,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &20579453
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -377,7 +375,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 1038247361546025111, guid: 36a5e33312c594d6e99ee4d8d52fdbeb,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &21827780
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -461,7 +458,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 6236337040916763910, guid: 13aff41174be14c5399bed231ff82011,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &23344299
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -545,7 +541,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 2152363417262432948, guid: cc499c84bd48b4217a6551a1ddcc6646,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &30061289
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -629,7 +624,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 4454519339294487712, guid: cdd7e23d2e34945e4a0e4e184d49f7b9,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &84412909
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -713,7 +707,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 3705156815284252098, guid: 4063bc3d9d0984dd8b684e7d5aba5354,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &87012187
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -797,7 +790,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 5993083610510541540, guid: 90ae882238aea438fbb85bcda7c15311,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &97353956
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -881,7 +873,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 4522459439291667722, guid: f02f3338888494d7e86db16f908d416b,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &106108861
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -965,7 +956,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 2739889440913452708, guid: 75b0277312151441ea66debce7528045,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &117380276
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1035,7 +1025,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 8370814334945674370, guid: f597402fbfb16406190edeabbe2e6e62,
     type: 3}
-  enemyDestory: 0
 --- !u!4 &132946904
 Transform:
   m_ObjectHideFlags: 0
@@ -1133,7 +1122,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 3103542829759345551, guid: 0889a38a8e609483bafec4899cb884ee,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &148429644
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1217,7 +1205,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 8444002470447914433, guid: 1072e2bf1b6f847d78a6d12622c71d0e,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &149676793
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1301,7 +1288,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 7048827548779332344, guid: f24dbcf364acc4bc9974449948266f18,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &151411733
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1385,7 +1371,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 3975926062949158188, guid: c27cfe42e55a94800843c8af3901fe27,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &165977999
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1469,7 +1454,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 7949144640594817408, guid: c3eaf772a8c864eda92b0a9a19e4ad03,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &170046474
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1539,7 +1523,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 1559713781549551095, guid: c34e69efb1f4749b8aca9c813e541a4e,
     type: 3}
-  enemyDestory: 0
 --- !u!4 &179166424
 Transform:
   m_ObjectHideFlags: 0
@@ -1637,7 +1620,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 5288748125772203045, guid: 7f33665bdc4fa40aa9b7927918895ba3,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &180599664
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1721,7 +1703,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 6597364867704664521, guid: 6c8c0cae744f74a119d4d31af467cc57,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &198990595
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1805,7 +1786,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 8999679981460425027, guid: b470331ab315a414e978944d20057425,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &211846933
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1889,7 +1869,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 3733770630827217316, guid: fc0be782eb4794760983e5d2bf12c1fa,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &215823660
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2004,7 +1983,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 6452582739432678987, guid: 50faf05704f5d48cf99e56c7cb9313df,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &221758425
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2088,7 +2066,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 3004001177156469661, guid: ac648b5a549ee4ed3a0a87c833c09d7a,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &221948039
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2158,7 +2135,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 94227687172756842, guid: 9e00a7f860b764fa3b932704eeab4b21,
     type: 3}
-  enemyDestory: 0
 --- !u!4 &242842866
 Transform:
   m_ObjectHideFlags: 0
@@ -2256,7 +2232,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 5341498537936486499, guid: 5dee78259615641ad834a90c592b585c,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &266491980
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2340,7 +2315,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 4408703633838855016, guid: 139fc2196f931426a8f820bd9ff89df8,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &269375369
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2424,7 +2398,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 3083667985771252138, guid: 0d87110c4c85745f3a0966cbfa8484bc,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &293920974
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2508,7 +2481,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 618104138515311002, guid: 0ca9a4b940755421189f803229b26c93,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &305621771
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2592,7 +2564,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 600235776023276335, guid: 9b00d627180a54d1da8aa14f300842f2,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &316498246
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2676,7 +2647,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 2548301003438103346, guid: 5fe2fd3970cce44cba1f24888453b8b7,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &318267018
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2760,7 +2730,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 7622218469695643744, guid: 311de2e18fde8456b8cee459a377bcbb,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &331367586
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2844,7 +2813,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 5508331059939276690, guid: 84ae22b2451f64299b20b28fafe790d3,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &347337402
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2928,7 +2896,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 3215500190868592479, guid: 978422daa21b14754a1057167a160185,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &348621370
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3012,7 +2979,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 6504599552652093759, guid: ff212839c66704b339aace45ad68cb31,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &362155523
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3074,11 +3040,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87e3b17120e3b4e64ae8370052b21036, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  right: 0
-  left: 0
-  bullet: 0
-  rightText: 0
-  leftText: 0
   noon: 1
   quizStart: 0
   selectEnemy: 0
@@ -3087,7 +3048,6 @@ MonoBehaviour:
   quizGood: 0
   quizMiss: 0
   quizEnd: 0
-  enemyName: 
 --- !u!4 &364425384
 Transform:
   m_ObjectHideFlags: 0
@@ -3114,12 +3074,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a89c9f48fc76469ea051b34be9ece35, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  reset: 0
-  posResult: 
-  cloneOK: 0
-  FlowerList: []
-  flowerPlus: 0
-  flowerName: 
 --- !u!114 &364425386
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3145,14 +3099,6 @@ MonoBehaviour:
   Music01: {fileID: 8641314644213839883, guid: 792b801bac05441d696b60cc8ec20aa5, type: 3}
   Music02: {fileID: 9103470777708099927, guid: 1530e0cb597c44ffa8ff47603ccb8a8b, type: 3}
   Music03: {fileID: 7876727412003792669, guid: 53b9ffb070c3741fe9bcda2a7cdecd46, type: 3}
-  G3clone: 1
-  G2clone: 1
-  G1clone: 1
-  R3clone: 1
-  R2clone: 1
-  R1clone: 1
-  startClone: 1
-  finishClone: 1
 --- !u!114 &364425387
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3165,8 +3111,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6f026a9227794129914ae2ba9f04ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Hissatsuwaza: 0
-  enemyEnelgy: 0
+  score: 0
 --- !u!1 &380450663
 GameObject:
   m_ObjectHideFlags: 0
@@ -3221,7 +3166,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 2849505007864101741, guid: 6b85d5bb994c0458586a34cf31426b8f,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &380450666
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3305,7 +3249,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 5773641922916727610, guid: 5bd44860b94fe4618a0ff61c6dedb22f,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &383247932
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3389,7 +3332,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 6186047495986806549, guid: 607106d69af5e49dda4299d2d957dbea,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &394246939
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3473,7 +3415,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 6035320096598811333, guid: 17eeeade89a5944aa9c5d9babdd27131,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &404601147
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3557,7 +3498,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 5257706336658487248, guid: 7a67d1054a82e4aa7a1506c8e16efee1,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &406580567
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3641,7 +3581,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 7572087210968223514, guid: df24ddd07d61d46298cd78e72989eecf,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &412256786
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3725,7 +3664,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 4653655418348375708, guid: 1ed46113bb5d5449cabf5e5d9302e6a0,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &412774794
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3842,7 +3780,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 2986034851094701015, guid: 80520d7cbd6744248865daf2c05e9b59,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &420864136
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3959,7 +3896,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 5211021421350631004, guid: e060e0baf64af444b855490d6c53de81,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &427867268
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4043,7 +3979,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 2785746507301493947, guid: 9da8fdd0774a14be09eca51f49683cf3,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &436263210
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4113,7 +4048,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 6084577809504064833, guid: 50a9ab7b6bc9d476c9815045dff5bd25,
     type: 3}
-  enemyDestory: 0
 --- !u!4 &437934131
 Transform:
   m_ObjectHideFlags: 0
@@ -4197,7 +4131,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 8977724783685271790, guid: 26de35dd28d9c4ad28490f41e81cef86,
     type: 3}
-  enemyDestory: 0
 --- !u!4 &439531739
 Transform:
   m_ObjectHideFlags: 0
@@ -4295,7 +4228,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 365006738085241188, guid: cca2a8c3cfdd243a1ae63c9e59e1efcd,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &442143526
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4440,7 +4372,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 8660515382160649145, guid: 0ce5605631eb342e380cfdb69e83c146,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &461692018
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4524,7 +4455,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 6530719712890068705, guid: 2eb6485e0871446c38ebbc5f534a3626,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &463468003
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4608,7 +4538,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 2560499540795322519, guid: 70f094e1cca0c4699a450133e1774be8,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &471207183
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4692,7 +4621,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 4310352323323101954, guid: e7f280dccffa9457c8193716e12b803e,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &475504790
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4776,7 +4704,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 6485504500842537873, guid: 871b078ae8c6247d89bb51174942a508,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &486687344
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4846,7 +4773,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 5721926651965534456, guid: f92685d20a5514c259e2e86e8bee8e0c,
     type: 3}
-  enemyDestory: 0
 --- !u!4 &494241565
 Transform:
   m_ObjectHideFlags: 0
@@ -4930,7 +4856,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 5834160329842932678, guid: e75168267b09c4987b67ce400fab930e,
     type: 3}
-  enemyDestory: 0
 --- !u!4 &501096052
 Transform:
   m_ObjectHideFlags: 0
@@ -5028,7 +4953,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 3238077364363975666, guid: 0b97e997e539c4058990a30ec5a95172,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &509318967
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5112,7 +5036,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 2590987930159873080, guid: 04473b1b053ef4ae089463eecd7eef45,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &525014303
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5196,7 +5119,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 6695426890845199080, guid: 12feadafa79f74e5cad402065054712b,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &533909617
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5280,7 +5202,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 8742102214835435879, guid: 5a57008e46422484d91e256247d3b2d1,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &535151255
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5364,7 +5285,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 6361254413515763570, guid: f4ab42499c479491d84e1caef2c8507a,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &546683286
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5483,7 +5403,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 9171112689669246929, guid: dcd3bce25c9c64627ae2bfc8de70f80a,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &549440038
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5567,7 +5486,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 8285978155536720682, guid: abca9f4da43f94c88995c7bc2b3622e9,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &563513405
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5637,7 +5555,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 2902461716577671441, guid: a86036c569b664f4aa95b9cb8eda24fa,
     type: 3}
-  enemyDestory: 0
 --- !u!4 &568104123
 Transform:
   m_ObjectHideFlags: 0
@@ -5772,7 +5689,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 7823407653528637002, guid: 274cdf9b971dc4e2abdb1bc620dc1e1c,
     type: 3}
-  enemyDestory: 0
 --- !u!4 &579699214
 Transform:
   m_ObjectHideFlags: 0
@@ -5870,7 +5786,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 1277083729578762351, guid: 3841524df3019468491baa620c971888,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &592199855
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5954,7 +5869,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 8438369959462960332, guid: fc17c4a8b3e1f40b08b6c7608dfce778,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &602991328
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6038,7 +5952,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 2362488642950847475, guid: cd878f209f9ea4ec087c2693f6691f70,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &614777057
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6122,7 +6035,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 5987410217840892379, guid: 60050b3ed48e84cb0be76479607db544,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &641039372
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6206,7 +6118,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 4773310947450147975, guid: b707ceb6d997249628aaac4e3f4f0560,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &662424824
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6290,7 +6201,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 5399197776003181961, guid: 9e151d0465e8e4233a9c95c6fa1cec19,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &662874992
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6374,7 +6284,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 5829310893370205546, guid: 5732b56b68f58499c9a523600eeb83e3,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &679432490
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6458,7 +6367,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 3413556397847287079, guid: 015c98814e94342879951469b05b9ccc,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &680206426
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6584,7 +6492,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 4044368204606602045, guid: ae63641d50f9243f396b302bbda5b084,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &681594944
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6708,7 +6615,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 4244510566487335124, guid: 70d035adf2aae42109541c0fb8dd81a5,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &686331239
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6778,7 +6684,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 7411059484085223406, guid: 055c9f61c64de43ed824b208a3eb9eac,
     type: 3}
-  enemyDestory: 0
 --- !u!4 &704333388
 Transform:
   m_ObjectHideFlags: 0
@@ -6932,7 +6837,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 1293404079826623215, guid: ea3f1cfa4c8c44751905f305033794fd,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &729344241
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7016,7 +6920,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 7195823025146501726, guid: 3cfa93eba0c274b768d028740d1c5f94,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &733366337
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7100,7 +7003,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 2007053282858517012, guid: 9384deb7589ba4c76b7832ce2c1a8d60,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &743828224
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7184,7 +7086,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 728527300616087288, guid: a8c8da8bee285480199eb403dec7c9dc,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &750072513
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7268,7 +7169,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 5216318598022491920, guid: d8ade02b492a148c99c47b8d993ba05d,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &750355969
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7338,7 +7238,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 6632542214367673164, guid: a8a1d854d753e45c19cb4b90a8aafa8f,
     type: 3}
-  enemyDestory: 0
 --- !u!4 &766709715
 Transform:
   m_ObjectHideFlags: 0
@@ -7436,7 +7335,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 3716183206646081970, guid: 0f1ec60325b804979982522b7a377d8c,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &770382455
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7520,7 +7418,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 2057630567677970964, guid: 27178299e340549eb9599dbe30013835,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &783155175
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7604,7 +7501,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 7952668060615988923, guid: 5a395cf634e3e4d64a8fa3590360c145,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &803449808
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7688,7 +7584,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 7150415852879581235, guid: 9f3edcbdbac4e41a5a93cf57aa7f43ae,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &813738387
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7758,7 +7653,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 4639114324234452000, guid: 32162a4dddde04e359585dddb8f0c016,
     type: 3}
-  enemyDestory: 0
 --- !u!4 &817408043
 Transform:
   m_ObjectHideFlags: 0
@@ -7856,7 +7750,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 3209166819047608316, guid: 44efda517dbc646e68ab16fb8c42f08d,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &847356825
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7940,7 +7833,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 8489599935440382803, guid: be180af51f35d4d2185984b8a1849c5e,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &871168090
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -8024,7 +7916,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 7049689435691956438, guid: 8d5a6f8f66abb44dbb6975be96a58120,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &871988534
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -8108,7 +7999,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 7911732979868720536, guid: 7ede7756433d74a3299091d15dd73deb,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &872074188
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -8192,7 +8082,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 3642428959555441238, guid: a77b7e9b3bd03449cbb86648c37c928a,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &872369709
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -8262,7 +8151,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 6371810280217882229, guid: f4365702f998d40528f185209e1bda1c,
     type: 3}
-  enemyDestory: 0
 --- !u!4 &878376309
 Transform:
   m_ObjectHideFlags: 0
@@ -8360,7 +8248,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 884078067867024187, guid: 091cb7d0e32d0403fb492e1ea1cdc8ea,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &882579229
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -8444,7 +8331,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 530300483086085984, guid: b6693571c387f4df282adaadc9a1013a,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &903944634
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -8528,7 +8414,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 1518535297551351282, guid: c5cad21da285a462a8b395e12bcfbb8e,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &919234079
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -8612,7 +8497,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 1072937852546568068, guid: b03339d4b690c46dfb792cdedd49d6cb,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &921021787
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -8696,7 +8580,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 1918129413265646313, guid: 6350f5a2a455a4af3a3e3b0c0c89b784,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &930564953
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -8780,7 +8663,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 4959167707635164729, guid: 4df8c029a3dcc41e280bda21fa8d1d48,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &940663537
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -8864,7 +8746,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 8667093293918106906, guid: 2ab7e97e542c9471f8b713c8c8912d9a,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &941692201
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -8948,7 +8829,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 539782550841227481, guid: 36a930b10289e47a4830adf83d462554,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &952060955
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -9032,7 +8912,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 2962113765228828744, guid: c0d61ad9fb2784606b2bc8c550f66321,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &953730807
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -9116,7 +8995,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 2685019969936295536, guid: 2621327aff463409cb16f2e89835aa23,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &964802033
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -9200,7 +9078,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 2475085625169527, guid: 7cf47d3bbb7c64dcb90d07148f730f25,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &971085520
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -9284,7 +9161,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 6604293347319235350, guid: 8133a43f3e5954ebc9f494d2fe12d588,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &975820565
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -9368,7 +9244,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 4570670107602614093, guid: 1fd2b3297b9554dd49d4267b6c9302d9,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &989342972
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -9452,7 +9327,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 7267430975967521372, guid: ae2530762d3c440038d30c04d223a4e1,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &990533395
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -9573,7 +9447,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 6136360477036311173, guid: 30b51d787bde64c64bcff79ff74abd64,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &996875112
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -9643,7 +9516,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 5423767259710480993, guid: 54be844c6852f4746963af667e2553b0,
     type: 3}
-  enemyDestory: 0
 --- !u!4 &1009335052
 Transform:
   m_ObjectHideFlags: 0
@@ -9741,7 +9613,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 2676980459883168127, guid: c133be35818b84e17b85076a6ec94eaa,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &1032129786
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -9825,7 +9696,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 777340839431990299, guid: 33fc29f856f834ff0b759583ef0d4fe4,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &1035007438
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -9940,7 +9810,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 2687481986942479044, guid: a16abb368df84465884d03b3d61e4476,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &1088966946
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -10024,7 +9893,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 3511891698470838057, guid: 6d0b9994b38cb4d3cabffcd83abdbf09,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &1096433611
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -10094,7 +9962,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 4976231825561382854, guid: 3d1a6fdede6604cda9e604b4f954645f,
     type: 3}
-  enemyDestory: 0
 --- !u!4 &1103929337
 Transform:
   m_ObjectHideFlags: 0
@@ -10192,7 +10059,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 937346702602146548, guid: 20b9662988515432e8bb09d7dc632ba6,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &1106386506
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -10310,7 +10176,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 1443838639616258625, guid: aa8581118a25c4891902197165bfa028,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &1108425245
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -10436,7 +10301,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 2450609623615803440, guid: 98aa1912545964dc6a75e4abd1c9b201,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &1116905465
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -10520,7 +10384,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 3184426234307051441, guid: 9522cf934bac5459eb763c131936db92,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &1119728778
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -10642,7 +10505,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 9094757043606997589, guid: fa38fc5a763e14132b00e4177a4910fd,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &1124614023
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -10726,7 +10588,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 5521527351094033140, guid: ac679eeaa61a348d98a1ec7d2b6d4c5d,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &1131079477
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -10810,7 +10671,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 7800442652500589611, guid: eac9c06ca9bc641a891c379ae124fa59,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &1137804603
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -10894,7 +10754,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 7488068976704117969, guid: b6f73ccf9d71c41e3b8727d8672a2839,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &1146006871
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -10978,7 +10837,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 1719087804958515632, guid: 35ef6e7f861ee462b8d9ae4e990465e2,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &1178105140
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -11153,7 +11011,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 7370112267782011925, guid: d25b99553d2bd4102826a4a2b377f7c8,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &1192691226
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -11237,7 +11094,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 39435909824276943, guid: 0f696a80b9e6e45aeb3bd5a089d2fe82,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &1217457094
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -11321,7 +11177,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 962915654551470793, guid: 5b6d455a1fdec41c2a47e23a891eccaa,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &1222039814
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -11437,7 +11292,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 7150821918961339586, guid: 5113ef878a6274e64aaccb6b67efda51,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &1225442454
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -11521,7 +11375,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 4160805541325485450, guid: a6e56ced1884a4b49bd232fe5fb60513,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &1227253934
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -11605,7 +11458,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 8134214228675304970, guid: 5c150df6d5c424af8b7f46c0ffe780b4,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &1233516146
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -11689,7 +11541,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 6427926238809412602, guid: 0fb18c40b9a5643d89e1df534eb5f427,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &1239508564
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -11773,7 +11624,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 9136718326778781888, guid: 1d3c3c975f51741b4aca5425b9281f6c,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &1241651098
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -11857,7 +11707,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 6439567544504211753, guid: 4ece2107999974926a7d8af52692c91c,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &1246583906
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -11941,7 +11790,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 6959234969500841275, guid: 476628d88652144278b5b08642f58a72,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &1257017176
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -12025,7 +11873,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 2941648992105883824, guid: cfbe709d3d75145b79d2d2b99506c73c,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &1261612548
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -12109,7 +11956,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 3409621057216768422, guid: 0c40876a287544cba8bd2852c1412964,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &1261960061
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -12193,7 +12039,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 8113489169125729052, guid: 238cbebbf612249faad4932b51d5e0fb,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &1265160390
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -12308,7 +12153,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 7232444149072496100, guid: e1089c6d859a446d0bc224b14aafd165,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &1273450537
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -12378,7 +12222,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 1233262298355617362, guid: 8b3f4b3e808b4481bb9d4866e669d128,
     type: 3}
-  enemyDestory: 0
 --- !u!4 &1274414711
 Transform:
   m_ObjectHideFlags: 0
@@ -12476,7 +12319,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 4375907618001350973, guid: 9228e3f6a52664d6f9727c4b0aab9d02,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &1279760253
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -12560,7 +12402,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 8522874126412219275, guid: f67fe294ad7fd4b65b65744e49cf8929,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &1292749038
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -12644,7 +12485,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 5244376235356986600, guid: fbcc49ada061549f2a5d1cbe6024932c,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &1302729383
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -12728,7 +12568,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 5294180712385364860, guid: 726f5114557624a0bbc9018f6264f5b3,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &1309936859
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -12812,7 +12651,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 5339684383411811971, guid: 0689b86b74ddf4d44add6bd0e6b6230c,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &1311048619
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -12896,7 +12734,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 5124783580477112143, guid: 639b4f3bc88e543c9a4f9f1bfe3bd24d,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &1312653600
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -13073,7 +12910,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 784192579571411145, guid: 81e6a41b52a7b47c89d046a1ec967cb3,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &1320446602
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -13157,7 +12993,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 4570993763844923905, guid: 24e202c5862c04c6c8d6eec890eb6b47,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &1328764400
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -13241,7 +13076,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 2340335479340709584, guid: 423b7d8c051274570aa331dc9b1f434c,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &1330879451
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -13325,7 +13159,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 2435978806716492797, guid: f122a10dd51c34b54ae504b6eb5472eb,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &1344363067
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -13409,7 +13242,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 3474858077722903381, guid: e2a5f6eb05434435b93bd57799f52b70,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &1381174482
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -13493,7 +13325,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 8355782477669430837, guid: 89f6ad8746a6646f9a849f621d395b20,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &1394315463
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -13632,7 +13463,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 6108615904163866716, guid: 6fd6f004d2d954e6ab3d2618f8ad15e4,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &1419878740
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -13716,7 +13546,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 5632098012946136321, guid: 071ae27f9d9a24f3998d6ee44b9c6d90,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &1452703624
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -13800,7 +13629,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 5751637951906520700, guid: 149aaf7d3b2224c7fb0d1ba657acb52a,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &1452954063
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -13884,7 +13712,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 7430304239537118533, guid: 5bc7d30d49c05467d88ef6bd86ff8f66,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &1453514665
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -14002,7 +13829,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 4644284528946186475, guid: 4cc450a3ea2844cb1856bf62846541c9,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &1494500092
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -14086,7 +13912,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 7360979266034494482, guid: 4f85bb3b8e02147b8905c4de9c7ce50a,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &1512964608
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -14170,7 +13995,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 6221845021543424076, guid: 4b77dddca537e477fa732d5208693f87,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &1525645124
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -14254,7 +14078,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 6363924470469811468, guid: a0afe7b07d4ca4c6dbeb9809474b32ea,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &1527972279
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -14508,7 +14331,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 2387667835364901826, guid: 5bb9bcf8394834a6fa885888b97a8db7,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &1541954137
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -14592,7 +14414,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 1453374692531658427, guid: a8633f67018ac494cb8acc9b24536df5,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &1564172042
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -14676,7 +14497,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 6873028454760875226, guid: 4b06fba031b59476abbe05cf599994a9,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &1564865493
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -14760,7 +14580,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 5023895339405012952, guid: ef91b65c1c9d146a083d1a7a86ac26ae,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &1605374258
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -14844,7 +14663,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 8549663317089363731, guid: 39b74872d437b4bea9ecc741c45ded43,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &1612285697
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -14914,7 +14732,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 7379553160471011405, guid: 4ff9b3d1a6aa44b66ba2d41d1ea75654,
     type: 3}
-  enemyDestory: 0
 --- !u!4 &1612742510
 Transform:
   m_ObjectHideFlags: 0
@@ -14998,7 +14815,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 6294118148763262882, guid: 2417d831ca3294d489f4c06d5ea4d222,
     type: 3}
-  enemyDestory: 0
 --- !u!4 &1618039997
 Transform:
   m_ObjectHideFlags: 0
@@ -15096,7 +14912,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 5323095396185867521, guid: e7f93e568639140f2a9631032efcb2a2,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &1622804986
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -15180,7 +14995,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 2812676217463821904, guid: 755afc7a76e3346da9c0e3050e724de3,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &1624450925
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -15264,7 +15078,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 8043782328128488677, guid: bd4afe999d7894394b7417ca35014110,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &1624657599
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -15348,7 +15161,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 3772167093184597200, guid: 5c241f94278c54f8c8e0be5c9f0a78fd,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &1637196876
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -15522,7 +15334,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 712134686438226875, guid: d3ff6dfe5e3a74c73bcfdb8efba1c201,
     type: 3}
-  enemyDestory: 0
 --- !u!4 &1689078598
 Transform:
   m_ObjectHideFlags: 0
@@ -15620,7 +15431,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 3980439269671123519, guid: 0cf31f036f74c4803a5218cab6684f33,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &1696663652
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -15704,7 +15514,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 408489008962281602, guid: 9cf25454df25147dcb95dad256d84242,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &1697852250
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -15788,7 +15597,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 7568885472899130953, guid: 3678516120dd04093977cae8c75943bd,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &1700047625
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -15872,7 +15680,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 2927538651170696326, guid: bc838fb4331e14f5ca496c2adc5cdeb5,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &1701991322
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -15956,7 +15763,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 4742220872662711856, guid: 9ccfc3d95025a48bf8ebb1765e2568b5,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &1702944884
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -16040,7 +15846,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 2217468030340815609, guid: fa7aea249e9a74ea791a881a2cf323ef,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &1712905294
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -16124,7 +15929,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 7956822592051314671, guid: d90ff88ae182744e18f647002c464dc8,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &1716691332
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -16208,7 +16012,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 8947324870030615678, guid: 03effe28c44594f2ea6ff16408fc5c30,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &1730356631
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -16292,7 +16095,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 1989739093149960433, guid: 7f3aeb55fc4c04375bb30164515adc75,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &1748448222
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -16376,7 +16178,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 1311546519146519215, guid: 19bec8c894f9143aca0cdb6c17ab29d1,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &1789222821
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -16460,7 +16261,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 4818000454657684168, guid: e7ee8d14425684135ba31333cbcb8c2b,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &1805868988
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -16544,7 +16344,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 7193086273832244006, guid: 25910b19e0d6b45d1b515e4504d95c9b,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &1820364894
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -16659,7 +16458,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 2614402195433480589, guid: a34d6c4453d6a4bd69e9a717dabd48a1,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &1837051850
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -16729,7 +16527,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 612882637423069771, guid: 5e04f6b81ec1a4526aff4d54e44f6691,
     type: 3}
-  enemyDestory: 0
 --- !u!4 &1839031341
 Transform:
   m_ObjectHideFlags: 0
@@ -16805,7 +16602,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animType: 0
-  YRot: 0
   speed: 70
   bullet: {fileID: 966591192015176603, guid: 06ed414c03b1a45a9879d005b28647ed, type: 3}
   bulletSpecial: {fileID: 156363784186341656, guid: c8f92e966398146efabe4aeef06f31ba,
@@ -16893,13 +16689,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4feb4b66f31d542709f12b4018963494, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  numberMiddle: 0
-  numberRight: 0
-  numberLeft: 0
-  threeSelectList: 
-  answer: 0
-  cityList: 
-  numberMatch: 0
 --- !u!1 &1881719733
 GameObject:
   m_ObjectHideFlags: 0
@@ -16940,7 +16729,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 360513584904112542, guid: 8c1d27fe011b94648ae459f7af0bfa38,
     type: 3}
-  enemyDestory: 0
 --- !u!4 &1881719735
 Transform:
   m_ObjectHideFlags: 0
@@ -17038,7 +16826,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 4942469033451269855, guid: d4804f8a57b24400ba7d64a1a05dd810,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &1901298993
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -17122,7 +16909,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 3008003068099482303, guid: 8353d664f26ec4838a09b92e29dbac9d,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &1903415366
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -17206,7 +16992,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 748520691871470729, guid: 46c50df9294044fb6a0596f7742aaf05,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &1903897733
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -17290,7 +17075,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 7426948587951094129, guid: f4dbfd11fd3c341b3abce2009aaea03d,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &1912510357
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -17374,7 +17158,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 1813028586944508434, guid: 6a96f2661ba274caea014cfd06a2ea6d,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &1915264520
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -17458,7 +17241,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 6278943213575339414, guid: 299d44a94fa6542328ae6ce0389e0af9,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &1917686630
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -17542,7 +17324,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 795158659728784214, guid: 5a5bfa7cb015e4874b24bd8b443c7c9f,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &1933513761
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -17626,7 +17407,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 5654547145274672210, guid: 257ab2721ae32442e8020c4aa59af261,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &1936826128
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -17710,7 +17490,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 1624508190369367101, guid: 7b5ba28581df64e258e3ed875ca238f4,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &1953341411
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -17794,7 +17573,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 9221691622154617659, guid: 904708f93879947f68e56344a741d69d,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &1954059293
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -17925,7 +17703,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 2948584531550040933, guid: 1643d9f79d92e47e6bb7413d62b0ea56,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &1956375059
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -18009,7 +17786,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 8612511761327863227, guid: 2ec7fde4d2ee247039ef278b76db76f8,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &1971921219
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -18083,7 +17859,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animType: 5
-  YRot: 0
   speed: 1
   bullet: {fileID: 0}
   bulletSpecial: {fileID: 0}
@@ -18152,7 +17927,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 5170373436402017807, guid: 35c24c7e14f6a4c1982a3258c28e964e,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &1992374549
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -18236,7 +18010,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 3611802282064483137, guid: 55c6e0ba67ccf467b8e1cb36d53deb63,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &1993647263
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -18320,7 +18093,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 5258386898267393196, guid: b84eba98ec3ec42a8a8715c295b6e272,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &1994399886
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -18404,7 +18176,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 6244846198125656072, guid: 34591fe48d01b4512867d17d846dbf40,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &2016703779
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -18488,7 +18259,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 72314654387157335, guid: 46b76ac8c6be6445689c5461eaf5d0b0,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &2020111211
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -18572,7 +18342,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 4896735848513633061, guid: 119925aab3b8f44a5aee38315e7d045a,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &2024626112
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -18656,7 +18425,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 1650154710852969267, guid: 058710507ae46425c82c2ed1c3813295,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &2034192035
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -18686,6 +18454,75 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.01
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1001 &2040033547
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4093935705627199732, guid: 29123f28c5d85475e885e2c8b2776514,
+        type: 3}
+      propertyPath: m_Name
+      value: FadeOutObj
+      objectReference: {fileID: 0}
+    - target: {fileID: 1048156796237413095, guid: 29123f28c5d85475e885e2c8b2776514,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1048156796237413095, guid: 29123f28c5d85475e885e2c8b2776514,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.175
+      objectReference: {fileID: 0}
+    - target: {fileID: 1048156796237413095, guid: 29123f28c5d85475e885e2c8b2776514,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1048156796237413095, guid: 29123f28c5d85475e885e2c8b2776514,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1048156796237413095, guid: 29123f28c5d85475e885e2c8b2776514,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1048156796237413095, guid: 29123f28c5d85475e885e2c8b2776514,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1048156796237413095, guid: 29123f28c5d85475e885e2c8b2776514,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1048156796237413095, guid: 29123f28c5d85475e885e2c8b2776514,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1048156796237413095, guid: 29123f28c5d85475e885e2c8b2776514,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1048156796237413095, guid: 29123f28c5d85475e885e2c8b2776514,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1048156796237413095, guid: 29123f28c5d85475e885e2c8b2776514,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 29123f28c5d85475e885e2c8b2776514, type: 3}
 --- !u!1 &2054205756
 GameObject:
   m_ObjectHideFlags: 0
@@ -18740,7 +18577,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 7311505767180192502, guid: da0fd9ed27ac54d75b83c56364bf67db,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &2054205759
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -18810,7 +18646,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 7191631067909645231, guid: e2b880d07a4084ea8a4d298940341c1d,
     type: 3}
-  enemyDestory: 0
 --- !u!4 &2058894620
 Transform:
   m_ObjectHideFlags: 0
@@ -18935,7 +18770,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 120565368500709849, guid: 2259a9114eb604eb7a8221cb347f5120,
     type: 3}
-  enemyDestory: 0
 --- !u!4 &2089621211
 Transform:
   m_ObjectHideFlags: 0
@@ -19033,7 +18867,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 3779404862727745760, guid: 109050f7f913b4fd6891a9d532e028d7,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &2089728251
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -19117,7 +18950,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 7688364869327470672, guid: 97422978cbdbe498eb2134f8653d7dee,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &2094419235
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -19201,7 +19033,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 3880302805222769985, guid: 106c738577c9e41419f742ec7621e02c,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &2102997753
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -19285,7 +19116,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 2684668770224721927, guid: 2ae14dedae0b74bc3b7b30e853e18266,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &2105506606
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -19369,7 +19199,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 6548829596723761009, guid: 111228a9a932a497e96488853d2d2af5,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &2116171786
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -19494,7 +19323,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 1397541312483122660, guid: a781a8d7dd04a4fe0a75592bb2accafa,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &2126269978
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -19578,7 +19406,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 5172896206858138568, guid: db676cecf097543be96e72157ab8b033,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &2126950166
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -19662,7 +19489,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 7979141155870108103, guid: 44833911b77f24e8bb56bd5b1614df04,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &2128579828
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -19746,7 +19572,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 4546058690657102865, guid: a365c8292fac043b6a1cbdb94e7e9dcc,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &2129262586
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -19830,7 +19655,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 4373970104602639995, guid: 37015c2e977064319be9ac7039b01d7c,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &2134471018
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -19914,7 +19738,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 4510376681342442890, guid: 22259de8ed3fc4a11a8fcacf4362eb7d,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &2140381736
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -19998,7 +19821,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 1914290076406514659, guid: 80b17ef7d6f364126a905e2188ebbb6c,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &2142763807
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -20082,7 +19904,6 @@ MonoBehaviour:
     type: 3}
   cityName_Miss: {fileID: 7566796319698387138, guid: d9c2f018f3a2d450b8fbd41afdecebb6,
     type: 3}
-  enemyDestory: 0
 --- !u!54 &2145215214
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -20131,7 +19952,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animType: 4
-  YRot: 0
   speed: 0
   bullet: {fileID: 0}
   bulletSpecial: {fileID: 0}

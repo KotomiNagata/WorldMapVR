@@ -8,17 +8,24 @@ public class BatteryTextParent : MonoBehaviour
 
     GameSystem system;
 
+    [System.NonSerialized]
     public int numberMiddle;
+    [System.NonSerialized]
     public int numberRight;
+    [System.NonSerialized]
     public int numberLeft;
     int numberLeave;
 
     bool numberChange1 = true;
     bool numberChange2 = true;
 
+    [System.NonSerialized]
     public List<int> threeSelectList;  // 三選択を収納
+    [System.NonSerialized]
     public int answer;                 // 答えの番号
+    [System.NonSerialized]
     public string cityList;            // Switchにてまとめている
+    [System.NonSerialized]
     public bool numberMatch;           // 答えが正解かどうか
     bool selectNumberChange = false;
 

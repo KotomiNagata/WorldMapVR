@@ -7,9 +7,13 @@ public class GameScore : MonoBehaviour
     GameSystem system;
     GameRecord record;
 
+    [System.NonSerialized]
     public bool Hissatsuwaza = false;
+    [System.NonSerialized]
     public int enemyEnelgy = 0;
-    int score = 0;
+
+    [Header("現在のスコア")]  // 確認用
+    public int score = 0;
     int enemyNumber = 0;
 
     void Start()

@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Music : MonoBehaviour
 {
+    [Header("消えるまでの時間")]
     public float time;
 
     void Update()
