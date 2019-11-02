@@ -20,7 +20,6 @@ public class EnemyPosition : MonoBehaviour
     bool cloneEnemy = false;
     bool cloneEnemyQuiz = false;
     bool cloneEnemyAnswer = false;
-    Vector3 pos;
     string myName;
 
     void Start()
@@ -41,7 +40,15 @@ public class EnemyPosition : MonoBehaviour
         {
             StartQuiz();
         }
-        else{
+
+        // 答えを出す
+        if(system.quizEnd && system.enemyName == myName && cloneEnemyAnswer)
+        {
+            AnswerQuiz();
+        }
+
+        if(!system.quizStart)
+        {
             enemyDestory = false;
             cloneEnemyQuiz = true;
             cloneEnemyAnswer = true;
@@ -51,7 +58,7 @@ public class EnemyPosition : MonoBehaviour
     // 花とぶつかった時に、EnemyPositionは消滅
     void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "Lotus")
+        if (other.gameObject.tag == "Lotus" && system.noon)
         {
             posList.flowerName = myName;
             posList.flowerPlus = true;
@@ -67,9 +74,10 @@ public class EnemyPosition : MonoBehaviour
         }
         if (cloneEnemy)
         {
-            GameObject obj1 = (GameObject)Instantiate(enemy, this.transform.position, this.transform.rotation);
-            obj1.name = myName;
-            obj1.transform.parent = transform;
+            GameObject Obj;
+            Obj = (GameObject)Instantiate(enemy, this.transform.position, this.transform.rotation);
+            Obj.name = myName;
+            Obj.transform.parent = transform;
             cloneEnemy = false;
         }
     }
@@ -79,35 +87,38 @@ public class EnemyPosition : MonoBehaviour
         enemyDestory = true;
 
         // クイズ問題を出題
-        if (system.enemyName == myName)
+        if (system.enemyName == myName && cloneEnemyQuiz)
         {
-            if (cloneEnemyQuiz)
-            {
-                GameObject obj2 = (GameObject)Instantiate(cityName_Quiz, transform.position, transform.rotation);
-                obj2.transform.parent = transform;
-                GameObject obj3 = (GameObject)Instantiate(enemyQuiz, transform.position, transform.rotation);
-                obj3.transform.parent = transform;
-                cloneEnemyQuiz = false;
-            }
+            GameObject obj2 = (GameObject)Instantiate(cityName_Quiz,
+                                                          transform.position,
+                                                          transform.rotation);
+            obj2.transform.parent = transform;
+            GameObject obj3 = (GameObject)Instantiate(enemyQuiz,
+                                                      transform.position,
+                                                      transform.rotation);
+            obj3.transform.parent = transform;
+            cloneEnemyQuiz = false;
         }
+    }
 
+    void AnswerQuiz()
+    {
         // 答えを出す
-        if(system.enemyName == myName && cloneEnemyAnswer && system.quizEnd)
+        if (system.quizGood)
         {
-            if (system.quizGood)
-            {
-                GameObject obj = (GameObject)Instantiate(cityName_Good, transform.position, transform.rotation);
-                obj.transform.parent = this.transform;
-                cloneEnemyAnswer = false;
-            }
-            if(system.quizMiss)
-            {
-                GameObject obj = (GameObject)Instantiate(cityName_Miss, transform.position, transform.rotation);
-                obj.transform.parent = this.transform;
-                cloneEnemyAnswer = false;
-            }
-
+            GameObject obj = Instantiate(cityName_Good,
+                                         transform.position,
+                                         transform.rotation);
+            obj.transform.parent = transform;
+            cloneEnemyAnswer = false;
         }
-
+        if (system.quizMiss)
+        {
+            GameObject obj = Instantiate(cityName_Miss,
+                                         transform.position,
+                                         transform.rotation);
+            obj.transform.parent = transform;
+            cloneEnemyAnswer = false;
+        }
     }
 }

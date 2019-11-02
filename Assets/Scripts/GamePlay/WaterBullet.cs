@@ -29,6 +29,7 @@ public class WaterBullet : MonoBehaviour
     GameObject lotusParent;          // 花をまとめる場所
     bool clone = false;              // パーティクル生産用
     bool scaleChange;
+    bool effectCreat = true;
 
     void Start()
     {
@@ -159,14 +160,15 @@ public class WaterBullet : MonoBehaviour
         {
             if (animType == AnimType.ATTACK_QUIZ)
             {
-                Destroy(other.gameObject);
-                Instantiate(musicEnemyDie);
-                Instantiate(particle, this.transform.position, Quaternion.identity);
-                var parent = lotusParent.transform;
-                Instantiate(lotus, other.transform.position, other.transform.rotation, parent);
-
-                system.quizEnd = true;
-
+                if(effectCreat)
+                {
+                    Destroy(other.gameObject);
+                    var parent = lotusParent.transform;
+                    Instantiate(lotus, other.transform.position, other.transform.rotation, parent);
+                    Instantiate(particle, this.transform.position, Quaternion.identity);
+                    system.quizEnd = true;
+                    effectCreat = false;
+                }
                 Destroy(this.gameObject);
             }
 

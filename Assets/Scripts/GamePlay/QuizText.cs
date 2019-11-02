@@ -43,7 +43,7 @@ public class QuizText : MonoBehaviour
 
     void AnswerScript()
     {
-        if(system.noon)
+        if(!system.quizEnd)
         {
             Destroy(this.gameObject);
         }

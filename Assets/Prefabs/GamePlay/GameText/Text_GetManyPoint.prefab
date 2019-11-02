@@ -93,3 +93,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animType: 3
+  fadeObj: {fileID: 0}
+  sceneName: 
+  good: 0
+  miss: 0
+  sound: {fileID: 5402292156568649838, guid: b250f5e1c80d5486fb60848f3bb1b42b, type: 3}

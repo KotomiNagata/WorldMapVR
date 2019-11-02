@@ -213,7 +213,7 @@ public class GameText : MonoBehaviour
 
     void ButtonAppeanScript()
     {
-        if(!system.quizSelect)
+        if(system.decision)
         {
             Destroy(this.gameObject);
         }
