@@ -1,7 +1,8 @@
 ﻿<Properties StartupConfiguration="{ED251DE7-2A67-49F8-BC75-B74FA62CDEAB}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GamePlay/EnemyPosition.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GamePlay/QuizTextSetting.cs">
     <Files>
       <File FileName="Assets/Scripts/GamePlay/EnemyPosition.cs" Line="30" Column="30" />
+      <File FileName="Assets/Scripts/GamePlay/QuizTextSetting.cs" Line="15" Column="67" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

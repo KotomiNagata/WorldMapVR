@@ -75,6 +75,7 @@
     <Compile Include="Assets\Scripts\GamePlay\LotusColor.cs" />
     <Compile Include="Assets\Scripts\GamePlay\PositionList.cs" />
     <Compile Include="Assets\Scripts\GamePlay\QuizText.cs" />
+    <Compile Include="Assets\Scripts\GamePlay\QuizTextSetting.cs" />
     <Compile Include="Assets\Scripts\GamePlay\TimeAttack.cs" />
     <Compile Include="Assets\Scripts\GamePlay\WaterBullet.cs" />
     <Compile Include="Assets\Scripts\GamePlay\WaterParticle.cs" />
